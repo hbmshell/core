@@ -1,0 +1,3 @@
+# Bin
+
+Binários do hbmshell.

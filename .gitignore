@@ -53,3 +53,15 @@ dkms.conf
 
 # HbmShell
 *.log
+*.ppo
+*.dbf
+*.dbt
+*.cdx
+*.ntx
+*.err
+*.gif
+*.jpg
+*.png
+*.dll
+comp.prg
+comp.err
