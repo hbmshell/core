@@ -10,11 +10,11 @@ O objetivo desse repositório é guardar exemplos de códigos feitos em `hbmshel
 
 O que você precisa para instalar o `hbmshell` ?
 
-O `hbmshell` é um executável que já vem pronto para uso, portanto não necessita de um instalador. Contudo, existem pequenas diferenças de acordo com o sistema operacional utilizado. .
+O `hbmshell` é um executável que já vem pronto para uso, portanto não necessita de um instalador. Contudo, existem pequenas diferenças de acordo com o sistema operacional utilizado.
 
 ### Se você é usuário Linux :
 
-Baixe o binário clicando [aqui](bin/linux/)
+Baixe o binário clicando [aqui](bin/linux/). Esse binário foi compilado no Ubuntu 20.
 
 ````
 chmod +x hbmshell
@@ -36,7 +36,7 @@ Você também pode executar assim:
 
 ### Se você é usuário Windows :
 
-Baixe o binário clicando [aqui](bin/windows/)
+Baixe o binário clicando [aqui](bin/windows/). Esse binário foi compilado no Windows 11.
 
 ````
 hbmshell.exe hello.prg
@@ -47,8 +47,6 @@ hbmshell.exe hello.prg
 
 ````
 #!/caminho/para/o/diretorio/hbmshell
-\\-q0
-
 PROCEDURE HB_Main
     
     ? "Hello World"
@@ -58,9 +56,8 @@ RETURN
 
 Comentários
 
-1. A primeira linha é uma referência ao executável
-2. As linhas subsequentes, que começam com \\\\- são as diretivas de compilação. No exemplo acima foi usado `-q0`, que faz uma "compilação silenciosa".
-3. Agora vem o programa principal.
+1. A primeira linha é uma referência ao executável (ela é obrigatória caso você esteja usando o Linux e deseje executar o script diretamente: `./myscript.prg`).
+1. Agora vem o programa principal.
 
 ## 📋 Referenciando arquivos (.ch) 
 
