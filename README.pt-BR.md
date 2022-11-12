@@ -73,9 +73,14 @@ O `hbmshell` já vem com alguns arquivos (.ch) embutidos no próprio executável
 > * fileio.ch
 > * set.ch
 > * setcurs.ch
-> * tbrowse.ch 
-> * hbgtinfo.ch // Caso use wvt 
-> * Cabeçalhos da hmg // Caso use hmg
+> * tbrowse.ch
+> * error.ch
+> * simpleio.ch
+> * hbver.ch
+> * dbinfo.ch
+> * hbdyn.ch // Windows  
+> * hbgtinfo.ch // Caso use wvt (Windows)
+> * Cabeçalhos da hmg // Caso use hmg (Windows)
 
 Portanto, se você é um iniciante, você pode pular o restante dessa seção, já que todos os arquivos cabeçalhos mais importantes já são inseridos automaticamente.
 
