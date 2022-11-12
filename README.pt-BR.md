@@ -131,6 +131,8 @@ Caso você necessite dos controles em modo TUI (Text User Interface) use o parâ
 hbmshell meuscript.prg --dialog tui
 ````
 
+Alguns exemplos de controles TUI: GET, SAY, Achoice(), TBrowse(), DbEdit(), etc.
+
 ### Usando a lib WVT (somente windows)
 
 A lib wvt permite gerar um aplicativo em uma nova janela, com suporte a mouse. Nesse caso faça:
@@ -222,6 +224,56 @@ Nesse caso os scripts (.prg) serão acessados assim :
 
 ````
 http://localhost:8081/scripts/meuscript.prg
+````
+
+## 🔰Outros parâmetros de linha de comando
+
+### --delay
+
+Gera uma espera (em X segundos) antes da execução do script. Útil quando estamos executando o `hbmshell` recebendo dados de um pipe, cujo programa anterior demora para retornar os valores. Por exemplo:
+
+````
+wget https://lazy | hbmshell script.prg --delay 10
+````
+
+### --pause-after
+
+Gera uma pausa indefinida após a execução do script. 
+
+
+### --gencode
+
+Gera um script básico para você não começar a programar do zero. 
+
+````
+hbmshell --gencode script.prg
+````
+
+### --debug-hbm
+
+Gera informações de depuração na saída do script.
+
+### --codepage
+
+Define o codepage do seu script. O default é `UTF8`.
+
+````
+hbmshell script.prg --codepage PTISO
+````
+
+Valores válidos :
+
+* UTF8 : Default
+* PTISO
+* PT850
+
+
+### --download
+
+Baixa um arquivo
+
+````
+hbmshell --download http://url
 ````
 
 
