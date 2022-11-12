@@ -1,1 +1,1 @@
-hbmshell http://lia.ufc.br/~vla/helloRemoto.prg --overwrite --pause-after
+hbmshell https://raw.githubusercontent.com/hbmshell/core/main/aux_folder/helloRemoto.prg --overwrite --pause-after
