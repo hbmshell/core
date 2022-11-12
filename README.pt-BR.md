@@ -155,7 +155,7 @@ O modo `--run` executa o script informado normalmente. A diferença aqui é que 
 
 Exemplo:
 ```
-hbmshell meuscript.prg --run "c:\temp"
+hbmshell --run script.prg --run-path c:\temp
 ```
 No exemplo acima, meuscript.prg será buscado na pasta `c:\temp`. Se não encontrar irá buscar nas subpastas, por exemplo:
 
