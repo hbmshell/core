@@ -84,10 +84,11 @@ O `hbmshell` já vem com alguns arquivos (.ch) embutidos no próprio executável
 
 Portanto, se você é um iniciante, você pode pular o restante dessa seção, já que todos os arquivos cabeçalhos mais importantes já são inseridos automaticamente.
 
-Se, mesmo assim, você precisar referenciar seus arquivos (.ch) existem três formas : 
+Se, mesmo assim, você precisar referenciar seus arquivos (.ch) existem quatro formas : 
 
-* Forma 1 : copie todos os cabeçalhos para o diretório `/usr/local/include/harbour` ou `/usr/local/include/hbmediator`. O `hbmshell` irá procurar os cabeçalhos nesses diretórios.
-* Forma 2 : Crie as variáveis de ambiente apontando para o local desejado. Você pode criar até duas variáveis com os seguintes nomes : `SISTEMAS_PATH_TO_INCLUDE` e `SISTEMAS_PATH_TO_INCLUDE_HRB`. Como sugestão: a primeira variável (`SISTEMAS_PATH_TO_INCLUDE`) pode apontar para o diretório include do `harbour` e a segunda  (`SISTEMAS_PATH_TO_INCLUDE_HRB`) pode apontar para o diretório  include do `hbmshell`.
+* Forma 1 : crie os arquivos (.ch) na mesma pasta onde o script será executado.
+* Forma 2 : copie todos os cabeçalhos para o diretório `/usr/local/include/harbour` ou `/usr/local/include/hbmediator`. O `hbmshell` irá procurar os cabeçalhos nesses diretórios.
+* Forma 3 : Crie as variáveis de ambiente apontando para o local desejado. Você pode criar até duas variáveis com os seguintes nomes : `SISTEMAS_PATH_TO_INCLUDE` e `SISTEMAS_PATH_TO_INCLUDE_HRB`. 
 
 📎Usuários linux :
 ```
@@ -101,7 +102,7 @@ set SISTEMAS_PATH_TO_INCLUDE=C:\workspace\hbmshell\include\harbour
 set SISTEMAS_PATH_TO_INCLUDE_HRB=C:\workspace\hbmshell\include\hbmediator
 ```
 
-* Forma 3 : Informe os diretórios includes no próprio script, no seu cabeçalho. O `hbmshell` irá interpretar essas linhas como diretivas de compilação. Faça isso através da flag `-I`. 
+* Forma 4 : Informe os diretórios includes no próprio script, no seu cabeçalho. O `hbmshell` irá interpretar essas linhas como diretivas de compilação. Faça isso através da flag `-I`. 
 
 ```
 #!/caminho/para/o/diretorio/hbmshell
