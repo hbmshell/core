@@ -1,4 +1,4 @@
-#!/workspace/hbmshell/hbmshell
+#!/bin/hbmshell
 //-q0
 FUNCTION Hbm_01hello( ... )
     
