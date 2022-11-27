@@ -65,3 +65,4 @@ dkms.conf
 *.dll
 comp.prg
 comp.err
+*.Htm
