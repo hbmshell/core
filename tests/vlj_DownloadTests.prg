@@ -33,7 +33,5 @@ BEGIN TEST DownloadHTTPPage TITLE "Download HTTP Page"
     lReturn := vlj_Download( "https://www.google.com" , NOT_OVERWRITE, /* New file name */ , @cMessage ) 
     TEST "Downloading www.google.com (Fail)" EXPECTED .f. RESULT lReturn COMPLEMENT cMessage
 
-    ? "mensagem", cMessage 
-
-   
+ 
 END TEST

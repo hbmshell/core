@@ -1,31 +1,20 @@
 
 PROCEDURE Main()
 
-    LOCAL cBlock := "{|| nNinja + nWeapon }"
-
-    Arena01( cBlock )
-    Arena02( cBlock )
+    Arena( 0 )
+    Arena( 100 )
 
 RETURN
 
-PROCEDURE Arena01( cBlock )
+PROCEDURE Arena( nWeapon )
 
     LOCAL nNinja := 10
-    LOCAL nWeapon := 10
-
-    ? Fight( &cBlock )
-
-RETURN
-
-
-PROCEDURE Arena02( cBlock )
-
-    LOCAL nNinja := 10
-    LOCAL nWeapon := 0
-
-    ? Fight( &cBlock )
+ 
+    ? Fight( {|| nNinja + nWeapon } )
 
 RETURN
+
+
 /*
 */
 FUNCTION Fight( bNinja )

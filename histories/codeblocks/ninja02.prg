@@ -1,28 +1,19 @@
+# Nhac nhac
+/*
+O valor de nValue foi alterado dentro de Change
+*/
+PROCEDURE Main()
 
-PROCEDURE MAIN
+    LOCAL nValue := 10
 
-    LOCAL nWeapon := 10
-
-    ? Arena01( "{|| Ninja()}" )
+    Change( {|a| nValue := nValue + a } )
+    ? nValue
 
 RETURN
+/*
+*/
+PROCEDURE Change( bExtern )
 
-FUNCTION Ninja()
+   EVAL( bExtern , 12 )  
 
-    LOCAL nNinja := 10
-
-RETURN nNinja + nWeapon
-
-FUNCTION Arena01( cNinja )
-
-    LOCAL cResult
-    LOCAL nAdversary := 15
-    PRIVATE nWeapon := 0
-
-    IF Eval( &cNinja. ) > nAdversary
-        cResult := "Ninja wins"
-    ELSE
-        cResult := "Ninja loses"
-    ENDIF    
-
-RETURN cResult
+RETURN 

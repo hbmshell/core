@@ -1,40 +1,22 @@
 
+/*
+O valor de nValue foi alterado dentro de Change
+*/
 PROCEDURE Main()
 
-    Arena01()
-    Arena02()
+    LOCAL nValue := 10
+    LOCAL nAdd := 0
+    LOCAL bBlock := {|| nValue := nValue + nAdd }
 
-RETURN
-
-PROCEDURE Arena01()
-
-    LOCAL nNinja := 10
-    LOCAL nWeapon := 10
-
-    ? Fight( {|| nNinja + nWeapon } )
-
-RETURN
-
-
-PROCEDURE Arena02()
-
-    LOCAL nNinja := 10
-    LOCAL nWeapon := 0
-
-    ? Fight( {|| nNinja + nWeapon } )
+    nAdd := 100
+    Change( bBlock )
+    ? nValue
 
 RETURN
 /*
 */
-FUNCTION Fight( bNinja )
+PROCEDURE Change( bExtern )
 
-    LOCAL cResult
-    LOCAL nAdversary := 15
+   EVAL( bExtern )  
 
-    IF EVAL(bNinja) > nAdversary
-        cResult := "Ninja wins"
-    ELSE
-        cResult := "Ninja loses"
-    ENDIF    
-
-RETURN cResult
+RETURN 
