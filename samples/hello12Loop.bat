@@ -1,5 +1,6 @@
 @echo off
-echo Executa de 3 em 3 segundos
-echo Tecle CTRL+C para cancelar
+echo Script inside loop
+echo Generate 3 seconds interval between executions
+echo Type CTRL+C to cancel
 echo
-hbmshell --file hello.prg --loop 3
+hbmshell hello.prg --loop 3
