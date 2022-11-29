@@ -57,7 +57,7 @@ RETURN
 Comentários
 
 1. A primeira linha é uma referência ao executável (ela é obrigatória caso você esteja usando o Linux e deseje executar o script diretamente: `./myscript.prg`).
-1. Agora vem o programa principal.
+1. Quando a primeira linha de um script iniciar com um `#`, ela será ignorada pelo interpretador. Ela é um indicativo de `shebang` para sistemas `*NIX`.
 
 ## 📋 Referenciando arquivos (.ch) 
 
