@@ -1,5 +1,3 @@
-
-
 PROCEDURE MAIN
 
     ? "Hello World"
