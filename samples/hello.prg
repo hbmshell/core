@@ -1,6 +1,6 @@
 #!/bin/hbmshell 
 PROCEDURE Main( ... )
     
-    ? "Hello World!!!!"
+    ? "Hello World!!!!????"
 
 RETURN 
