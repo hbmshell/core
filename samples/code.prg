@@ -1,5 +1,5 @@
 
-PROCEDURE MAIN
+PROCEDURE MAIN(...)
 
     ? "Hello World"
     ? TIME()
