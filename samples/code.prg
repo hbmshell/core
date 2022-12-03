@@ -4,6 +4,6 @@ PROCEDURE MAIN(...)
     ? "Hello World"
     ? TIME()
     ? DATE()
-    ? "OK"
+    ? "OKOOOOOOOOOOOOOOOOOOOOOOOOO"
     
 RETURN
