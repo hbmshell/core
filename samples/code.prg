@@ -1,10 +1,9 @@
 
-
-PROCEDURE MAIN
+PROCEDURE MAIN(...)
 
     ? "Hello World"
     ? TIME()
-    ? DATE
-    
+    ? DATE()
+    ? "OKOOOOOOOOOOOOOOOOOOOOOOOOO"
     
 RETURN
