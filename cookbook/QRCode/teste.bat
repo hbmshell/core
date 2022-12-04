@@ -1,1 +1,0 @@
-hbmk2 main hbfimage.hbc hbzebra.hbc -LC:\HarbourAux\FreeImage\Dist                                                   
