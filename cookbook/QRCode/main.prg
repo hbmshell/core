@@ -11,4 +11,7 @@ PROCEDURE MAIN
    hBitmap := hb_zebra_create_qrcode( cCode, nFlags )
 
    // \contrib\hbfimage
-   fi_Save( FIF_BMP, hBitmap, 'file.bmp', BMP_DEFAULT  )
+? "KKKKKKKKKKKKKK"
+   ? ">>>>" , hb_valtoexp( fi_Save( FIF_BMP, hBitmap, 'file.bmp', BMP_DEFAULT  ) )
+
+RETURN
