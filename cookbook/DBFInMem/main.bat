@@ -1,5 +1,3 @@
-del *.log
-del mem.
+hbmshell main.prg --dialog tui
 del *.cdx
 del *.dbf
-hbmshell main.prg --dialog tui

@@ -22,7 +22,7 @@ chmod +x hello.prg
 ./hello.prg 
 ````
 
-Note que a primeira linha do seu script deve fazer referencia ao executável :
+Note que a primeira linha do seu script pode fazer referencia ao executável :
 ```
 #!/caminho/para/o/diretorio/hbmshell
 ```
@@ -56,7 +56,7 @@ RETURN
 
 Comentários
 
-1. A primeira linha é uma referência ao executável (ela é obrigatória caso você esteja usando o Linux e deseje executar o script diretamente: `./myscript.prg`).
+1. A primeira linha é uma referência ao executável. Essa linha não é obrigatória.
 1. Quando a primeira linha de um script iniciar com um `#`, ela será ignorada pelo interpretador. Ela é um indicativo de `shebang` para sistemas `*NIX`.
 
 ## 📋 Referenciando arquivos (.ch) 
@@ -277,34 +277,6 @@ Baixa um arquivo
 hbmshell --download http://url
 ````
 
-
-## 🔰Exemplos
-
-Esses e outros exemplos podem ser encontrados na pasta `samples` desse projeto.
-
-### Para conhecer a linguagem Harbour.
-
-* [Hello World](hello.prg)
-* [O mínimo](samples/basic/00hello/)
-* [Strings](samples/basic/01strings/)
-* [Operadores](samples/basic/04oper/)
-* [O pré-processador](samples/basic/05preprocess/)
-* [Diretivas](samples/basic/06compile/)
-* [Funções matemáticas](samples/basic/07math/)
-* [Loops](samples/basic/08loop/)
-* [Say e Get](samples/basic/09get/)
-* [Variáveis](samples/basic/10var/)
-* [Projetos com mais de um arquivo fonte](samples/basic/11twoFiles/)
-* [Arquivos binários em tempo de compilação](samples/basic/12stream/)
-* [Macro-substituições](samples/basic/13macro/)
-* [Shell bash](samples/basic/14bash/)
-* [Arrays](samples/basic/15array/)
-* [Hash](samples/basic/16hash/)
-* [Ponteiros](samples/basic/17pointers/)
-* [Arquivos textos em tempo de compilação](samples/basic/18pragma/)
-* [Begin sequence - Tratamento de erros](samples/basic/19beginsequence/)
-* [Arquivos DBFs](samples/basic/20dbf/)
-
 ## 🛠️ Construído com
 
 
@@ -312,7 +284,7 @@ Esses e outros exemplos podem ser encontrados na pasta `samples` desse projeto.
 * [Código fonte do Harbour](https://github.com/harbour/core/) - Com instruções claras e precisas para você gerar o Harbour.
 
 
-## Links interessantes
+## 🔰Links interessantes
 
 * [Harbour documentação oficial](https://harbour.github.io/doc/) 
 * [Lista de funções](https://github.com/Petewg/harbour-list)
