@@ -1,1 +1,1 @@
-hbmshell principal.prg --dialog tui 
+hbmshell main.prg --dialog tui 
