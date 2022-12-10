@@ -37,6 +37,10 @@
 
 1. [How to generate DBF in memory](./DBFInMem/main.prg)
 
+### MySQL
+
+1. [How to connect MySQL Server](./MySQLConnect/main.prg)
+
 ## System operation
 
 1. [How to detect Discs (HD,SSD,USB)](./USBIdentify/main.prg)
@@ -65,6 +69,8 @@
 
 
 ### HMG
+
+If you want, open project with HMG Ide to change forms. Don't compile, just call main.bat to execute program.
 
 1. [How to create login form](./HMGLogin/Main.Prg)
 
