@@ -1,4 +1,0 @@
-	
-Dica : Se estiver no windows, retire o buffer do terminal, conforme a figura menu.png
-Tip: In windows, change terminal buffer. See menu.png
-       	

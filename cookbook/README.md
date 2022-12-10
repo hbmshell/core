@@ -66,6 +66,8 @@
 
 ### HMG
 
+1. [How to create login form](./HMGLogin/Main.Prg)
+
 
 ## Corporative Information System
 

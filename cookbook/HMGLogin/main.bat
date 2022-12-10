@@ -1,0 +1,1 @@
+hbmshell Main.prg --dialog hmg
