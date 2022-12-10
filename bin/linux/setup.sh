@@ -1,4 +1,6 @@
 #!/bin/bash
+
+sudo apt update -y
 sudo apt-get install git -y
 sudo apt-get install gcc -y
 sudo apt-get install build-essential -y
