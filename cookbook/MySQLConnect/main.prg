@@ -1,4 +1,4 @@
-
+#!/usr/local/bin/hbmshell
 procedure main
 
 

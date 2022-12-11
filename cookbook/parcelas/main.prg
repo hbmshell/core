@@ -1,5 +1,4 @@
-#!/workspace/hbmshell/hbmshell 
-//-q0
+#!/usr/local/bin/hbmshell -diavenc XXX -qtddias 5 -parcelas 5 -diavenc 20
 
 PROCEDURE Hbm_parcelas( ... )
     MODULE SHELL
