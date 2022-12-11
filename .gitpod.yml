@@ -10,6 +10,8 @@ tasks:
       sudo apt-get install libssl-dev -y
       sudo apt-get install libpq-dev -y
       sudo apt-get install libmysqlclient-dev -y
-      chmod +x /workspace/core/bin/hbmshell
+      chmod +x /workspace/core/bin/linux/hbmshell
       export PATH=/workspace/core/bin/linux:$PATH
-    command: export PATH=/workspace/core/bin/linux:$PATH
+vscode:
+  extensions:
+    - aperricone.harbour
