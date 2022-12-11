@@ -11,7 +11,9 @@ tasks:
       sudo apt-get install libpq-dev -y
       sudo apt-get install libmysqlclient-dev -y
       chmod +x /workspace/core/bin/linux/hbmshell
-      export PATH=/workspace/core/bin/linux:$PATH
+      sudo ln -s /workspace/core/bin/linux/hbmshell /usr/local/bin/hbmshell
+      chmod +x /workspace/core/harbour
 vscode:
   extensions:
     - aperricone.harbour
+    - formulahendry.code-runner

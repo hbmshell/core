@@ -1,3 +1,4 @@
+#!/usr/local/bin/hbmshell
 //https://hmgforum.com/viewtopic.php?f=5&t=7344&sid=e80762c806efc9910511af06c3b9e473
 FUNCTION MAIN()
     /******************/
