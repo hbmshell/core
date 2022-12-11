@@ -18,5 +18,5 @@ tasks:
       exit 0
 vscode:
   extensions:
-    - EditorConfig.EditorConfig
+    - aperricone.harbour
 
