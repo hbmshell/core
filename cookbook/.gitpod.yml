@@ -1,6 +1,6 @@
 tasks:
   - name: Add hbmshell to path
-    command: |
+    before: |
       sudo apt update -y
       sudo apt-get install git -y
       sudo apt-get install gcc -y
