@@ -4,7 +4,7 @@ PROCEDURE MAIN
 
     ? "Hello World"
     ? TIME()
-    ? DATE
+    ? DATE()
     
     
 RETURN
