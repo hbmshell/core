@@ -31,7 +31,7 @@ catch oError
 end
 
 Try
-   oHttp:Open("GET",cUrl ,.f.)  // erro en el site
+   oHttp:Open("GET",cUrl ,.f.)  
    oHttp:Send()
    cResp1 := oHttp:ResponseText()
 Catch
