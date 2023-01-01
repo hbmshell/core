@@ -81,6 +81,11 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 
 1. [How to generate credit card payment installments](./parcelas/main.prg)
 
+### Brazilian documents
+
+1. [Como validar um titulo de eleitor](./TituloEleitor/main.prg)
+
+
 
 
 

@@ -1,8 +1,8 @@
 
 PROCEDURE MAIN
 
-	? TestaTitulo( "890654" )
-	? TestaTitulo( "004356870906004356870906" )
+	? cTit := "890654", TestaTitulo( cTit )
+	? cTit := "004356870906" , TestaTitulo( cTit )
 
 RETURN
 

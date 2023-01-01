@@ -1,1 +1,1 @@
-hbmshell main.prg 
+hbmshell main.prg --pause-after
