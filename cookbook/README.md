@@ -7,6 +7,11 @@
 
 1. [How to search in multidimensionals arrays](./AscanMulti/main.prg)
 
+### Strings
+
+1. [How to select chars inside string](./CharOnly/main.prg)
+
+
 ### Random
 
 1. [How to generate random number without repetitions](./sorteio/main.prg)
@@ -39,7 +44,7 @@
 
 ### MySQL
 
-1. [How to connect MySQL Server](./MySQLConnect/main.prg)
+1. [How to connect MySQL Server (with classes)](./MySQLConnect/main.prg)
 
 ## System operation
 
@@ -61,7 +66,7 @@
 
 ### API
 
-1. [How to open document from file type](./OpenURL/main.prg)
+1. [How to open document from file type](./WinOpenURL/main.prg)
 1. [How to list devices in Windows](./ListDevicesInWindows/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
 
