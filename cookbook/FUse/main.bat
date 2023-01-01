@@ -1,2 +1,2 @@
 
-hbmshell main.prg --dialog tui --pause-after
+hbmshell main.prg --pause-after

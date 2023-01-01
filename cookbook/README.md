@@ -63,6 +63,7 @@
 
 1. [How to open document from file type](./OpenURL/main.prg)
 1. [How to list devices in Windows](./ListDevicesInWindows/main.prg)
+1. [How to download web content](./WinDownload/main.prg)
 
 ### WVG
 
