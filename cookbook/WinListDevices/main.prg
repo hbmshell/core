@@ -136,7 +136,7 @@ procedure main
     SetMode(50,150)
 
     @ 03,15 SAY "[ Select device to list properties ]"
-    @ 05,14,25,30 GET n LISTBOX aClasse CAPTION "Select device : " COLOR "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*" // Must be 7 Colors
+    @ 05,14,25,55 GET n LISTBOX aClasse CAPTION "Select device : " COLOR "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*" // Must be 7 Colors
     read
     if lastkey() == K_ESC
     return
