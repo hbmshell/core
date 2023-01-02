@@ -58,9 +58,10 @@
 1. [How to generate log](./log/main.prg)
 1. [How to iterate in text file](./FUse/main.prg)
 
-## Network
+## Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
+1. [How to send email (Gmail/Curl)](./email/main.prg)
 
 ## Windows
 
