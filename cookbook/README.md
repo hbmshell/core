@@ -68,7 +68,7 @@
 ### API
 
 1. [How to open document from file type](./WinOpenURL/main.prg)
-1. [How to list devices in Windows](./ListDevicesInWindows/main.prg)
+1. [How to list devices in Windows](./WinListDevices/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
 
 ### WVG
@@ -92,6 +92,7 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 ### Brazilian documents
 
 1. [Como validar um titulo de eleitor](./TituloEleitor/main.prg)
+1. [Como consultar o CEP on-line](./cep/demo.prg)
 
 
 
