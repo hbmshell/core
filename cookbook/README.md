@@ -11,7 +11,6 @@
 
 1. [How to select chars inside string](./CharOnly/main.prg)
 
-
 ### Random
 
 1. [How to generate random number without repetitions](./sorteio/main.prg)
