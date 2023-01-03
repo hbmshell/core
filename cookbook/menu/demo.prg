@@ -11,6 +11,8 @@ PROCEDURE  hb_Main(...)
 	CLS // Limpa a tela 
     //SetMode( 25, 80 ) // Tamanho da sua janela. Altere se desejar. Por exemplo: SetMode( 50, 150 )
     
+    // MENU_SEPARATOR, HB_MENU_SEPARATOR_UNI
+   
     /*
     Ítens
     */
@@ -18,7 +20,7 @@ PROCEDURE  hb_Main(...)
     hMenu[ "Main" ] := { ;
        { " &Teste For...Next ", K_ALT_T, "Teste For Next", 11 }, ;
        { " &Save ", K_ALT_S, "Save routine", 12 }, ;
-       { MENU_SEPARATOR,           ,                 , 13 }, ;
+       { "--------------------",           ,                 , 13 }, ;
        { " E&xit ", K_ALT_X, "Exit program", 14 }  ;
        } 
 
