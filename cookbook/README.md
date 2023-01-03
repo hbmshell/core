@@ -16,7 +16,7 @@
 
 1. [How to generate random number without repetitions](./sorteio/main.prg)
 
-## TUI
+## 📟 TUI
 
 ### Menus
 
@@ -30,13 +30,13 @@
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
 
-## Images
+## 🎨 Images
 
 ### Code bars
 
 1. [How to create QRCode](./QRCode/main.prg)
 
-## Database
+## 📖 Database
 
 ### DBF
 
@@ -46,24 +46,24 @@
 
 1. [How to connect MySQL Server (with classes)](./MySQLConnect/main.prg)
 
-## System operation
+## 💻 System operation
 
 1. [How to detect Discs (HD,SSD,USB)](./USBIdentify/main.prg)
 1. [How to get username](./username/main.prg)
 
-## File
+## 📂 File
 
 ### Low-level
 
 1. [How to generate log](./log/main.prg)
 1. [How to iterate in text file](./FUse/main.prg)
 
-## Internet
+## 🌎 Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
 1. [How to send email (Gmail/Curl)](./email/main.prg)
 
-## Windows
+## 🪟 Windows
 
 ### API
 
@@ -83,7 +83,7 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 1. [How to create login form](./HMGLogin/Main.Prg)
 
 
-## Corporative Information System
+## 📑 Corporative Information System
 
 ### Finance
 
