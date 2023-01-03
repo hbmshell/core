@@ -94,6 +94,12 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 1. [Como consultar o CEP on-line](./cep/demo.prg)
 
 
+## Examples
+
+### Games and Puzzles
+
+1. [The 15 Puzzle](./quinze/quinze.prg)
+
 
 
 
