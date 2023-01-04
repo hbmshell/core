@@ -70,6 +70,11 @@
 1. [How to list devices in Windows](./WinListDevices/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
 
+### Database
+
+1. [How to open connection in MariaDb using ADO](./WinMariaDbADO/main.prg)
+
+
 ### WVG
 
 1. [How to create menu](./MenuWVG/main.prg)
