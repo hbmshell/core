@@ -4,9 +4,9 @@ PROCEDURE hb_MAIN
     LOCAL GetList := {}
     
   
-    PRIVATE cCodigo := SPACE(5)
-    PRIVATE cNome := SPACE(40)
-    PRIVATE nSal := 0.00
+    LOCAL cCodigo := SPACE(5)
+    LOCAL cNome := SPACE(40)
+    LOCAL nSal := 0.00
     
     //SetMode( 50 , 140 )
     CLS
@@ -34,7 +34,7 @@ STATIC FUNCTION vVALID()
     DO CASE
     CASE cReadVar == "CCODIGO"
         
-        xVar := &cReadVar
+        xVar := GetActive():VarGet() //&cReadVar
         IF EMPTY( xVar )
             Alert("Invalid value to code.")
             lRet := .f.
@@ -42,7 +42,7 @@ STATIC FUNCTION vVALID()
         
     CASE cReadVar == "CNOME"
     
-        xVar := &cReadVar
+        xVar := GetActive():VarGet() //&cReadVar
         IF EMPTY( xVar )
             Alert("Invalid value to name")
             lRet := .f.
@@ -51,7 +51,7 @@ STATIC FUNCTION vVALID()
     
     CASE cReadVar == "NSAL"
     
-        xVar := &cReadVar
+        xVar := GetActive():VarGet() //&cReadVar
         IF xVar <= 0
             Alert("Invalid value to salary")
             lRet := .f.
