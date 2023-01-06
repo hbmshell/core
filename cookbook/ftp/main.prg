@@ -2,26 +2,36 @@
 
     oURL := TUrl():new()
     oUrl:cProto    := "ftp"
-    oUrl:cUserid   := "dlpuser"  // altere
-    oUrl:cPassword := "rNrKYTX9g7z3RgJRmxWuGHbeu"         // altere
-    oUrl:cServer   := "ftp.dlptest.com"             // altere
+    oUrl:cUserid   := "dlpuser"  // change it
+    oUrl:cPassword := "rNrKYTX9g7z3RgJRmxWuGHbeu"         // change it
+    oUrl:cServer   := "ftp.dlptest.com"             // change it
     oUrl:nPort     := 21            
-     
     
-    oFTP := TIpClientFtp():new( oURL ) // ABRE CONEXÃO FTP      
+    
+    oFTP := TIpClientFtp():new( oURL ) // open ftp connect     
      
     IF oFTP:OPEN()      
-      
+        ? "Connection made successfully"
         oFTP:CWD("/")    // altere
      
-        aNUVEM := oFTP:listFiles()      
-        IF oFTP:downloadFile( "03012023.csv" ) // 
+        aNUVEM := oFTP:listFiles()  
+        ? "Listing files"
+        FOR x := 1 TO LEN( aNuvem )
+            ? aNuvem[x][1]
+        NEXT    
+        ? Replicate("-",80)
+        ? "Downloading " , aNuvem[1][1]
+        IF oFTP:downloadFile( aNuvem[1][1] ) // 
            ? "oK"
+           FErase( aNuvem[1][1] )
         ELSE
+        
+           ? "File " , cFile, "not found"
            ? oFtp:lastErrorMessage()
             
         ENDIF
     ELSE
+        ? "Connection not openned"
         ? oFtp:lastErrorMessage()
     ENDIF
      

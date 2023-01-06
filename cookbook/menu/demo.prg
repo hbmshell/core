@@ -20,7 +20,7 @@ PROCEDURE  hb_Main(...)
     hMenu[ "Main" ] := { ;
        { " &Teste For...Next ", K_ALT_T, "Teste For Next", 11 }, ;
        { " &Save ", K_ALT_S, "Save routine", 12 }, ;
-       { "├─┤" ,         ,                 , 13 }, ;
+       { MENU_SEPARATOR  ,         ,                 , 13 }, ; 
        { " E&xit ", K_ALT_X, "Exit program", 14 }  ;
        } 
 
