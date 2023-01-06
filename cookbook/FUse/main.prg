@@ -1,6 +1,6 @@
 PROCEDURE MAIN
 
-   FT_FUSE( "file.txt" )   // open text file
+   FT_FUSE( "file.txt_" )   // open text file
 
    WHILE .NOT. FT_FEOF()
 
