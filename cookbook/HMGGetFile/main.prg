@@ -7,18 +7,20 @@ caso contrário, se for apenas para selecionar o arquivo e a variável do diretóri
 */
 function main
 
-define window sample at 0,0 width 200 height 200 main
+define window sample at 0,0 width 500 height 200 main
 
    define button get1
       row 10
 	  col 10
-	  caption "GetFile with fifth parameter equal .t."
+	  caption "GetFile with 5th parameter equal .t."
+      width 400
 	  action getfilewithtrue()
    end button
    define button get2
       row 40
 	  col 10
-	  caption "GetFile with fifth parameter equal .f."
+      width 400
+	  caption "GetFile with 5th parameter equal .f."
 	  action getfilewithfalse()
    end button 
 end window

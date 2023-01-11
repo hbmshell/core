@@ -23,6 +23,8 @@
 
 ### Get 
 
+1. [Basic example with GET command](./get01/main.prg)
+1. [How to display message in get command](./get02/main.prg)
 1. [Validation tip](./getvalid/demo.prg)
 
 ### TBrowseNew
@@ -92,6 +94,8 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 ### Finance
 
 1. [How to generate credit card payment installments](./parcelas/main.prg)
+1. [How to generate plots without float point](./plots/plots.prg)
+
 
 ### Brazilian documents
 
