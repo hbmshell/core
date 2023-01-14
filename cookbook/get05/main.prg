@@ -8,7 +8,6 @@ ROCEDURE HBM_17when
     @ 12,10 SAY "Parent/Guardian name : " GET cName WHEN nAge < 18
     READ  
 
-    WAIT
-    
+   
 RETURN
 

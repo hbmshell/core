@@ -11,8 +11,6 @@ PROCEDURE HBM_36cleargets
     @ 14,10 SAY "PRESS. ANY KEY TO CONTINUE"
     INKEY(0)
    
-    WAIT 
-    SET DELIMITERS ON
-    SET DELIMITERS TO "[]"
+ 
     
 RETURN

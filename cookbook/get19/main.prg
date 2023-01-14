@@ -14,6 +14,6 @@ PROCEDURE HBM_40checkbox
     @ 16,10 SAY lOpt2
     @ 18,10 SAY lOpt3
 
-    WAIT 
+  
     
 RETURN

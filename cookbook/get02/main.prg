@@ -1,10 +1,9 @@
-#!/workspace/hbmshell/hbmshell --dialog tui
-//-q0
+#!/workspace/hbmshell/hbmshell 
 
 PROCEDURE HBM_13intro
 
     LOCAL cName := SPACE(30)  
-    LOCAL dBirth := CTOD("//")
+    LOCAL dBirth := CTOD("1970-01-01")
     LOCAL nRow := 14, nCol := 10, nWidth := 30
 
     CLS
@@ -17,6 +16,6 @@ PROCEDURE HBM_13intro
     @ 18,10 SAY "Your age : " + Str( Int( (Date()-dBirth)/365) )
 
 
-    WAIT "Tecle algo"
+    WAIT "Type any key"
     
 RETURN

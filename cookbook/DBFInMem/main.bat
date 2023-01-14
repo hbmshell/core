@@ -1,3 +1,3 @@
-hbmshell main.prg --dialog tui
+hbmshell main.prg 
 del *.cdx
 del *.dbf

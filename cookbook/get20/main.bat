@@ -1,2 +1,2 @@
 
-hbmshell main.prg --dialog wvg
+hbmshell main.prg 
