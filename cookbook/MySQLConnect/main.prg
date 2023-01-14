@@ -1,5 +1,4 @@
 #!/usr/local/bin/hbmshell
-//-lhbmysql
 procedure main
 
 
