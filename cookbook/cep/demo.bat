@@ -1,2 +1,2 @@
 
-hbmshell demo.prg 
+hbmdialog demo.prg 
