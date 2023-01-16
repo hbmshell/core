@@ -20,8 +20,8 @@ aParcelas := {}
 n := 0.00
 p := 0
 
-@ 02,00 Say 'Valor total da divida: ' Get n Picture '999999.99'
-@ 03,00 Say 'Parcelas : 'Get p Picture '99'
+@ 02,00 Say 'Total value: ' Get n Picture '999999.99'
+@ 03,00 Say 'Plots : 'Get p Picture '99'
 Read
 If LastKey() == 27 .Or. Empty(n) .Or. Empty(p)
    Quit
@@ -29,7 +29,7 @@ EndIf
 aParcelas := MontaParcelas(n,p)
 Clea
 For i=1 to p
-  ? 'Parcela '+Str(i,2)+ ': '+ Str(aParcelas[i],9,2)
+  ? 'Plot '+Str(i,2)+ ': '+ Str(aParcelas[i],9,2)
 Next
 ?
 

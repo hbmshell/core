@@ -1,3 +1,3 @@
-hbmshell main.prg 
+hbmdialog main.prg 
 del *.cdx
 del *.dbf

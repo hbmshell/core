@@ -1,1 +1,1 @@
-hbmshell main.prg
+hbmscript main.prg

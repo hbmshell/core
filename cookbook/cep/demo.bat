@@ -1,2 +1,2 @@
 
-hbmdialog demo.prg 
+hbmdialog demo.prg --pause-after

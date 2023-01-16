@@ -1,1 +1,1 @@
-hbmshell demo.prg demo.prg --dialog wvt 
+hbmdialog demo.prg demo.prg 

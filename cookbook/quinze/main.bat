@@ -1,1 +1,1 @@
-hbmshell quinze.prg --dialog wvg 
+hbmdialog quinze.prg 
