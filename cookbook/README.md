@@ -90,6 +90,21 @@
 1. [How to list devices in Windows](./WinListDevices/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
 
+### OLE
+
+
+#### MS Excel
+
+1. [Does computer support excel ?](./WinExcel01/main.prg)
+1. [How](./WinExcel02/main.prg)
+1. [How](./WinExcel03/main.prg)
+1. [How](./WinExcel04/main.prg)
+1. [How](./WinExcel05/main.prg)
+1. [How](./WinExcel06/main.prg)
+1. [How](./WinExcel07/main.prg)
+1. [How](./WinExcel08/main.prg)
+
+
 ### Database
 
 1. [How to open connection in MariaDb using ADO](./WinMariaDbADO/main.prg)
