@@ -95,14 +95,14 @@
 
 #### MS Excel
 
-1. [Does computer support excel ?](./WinExcel01/main.prg)
-1. [How](./WinExcel02/main.prg)
-1. [How](./WinExcel03/main.prg)
-1. [How](./WinExcel04/main.prg)
-1. [How](./WinExcel05/main.prg)
-1. [How](./WinExcel06/main.prg)
-1. [How](./WinExcel07/main.prg)
-1. [How](./WinExcel08/main.prg)
+1. [Does computer support excel ?](./WinExcel1/main.prg)
+1. [How](./WinExcel2/main.prg)
+1. [How](./WinExcel3/main.prg)
+1. [How](./WinExcel4/main.prg)
+1. [How](./WinExcel5/main.prg)
+1. [How](./WinExcel6/main.prg)
+1. [How](./WinExcel7/main.prg)
+1. [How](./WinExcel8/main.prg)
 
 
 ### Database
