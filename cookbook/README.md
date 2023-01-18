@@ -17,6 +17,10 @@
 
 ## 📟 TUI
 
+### Basic
+
+1. [Accept command](./accept/main.prg)
+
 ### Menus
 
 1. [How to generate menu](./menu/demo.prg)
