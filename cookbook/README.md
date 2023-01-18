@@ -15,9 +15,14 @@
 
 1. [How to generate random number without repetitions](./sorteio/main.prg)
 
+### Error control
+
+1. [How to change my error controller](./errorControl01/main.prg)
+1. [How to create error control standard](./errorControl02/main.prg)
+
 ## 📟 TUI
 
-### Basic
+### Basic controls
 
 1. [Accept command](./accept/main.prg)
 
