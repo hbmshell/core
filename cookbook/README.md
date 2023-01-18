@@ -96,13 +96,13 @@
 #### MS Excel
 
 1. [Does computer support excel ?](./WinExcel1/main.prg)
-1. [How](./WinExcel2/main.prg)
-1. [How](./WinExcel3/main.prg)
-1. [How](./WinExcel4/main.prg)
-1. [How](./WinExcel5/main.prg)
-1. [How](./WinExcel6/main.prg)
-1. [How](./WinExcel7/main.prg)
-1. [How](./WinExcel8/main.prg)
+1. [Hello world in Excel](./WinExcel2/main.prg)
+1. [How to enumerate my sheets](./WinExcel3/main.prg)
+1. [How to configure font](./WinExcel4/main.prg)
+1. [DBF to Excel](./WinExcel5/main.prg)
+1. [DBF to Excel (How to autofit)](./WinExcel6/main.prg)
+1. [DBF to Excel (How to autofit) + Bold](./WinExcel7/main.prg)
+1. [How to use a Template to my sheets](./WinExcel8/main.prg)
 
 
 ### Database
