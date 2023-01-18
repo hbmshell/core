@@ -21,6 +21,11 @@
 
 1. [Accept command](./accept/main.prg)
 
+### Achoide
+
+1. [Achoice basic](./achoice01/main.prg)
+1. [Achoice UDF](./achoice02/main.prg)
+
 ### Menus
 
 1. [How to generate menu](./menu/demo.prg)
