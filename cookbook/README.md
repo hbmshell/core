@@ -9,6 +9,7 @@
 
 ### Strings
 
+1. [how to extract blank spaces around the string](./alltrim/main.prg)
 1. [How to select chars inside string](./CharOnly/main.prg)
 
 ### Random
@@ -88,6 +89,9 @@
 
 ### Low-level
 
+1. [How to create  low level file](./lowlevel01/main.prg)
+1. [How to create  low level file (Reead only)](./lowlevel02/main.prg)
+1. [How to create  low level file (Hidden)](./lowlevel03/main.prg)
 1. [How to generate log](./log/main.prg)
 1. [How to iterate in text file](./FUse/main.prg)
 
