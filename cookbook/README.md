@@ -84,6 +84,7 @@
 
 1. [How to detect Discs (HD,SSD,USB)](./USBIdentify/main.prg)
 1. [How to get username](./username/main.prg)
+1. [How to execute process](./run01/main.prg)
 
 ## 📂 File
 
