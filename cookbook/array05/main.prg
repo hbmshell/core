@@ -1,12 +1,12 @@
 /*
-Atribuição IN LINE
+Atribuiï¿½ï¿½o IN LINE
 */
 PROCEDURE Main
-LOCAL a1 := a2 := {}  // Mesma referência
+LOCAL a1 := a2 := {}  // Same reference (This is equuals)
 LOCAL a3 := {}
 
    ?
-   ? "Vou preencher a1 e a3 com o mesmo conteúdo..."
+   ? "I will fill a1 and a3 with same content."
    ?
    AADD( a1 , 10 )
    AADD( a1 , 20 )
@@ -17,10 +17,10 @@ LOCAL a3 := {}
    AADD( a3 , 30 )
    
 
-   ? "a1 e a2 possuem a mesma referência, por isso säo iguais"
+   ? "a1 and a2 has same reference. a1 = a2"
    ? "a1 == a2  :  ", a1 == a2 
 
-   ? "a1 e a3 säo independentes, por isso näo säo iguais"
+   ? "a1 and a3 doestn't has the same reference. It is independents. a1 <> a2"
    ? "a1 == a3  :  ", a1 == a3 
        
    

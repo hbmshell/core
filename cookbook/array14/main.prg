@@ -4,18 +4,18 @@ LOCAL aLetras := { "A" , "B" , "C" , "D" , "E" }
 LOCAL cElemento
 
    ?
-   ? "Os elementos originais"
+   ? "Originals"
    FOR EACH cElemento IN aLetras   
        ? cElemento
    NEXT
    ?
-   ? "Diminuindo o tamanho para 3 elementos"
+   ? "Change to 3 elements"
    aLetras := ASIZE( aLetras, 3 )
    FOR EACH cElemento IN aLetras   
        ? cElemento
    NEXT
    ?
-   ? "Aumentando o tamanho para 5 elementos"
+   ? "Change to 5 elements"
    aLetras := ASIZE( aLetras, 5 )
    FOR EACH cElemento IN aLetras   
        ? cElemento

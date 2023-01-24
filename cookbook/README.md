@@ -6,8 +6,21 @@
 ### Arrays
 
 
-1. [How to initialize arrays](./array01/main.prg)
-1. [How to search in multidimensionals arrays](./AscanMulti/main.prg)
+1. [How to declare, initialize and fill arrays](./array01/main.prg)
+1. [How to iterate in array (an example with for loop)](./array02/main.prg)
+1. [Create an array dinamically (with ARRAY() function)](./array03/main.prg)
+1. [Create an array dinamically (with AADD() function)](./array04/main.prg)
+1. [Whats difference between arrays initializate in line and arrays initializates in differents lines](./array05/main.prg)
+1. [How to compare two arrays](./array06/main.prg)
+1. [Arrays are always passed by reference](./array07/main.prg)
+1. [Array element are permanent changed inside functions](./array08/main.prg)
+1. [An array element passed to function is equal to any variable](./array09/main.prg)
+1. [Returning arrays from functions](./array10/main.prg)
+1. [How to iterate in array (an example with foreach)](./array11/main.prg)
+1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array12/main.prg)
+1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array13/main.prg)
+1. [How to use Asize function](./array14/main.prg)
+
 
 ### Strings
 
