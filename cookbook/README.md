@@ -5,6 +5,8 @@
 
 ### Arrays
 
+
+1. [How to initialize arrays](./array01/main.prg)
 1. [How to search in multidimensionals arrays](./AscanMulti/main.prg)
 
 ### Strings
