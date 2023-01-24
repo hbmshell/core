@@ -19,7 +19,7 @@
 1. [How to iterate in array (an example with foreach)](./array11/main.prg)
 1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array12/main.prg)
 1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array13/main.prg)
-1. [How to use Asize function](./array14/main.prg)
+1. [How to use change array size](./array14/main.prg)
 
 
 ### Strings
