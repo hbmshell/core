@@ -167,7 +167,7 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 ### Finance
 
 1. [How to generate credit card payment installments](./parcelas/main.prg)
-1. [How to generate plots without float point](./plots/plots.prg)
+1. [How to generate plots without float point](./plots/main.prg)
 
 
 ### Brazilian documents
