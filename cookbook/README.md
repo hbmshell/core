@@ -155,6 +155,12 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 
 1. [How to create login form](./HMGLogin/Main.Prg)
 
+## 🔒 Security
+
+### Cryptography
+
+1. [How to encrypt string with hb_crypt](./crypt01/main.prg)
+1. [How to encrypt string with hb_crypt (Part II)](./crypt02/main.prg)
 
 ## 📑 Corporative Information System
 
