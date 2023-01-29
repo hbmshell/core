@@ -1,1 +1,1 @@
-hbmshell main.prg --dialog wvg 
+hbmgui main.prg 
