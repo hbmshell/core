@@ -1,2 +1,2 @@
 
-hbmshell main.prg --pause-after --dialog hmg
+hbmgui main.prg 
