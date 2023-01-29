@@ -3,6 +3,13 @@
 
 ## 🚀 Basic
 
+### Strings
+
+1. [how to extract blank spaces around the string](./alltrim/main.prg)
+1. [How to select chars inside string](./CharOnly/main.prg)
+1. [How to convert string delimited in a array](./explode/main.prg)
+1. [How to get caracter 'N' in string delimited by 'K'](./tokenget/main.prg)
+
 ### Arrays
 
 1. [How to declare, initialize and fill arrays](./array01/main.prg)
@@ -21,11 +28,9 @@
 1. [How to use change array size](./array14/main.prg)
 1. [How to convert string delimited in a array](./explode/main.prg)
 
-### Strings
+### Hashs
 
-1. [how to extract blank spaces around the string](./alltrim/main.prg)
-1. [How to select chars inside string](./CharOnly/main.prg)
-1. [How to convert string delimited in a array](./explode/main.prg)
+1. [How to search content in hash (like a Ascan)](./hscan/main.prg)
 
 ### Pre-compiler
 
@@ -43,6 +48,14 @@
 
 1. [How to change my error controller](./errorControl01/main.prg)
 1. [How to create error control standard](./errorControl02/main.prg)
+
+### Run time system
+
+1. [How to execute a code inside variable](./compileFromBuff01/main.prg)
+
+### OOP
+
+1. [How to create a simple class](./oop01/main.prg)
 
 ## 📟 TUI
 
@@ -107,9 +120,27 @@
 
 ## 💻 System operation
 
+### Info
+
+1. [How to get a O.S. name](./OSInfo/main.prg)
+
+### Hardware
+
 1. [How to detect Discs (HD,SSD,USB)](./USBIdentify/main.prg)
+
+### Users
+
 1. [How to get username](./username/main.prg)
+
+### Run external program
+
 1. [How to execute a file (new process is generated)](./run01/main.prg)
+
+
+### Network
+
+1. [How to get a IP address (and MAC)](./ip/main.prg)
+
 
 ## 📂 File
 
@@ -137,6 +168,11 @@
 
 1. [How to erase file](./erase/main.prg)
 1. [How to erase multiples files](./erase2/main.prg)
+
+### INI Files
+
+1. [How to create a ini file from hash](./ini1/main.prg)
+1. [How to create a ini string from hash](./ini2/main.prg)
 
 ## 🌎 Internet
 

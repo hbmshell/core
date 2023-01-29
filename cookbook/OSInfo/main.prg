@@ -1,0 +1,5 @@
+PROCEDURE Main
+
+  ? OS()
+
+	RETURN 
