@@ -126,6 +126,12 @@
 1. [How to verify if directory exists](./directory2/main.prg)
 1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
 
+### File functions
+
+1. [How to extract informations about Path, Name and Extension from a string contain full filename](./file/main.prg)
+1. [How to extract informations about Path, Name and Extension from a string contain full filename (II)](./file2/main.prg)
+1. [How to merge strings to create a full filename](./file3/main.prg)
+
 ### Erasing files
 
 1. [How to erase file](./erase/main.prg)
