@@ -5,7 +5,6 @@
 
 ### Arrays
 
-
 1. [How to declare, initialize and fill arrays](./array01/main.prg)
 1. [How to iterate in array (an example with for loop)](./array02/main.prg)
 1. [Create an array dinamically (with ARRAY() function)](./array03/main.prg)
@@ -20,12 +19,21 @@
 1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array12/main.prg)
 1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array13/main.prg)
 1. [How to use change array size](./array14/main.prg)
-
+1. [How to convert string delimited in a array](./explode/main.prg)
 
 ### Strings
 
 1. [how to extract blank spaces around the string](./alltrim/main.prg)
 1. [How to select chars inside string](./CharOnly/main.prg)
+1. [How to convert string delimited in a array](./explode/main.prg)
+
+### Pre-compiler
+
+1. [how to declare variable in compile time](./define/main.prg)
+1. [How to execute code according platform](./define_platform/main.prg)
+1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch)](./define2/main.prg)
+1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch - detail: this file is not in O.S. PATH)](./define3/main.prg)
+
 
 ### Random
 
@@ -111,6 +119,17 @@
 1. [How to create  low level file (Hidden)](./lowlevel03/main.prg)
 1. [How to generate log](./log/main.prg)
 1. [How to iterate in text file](./FUse/main.prg)
+
+### Directory functions
+
+1. [How to get full PATH where the executable is located](./directory/main.prg)
+1. [How to verify if directory exists](./directory2/main.prg)
+1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
+
+### Erasing files
+
+1. [How to erase file](./erase/main.prg)
+1. [How to erase multiples files](./erase2/main.prg)
 
 ## 🌎 Internet
 

@@ -11,3 +11,9 @@ PROCEDURE MAIN
     ? DATE_VERSION	 
 
 RETURN
+/*
+In hbmk2 use directive has above
+
+hbmk2 main -dINCLUI='foo' -dVERSION=12 -dHOJE=DATE() -dDATE_VERSION=0d20020608
+
+*/
