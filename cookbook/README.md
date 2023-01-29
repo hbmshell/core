@@ -82,6 +82,7 @@
 1. [Checkbox example](./get19/main.prg)
 1. [Listbox example](./get20/main.prg)
 1. [Validation tip](./getvalid/demo.prg)
+1. [Examplo with cargo() attribute](./cargo/main.prg)
 
 ### TBrowseNew
 
