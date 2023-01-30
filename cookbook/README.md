@@ -9,6 +9,7 @@
 1. [How to select chars inside string](./CharOnly/main.prg)
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to get caracter 'N' in string delimited by 'K'](./tokenget/main.prg)
+1. [How to search and replace word inside a string](./rtf/main.prg)
 
 ### Arrays
 
@@ -38,6 +39,7 @@
 1. [How to execute code according platform](./define_platform/main.prg)
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch)](./define2/main.prg)
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch - detail: this file is not in O.S. PATH)](./define3/main.prg)
+1. [How to see content file text](./pragma/main.prg)
 
 
 ### Random
@@ -56,6 +58,19 @@
 ### OOP
 
 1. [How to create a simple class](./oop01/main.prg)
+
+### Pointer
+
+1. [How to call a function through a pointer](./pointer/main.prg)
+
+### RegExp
+
+1. [How to match any caracter in regexp](./regexp_DOT/main.prg)
+1. [How to match many caracters in regexp](./regexp_LIST/main.prg)
+1. [How to negate specific word in regex](./regexp_DENYLIST/main.prg)
+1. [How to find one or more characters regardless of the previous character](./regexp_Optional/main.prg)
+1. [How to find one or more characters that can appear in any quantity](./regexp_AnyQuant/main.prg)
+
 
 ## 📟 TUI
 
@@ -118,6 +133,11 @@
 
 1. [How to connect MySQL Server (with classes)](./MySQLConnect/main.prg)
 
+### SQLite
+
+1. [How to create a SQLite database](./sqlite01/main.prg)
+1. [How to insert records in SQLite database](./sqlite02/main.prg)
+
 ## 💻 System operation
 
 ### Info
@@ -163,6 +183,7 @@
 1. [How to extract informations about Path, Name and Extension from a string contain full filename](./file/main.prg)
 1. [How to extract informations about Path, Name and Extension from a string contain full filename (II)](./file2/main.prg)
 1. [How to merge strings to create a full filename](./file3/main.prg)
+1. [How to save a file after changeit](./rtf/main.prg)
 
 ### Erasing files
 
@@ -201,11 +222,23 @@
 1. [DBF to Excel (How to autofit) + Bold](./WinExcel7/main.prg)
 1. [How to use a Template to my sheets](./WinExcel8/main.prg)
 
+### HMG
+
+#### HMG - Without a IDE
+1. [How to create a getfile window](./HMGGetFile/main.prg)
+1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
+
+#### HMG - With IDE
+
+1. [How to create a simple program in HMG](./HMGHelloIDE/Main.Prg)
+1. [How to create a login screen](./HMGLogin/Main.Prg)
+1. [How to create a simple menu](./HMGMenu/Main.Prg)
+
 
 ### Database
 
 1. [How to open connection in MariaDb using ADO](./WinMariaDbADO/main.prg)
-
+1. [How to execute a SQL statement in MSAccess using ADO](./WinMSAccessADO/main.prg)
 
 ### WVG
 
