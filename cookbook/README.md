@@ -230,6 +230,7 @@
 ### HMG
 
 #### HMG - Without a IDE
+
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
 1. [How to create a grid with pictures in buttons](./HMG_GridButtons/main.prg)
