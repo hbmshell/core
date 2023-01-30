@@ -232,13 +232,20 @@
 #### HMG - Without a IDE
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
+1. [How to create a grid with pictures in buttons](./HMG_GridButtons/main.prg)
+1. [How to insert a resource in program](./HMG_Resource/Main.Prg) ---- Bug
+1. [How to create a Hyperlink](./HMG_HyperLink/main.prg) ----- Bug
+
 
 #### HMG - With IDE
 
 1. [How to create a simple program in HMG](./HMGHelloIDE/Main.Prg)
 1. [How to create a login screen](./HMGLogin/Main.Prg)
 1. [How to create a simple menu](./HMGMenu/Main.Prg)
-
+1. [How to create a Grid and Button](./HMG_Grid01/Main.Prg)
+1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/Main.Prg)
+1. [How to create a simple form](./HMG_Form/Main.Prg)
+1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/Main.Prg)
 
 ### Database
 
