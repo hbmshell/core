@@ -1,1 +1,1 @@
-hbmshell helloBase64.prg --base64 --pause-after "Pressione uma tecla para prosseguir"
+hbmscript helloBase64.prg --base64 --pause-after

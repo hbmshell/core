@@ -1,1 +1,1 @@
-hbmshell hello.prg --pause-after 
+hbmscript hello.prg --pause-after 

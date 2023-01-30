@@ -1,1 +1,1 @@
-hbmshell hellohmg.prg --dialog hmg
+hbmhmg hellohmg.prg

@@ -1,8 +1,8 @@
 @echo off
 @del *.log 2>nul
 
-hbmshell vlj_DownloadTests.prg 1>2>nul
-hbmshell vlj_ArrayToString.prg 1>2>nul
+hbmscript vlj_DownloadTests.prg 1>2>nul
+hbmscript vlj_ArrayToString.prg 1>2>nul
 
 if exist test_error.log (
 	echo *****************************************************************
