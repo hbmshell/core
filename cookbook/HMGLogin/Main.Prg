@@ -1,5 +1,3 @@
-//-I.
-//#include <hmg.ch>
 
 Function Main
 
