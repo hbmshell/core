@@ -1,4 +1,4 @@
-ROCEDURE HBM_17when
+PROCEDURE HBM_17when
 
     LOCAL nAge := 0
     LOCAL cName := SPACE(30)
