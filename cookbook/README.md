@@ -40,6 +40,7 @@
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch)](./define2/main.prg)
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch - detail: this file is not in O.S. PATH)](./define3/main.prg)
 1. [How to see content file text](./pragma/main.prg)
+1. [How to copy a binary file](./stream/main.prg)
 
 
 ### Random
@@ -71,6 +72,9 @@
 1. [How to find one or more characters regardless of the previous character](./regexp_Optional/main.prg)
 1. [How to find one or more characters that can appear in any quantity](./regexp_AnyQuant/main.prg)
 
+### Info
+
+1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
 
 ## 📟 TUI
 
@@ -78,7 +82,7 @@
 
 1. [Accept command](./accept/main.prg)
 
-### Achoide
+### Achoice
 
 1. [Achoice basic](./achoice01/main.prg)
 1. [Achoice UDF](./achoice02/main.prg)
@@ -207,6 +211,7 @@
 1. [How to open document from file type](./WinOpenURL/main.prg)
 1. [How to list devices in Windows](./WinListDevices/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
+1. [How to get win version, architecture and build](./WinVersion/main.prg)
 
 ### OLE
 
@@ -264,6 +269,11 @@ If you want, open project with HMG Ide to change forms. Don't compile, just call
 
 1. [How to generate credit card payment installments](./parcelas/main.prg)
 1. [How to generate plots without float point](./plots/main.prg)
+
+
+### Integration
+
+1. [How to send string from SSH Server to Putty client](./putty/main.prg)
 
 
 ### Brazilian documents
