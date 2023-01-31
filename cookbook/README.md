@@ -248,11 +248,16 @@
 
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
+1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX02/main.prg)
 1. [How to create a grid with pictures in buttons](./HMG_GridButtons/main.prg)
 1. [How to insert a resource in program](./HMG_Resource/Main.Prg) ---- Bug
 1. [How to create a Hyperlink](./HMG_HyperLink/main.prg) ----- Bug
 1. [How to get a parent window name](./HMG_GetParent/)
-
+1. [How to create a event in form](./HMG_Event/main.prg)
+1. [How to select printer](./HMG_Printer/main.prg)
+1. [How to enable/disable button in runtime mode](./HMG_Button01/main.prg)
+1. [How to create a wait window](./HMG_WaitWindow/main.prg)
+1. [How to create a wait window (II)](./HMG_WaitWindow02/main.prg)
 
 #### HMG - With IDE
 
@@ -263,6 +268,8 @@
 1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/)
 1. [How to create a simple form](./HMG_Form/)
 1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/)
+1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX01/)
+
 
 ### Database
 
