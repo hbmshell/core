@@ -258,6 +258,9 @@
 1. [How to enable/disable button in runtime mode](./HMG_Button01/main.prg)
 1. [How to create a wait window](./HMG_WaitWindow/main.prg)
 1. [How to create a wait window (II)](./HMG_WaitWindow02/main.prg)
+1. [How to create a timer](./HMG_Timer/main.prg)
+1. [How to create a timer (II)](./HMG_Timer/main.prg)
+1. [How to print to PDF](./HMG_Print_to_PDF/main.prg)
 
 #### HMG - With IDE
 
