@@ -3,6 +3,12 @@
 
 ## 🚀 Basic
 
+### Variables
+
+1. [How to attrib value to variable (Dbase Legacy mode)](./attrib01/main.prg)
+1. [How to attrib value to variable (Harbour mode)](./attrib02/main.prg)
+1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
+
 ### Strings
 
 1. [how to extract blank spaces around the string](./alltrim/main.prg)
@@ -72,15 +78,18 @@
 1. [How to find one or more characters regardless of the previous character](./regexp_Optional/main.prg)
 1. [How to find one or more characters that can appear in any quantity](./regexp_AnyQuant/main.prg)
 
-### Info
+### Codepage
 
-1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
+1. [How to list all codepages availables](./cdpList/main.prg)
+1. [Warning: order change after switch current codepage to another](./cdpSelect/main.prg)
+
 
 ## 📟 TUI
 
-### Basic controls
+### Basic 
 
 1. [Accept command](./accept/main.prg)
+1. [How to draw a rectangle with @ BOX command](./arrobaBox/main.prg)
 
 ### Achoice
 
@@ -132,6 +141,8 @@
 
 1. [How to create a DBF file](./dbcreate/main.prg)
 1. [How to generate DBF in memory](./DBFInMem/main.prg)
+1. [How to create DBF with autoincrement field](./dbcreateAutoNum/main.prg)
+
 
 ### MySQL
 
@@ -199,6 +210,10 @@
 1. [How to create a ini file from hash](./ini1/main.prg)
 1. [How to create a ini string from hash](./ini2/main.prg)
 
+### Json Files
+
+1. [How to convert a hash to string in Json format](./json01/main.prg)
+
 ## 🌎 Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
@@ -236,17 +251,18 @@
 1. [How to create a grid with pictures in buttons](./HMG_GridButtons/main.prg)
 1. [How to insert a resource in program](./HMG_Resource/Main.Prg) ---- Bug
 1. [How to create a Hyperlink](./HMG_HyperLink/main.prg) ----- Bug
+1. [How to get a parent window name](./HMG_GetParent/)
 
 
 #### HMG - With IDE
 
-1. [How to create a simple program in HMG](./HMGHelloIDE/Main.Prg)
-1. [How to create a login screen](./HMGLogin/Main.Prg)
-1. [How to create a simple menu](./HMGMenu/Main.Prg)
-1. [How to create a Grid and Button](./HMG_Grid01/Main.Prg)
-1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/Main.Prg)
-1. [How to create a simple form](./HMG_Form/Main.Prg)
-1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/Main.Prg)
+1. [How to create a simple program in HMG](./HMGHelloIDE/)
+1. [How to create a login screen](./HMGLogin/)
+1. [How to create a simple menu](./HMGMenu/)
+1. [How to create a Grid and Button](./HMG_Grid01/)
+1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/)
+1. [How to create a simple form](./HMG_Form/)
+1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/)
 
 ### Database
 
