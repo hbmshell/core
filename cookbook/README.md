@@ -11,11 +11,15 @@
 
 ### Strings
 
-1. [how to extract blank spaces around the string](./alltrim/main.prg)
+1. [How to extract blank spaces around the string](./alltrim/main.prg)
 1. [How to select chars inside string](./CharOnly/main.prg)
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to get caracter 'N' in string delimited by 'K'](./tokenget/main.prg)
 1. [How to search and replace word inside a string](./rtf/main.prg)
+
+### Comments
+
+1. [How to comment your code](./comment/main.prg)
 
 ### Arrays
 
@@ -44,6 +48,9 @@
 1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime.](./bloco01/main.prg)
 1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime (Part II).](./bloco02/main.prg)
 1. [How to create a extended codeblock.](./bloco03/main.prg)
+1. [Whats difference between standard codeblock and extended codeblock.](./bloco04/main.prg)
+1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
+1. [How to create a codeblock in runtime.](./bloco06/main.prg)
 
 ### Pre-compiler
 
@@ -53,6 +60,7 @@
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch - detail: this file is not in O.S. PATH)](./define3/main.prg)
 1. [How to see content file text](./pragma/main.prg)
 1. [How to copy a binary file](./stream/main.prg)
+1. [How to create your own commands](./command/main.prg)
 
 
 ### Random
