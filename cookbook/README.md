@@ -39,6 +39,11 @@
 
 1. [How to search content in hash (like a Ascan)](./hscan/main.prg)
 
+### Codeblock
+
+1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime.](./bloco01/main.prg)
+1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime (Part II).](./bloco02/main.prg)
+
 ### Pre-compiler
 
 1. [how to declare variable in compile time](./define/main.prg)
