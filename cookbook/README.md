@@ -43,6 +43,7 @@
 
 1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime.](./bloco01/main.prg)
 1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime (Part II).](./bloco02/main.prg)
+1. [How to create a extended codeblock.](./bloco03/main.prg)
 
 ### Pre-compiler
 
