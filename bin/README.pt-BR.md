@@ -1,3 +1,0 @@
-# Bin
-
-Binários do hbmshell.
