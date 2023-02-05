@@ -281,6 +281,10 @@
 
 #### HMG - Without a IDE
 
+1. [How to create a Hello World with HMG](./HMGTut01/main.prg)
+1. [How to change a control propertie](./HMGTut02/main.prg)
+1. [How to create a label](./HMGTut03/main.prg)
+1. [How to use a text edit control](./HMGTut04/main.prg)
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX02/main.prg)
