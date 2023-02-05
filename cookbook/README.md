@@ -296,6 +296,8 @@
 1. [How to create a timer](./HMG_Timer/main.prg)
 1. [How to create a timer (II)](./HMG_Timer/main.prg)
 1. [How to print to PDF](./HMG_Print_to_PDF/main.prg)
+1. [How to load all windows in memory](./HMGNOAutoRelease01/main.prg)
+1. [How to load all windows in memory II](./HMGNOAutoRelease02/main.prg)
 
 #### HMG - With IDE
 
@@ -307,6 +309,8 @@
 1. [How to create a simple form](./HMG_Form/)
 1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX01/)
+1. [How to load all windows in memory III](./HMGNOAutoRelease03/main.prg)
+1. [How to load all windows in memory IV](./HMGNOAutoRelease04/main.prg)
 
 
 ### Database

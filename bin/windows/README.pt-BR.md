@@ -4,7 +4,6 @@ Binários desenvolvidos no Sistema Operacional Windows 11
 
 ## Os arquivos
 
-1. hbmshell.exe : o interpretador
 1. Dlls.zip : as dlls requeridas por todos os Windows.
 2. VC_redist.x64.exe : instalador do VC++ Runtime. Requerido por computadores com Windows 7.
 3. O restante são utilitários não essenciais 
