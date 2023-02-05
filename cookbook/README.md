@@ -119,7 +119,7 @@
 
 ### Menus
 
-1. [How to generate menu](./menu/demo.prg)
+1. [How to generate menu](./menu/main.prg)
 
 ### Get 
 
