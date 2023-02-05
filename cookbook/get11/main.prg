@@ -8,6 +8,9 @@ PROCEDURE HBM_31listbox
     LOCAL cSelect2 := "" 
     
     CLS
+#ifdef __PLATFORM__WINDOWS
+    SetMode(100,150)
+#endif
 
     @ 08,14,13,30 GET nSelect LISTBOX aList CAPTION "My Dropdown" DROPDOWN SCROLLBAR COLOR "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*,N/G" // Must be 8 Colors
     @ 08,54,13,70 GET cSelect LISTBOX aList CAPTION "My Dropdown 2" DROPDOWN SCROLLBAR COLOR "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*,N/G" // Must be 8 Colors
