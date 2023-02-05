@@ -261,6 +261,7 @@
 1. [How to open document from file type](./WinOpenURL/main.prg)
 1. [How to list devices in Windows](./WinListDevices/main.prg)
 1. [How to download web content](./WinDownload/main.prg)
+1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
 
 ### OLE
