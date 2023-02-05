@@ -9,6 +9,13 @@
 1. [How to attrib value to variable (Harbour mode)](./attrib02/main.prg)
 1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
 
+### Data types
+
+1. [How to convert a string to number](./convert01/main.prg)
+1. [How to convert a number to string](./convert02/main.prg)
+1. [How to place leading zeros in a string with numerical values](./convert03/main.prg)
+1. [How to convert a date to string](./convert04/main.prg)
+
 ### Strings
 
 1. [How to extract blank spaces around the string](./alltrim/main.prg)
@@ -139,6 +146,14 @@
 1. [Validation tip](./getvalid/demo.prg)
 1. [Examplo with cargo() attribute](./cargo/main.prg)
 
+### Colors
+
+1. [How to simulate an old monitor's color](./cor01/main.prg)
+1. [How to create a form with many colors](./cor02/main.prg)
+1. [How to configure MENU TO colors](./cor03/main.prg)
+1. [How to store old color to recover](./cor04/main.prg)
+
+
 ### TBrowseNew
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
@@ -227,6 +242,12 @@
 ### Json Files
 
 1. [How to convert a hash to string in Json format](./json01/main.prg)
+
+
+### CSV Files
+
+1. [How to import CSV File to array](./csv01/main.prg)
+1. [How to import CSV File to array and display fields one by one](./csv02/main.prg)
 
 ## 🌎 Internet
 
