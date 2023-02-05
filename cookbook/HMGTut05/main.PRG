@@ -1,6 +1,6 @@
 
 //-q0
-Function hb_Main
+Function hb_Main 
 
     DEFINE WINDOW Win_1 ;
         AT 0,0 ;

@@ -2,6 +2,7 @@
 //-q0
 Function hb_Main
 
+
     DEFINE WINDOW Win_1 ;
         AT 0,0 ;
         WIDTH 400 ;
@@ -19,6 +20,5 @@ Function hb_Main
     END WINDOW
 
     ACTIVATE WINDOW Win_1
-
+    
 Return
-

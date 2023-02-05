@@ -291,6 +291,8 @@
 1. [How to use a list box control](./HMGTut07/main.prg)
 1. [How to use a combo box control](./HMGTut08/main.prg)
 1. [How to use a button control](./HMGTut09/main.prg)
+1. [How to use a image button control](./HMGTut10/main.prg)
+1. [How to use a check button control](./HMGTut11/main.prg) ---- Bug
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX02/main.prg)
