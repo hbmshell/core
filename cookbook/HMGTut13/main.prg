@@ -25,5 +25,5 @@ Function hb_Main
 
     ACTIVATE WINDOW Win_1
 
-Return
 
+Return
