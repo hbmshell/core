@@ -299,6 +299,7 @@
 1. [How to use a progressbar control](./HMGTut15/main.prg)
 1. [How to use a spinner control](./HMGTut16/main.prg)
 1. [How to use a tab control](./HMGTut17/main.prg)
+1. [How to use a tool bar control](./HMGTut18/main.prg)
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX02/main.prg)
