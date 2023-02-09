@@ -157,6 +157,7 @@
 ### TBrowseNew
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
+1. [How to browse an array using TBrowse](./arrayTBrw/main.prg)
 
 ## 🎨 Images
 
