@@ -2,7 +2,7 @@
 
 PROCEDURE Hbm_parcelas( ... )
     MODULE SHELL
-    MODULE ERRORLEVEL
+    //MODULE ERRORLEVEL
     LOCAL hParams , aData, cPrintParams, cListErrors 
     LOCAL aPipe, x
     LOCAL dDtCompra, nDiaVenc, nQtdDias, nParcelas, aResult
@@ -34,7 +34,11 @@ PROCEDURE Hbm_parcelas( ... )
     nDiaVenc := VAL( hParams["-diavenc"])
     nQtdDias := VAL( hParams["-qtddias"])
     nParcelas := VAL( hParams["-parcelas"])
-    
+    ? "Date purchase : " , dDtCompra
+    ? "Credit card due date : ", nDiaVenc
+    ? "Number of days to subtract from due date to get the best day :" , nQtdDias
+    ? "Number of installments :", nParcelas
+    ? "Array : "
     aResult := ArrayDtVenc( dDtCompra, nDiaVenc , nQtdDias , nParcelas , hParams["-debug"]) 
     for X := 1 to len( aResult ) 
         ? aResult[x]
