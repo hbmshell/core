@@ -322,6 +322,7 @@
 1. [How to print to PDF](./HMG_Print_to_PDF/main.prg)
 1. [How to load all windows in memory](./HMGNOAutoRelease01/main.prg)
 1. [How to load all windows in memory II](./HMGNOAutoRelease02/main.prg)
+1. [How to create a help system](./HmgHelp/main.prg)
 
 #### HMG - With IDE
 
