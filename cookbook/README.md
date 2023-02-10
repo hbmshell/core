@@ -59,9 +59,19 @@
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
 1. [How to create a codeblock in runtime.](./bloco06/main.prg)
 
+### Loops
+
+#### For each
+
+1. [Loop For each example with string](./foreach00/main.prg)
+1. [Loop For each example and variable value outside loop not change](./foreach01/main.prg)
+1. [Loop For each example (String passed by reference / Change value)](./foreach02/main.prg)
+1. [Loop For each example with array](./foreach03/main.prg)
+1. [Exit For each Loop example with array](./foreach04/main.prg)
+
 ### Pre-compiler
 
-1. [how to declare variable in compile time](./define/main.prg)
+1. [How to declare variable in compile time](./define/main.prg)
 1. [How to execute code according platform](./define_platform/main.prg)
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch)](./define2/main.prg)
 1. [How to create pseudo command according variable defined in compile time (variable is in external file .ch - detail: this file is not in O.S. PATH)](./define3/main.prg)
