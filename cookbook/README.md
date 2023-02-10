@@ -8,6 +8,7 @@
 1. [How to attrib value to variable (Dbase Legacy mode)](./attrib01/main.prg)
 1. [How to attrib value to variable (Harbour mode)](./attrib02/main.prg)
 1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
+1. [Pass variables by reference (many procedures)](./byref/main.prg)
 
 ### Data types
 
@@ -59,6 +60,7 @@
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
 1. [How to create a codeblock in runtime.](./bloco06/main.prg)
 
+
 ### Loops
 
 #### For each
@@ -68,6 +70,8 @@
 1. [Loop For each example (String passed by reference / Change value)](./foreach02/main.prg)
 1. [Loop For each example with array](./foreach03/main.prg)
 1. [Exit For each Loop example with array](./foreach04/main.prg)
+1. [Loop For each example with array and strings](./foreach05/main.prg)
+1. [Loop For each example with hash](./foreach06/main.prg)
 
 ### Pre-compiler
 
@@ -96,6 +100,7 @@
 ### OOP
 
 1. [How to create a simple class](./oop01/main.prg)
+1. [How to use WITH OBJECT statement in a object](./oop02/main.prg)
 
 ### Pointer
 
