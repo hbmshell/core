@@ -194,9 +194,9 @@
 1. [How to spaces are treated inside DBF file and SQLMIX file](./sqlmix02/main.prg)
 1. [How SQLMix handles values ​​that exceed the field size](./sqlmix03/main.prg)
 1. [Whats difference between field created by SQLMix and field created by DBF NTX](./sqlmix04/main.prg)
-1. [.to be continhe..](./sqlmix05/main.prg)
-1. [...](./sqlmix06/main.prg)
-1. [...](./sqlmix07/main.prg)
+1. [What happens if I write NIL to a character field using SQLMix](./sqlmix05/main.prg)
+1. [What happens if I write a numeric value to a character field using SQLMix](./sqlmix06/main.prg)
+1. [What happens if a numeric value extrapolates the numeric field size using SQLMix](./sqlmix07/main.prg)
 
 ### MySQL
 

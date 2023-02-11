@@ -17,7 +17,7 @@ PROCEDURE Main
               
         RECOVER USING oOBj
          
-            ? hb_Valtoexp( oObj )
+            ? "Error : " , oObj:Description
 
         END
     NEXT    
