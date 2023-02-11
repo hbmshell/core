@@ -291,8 +291,12 @@
 1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
 
-### OLE
+### WIN Printers
 
+1. [How to list printers](./WinListPrinters/main.prg)
+
+
+### OLE
 
 #### MS Excel
 
