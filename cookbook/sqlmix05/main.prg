@@ -8,9 +8,18 @@ PROCEDURE Main
         ? "Usando o driver " + aDriver[x]
         dbCreate( "agenda", aStruct , aDriver[x], .T.)
         APPEND BLANK
-        REPLACE NOME WITH NIL
-        ? "Valor do campo : " , hb_ValToExp( FIELD->NOME )
-        ? "Campo tipo : " , VALTYPE( FIELD->NOME ) 
+
+        BEGIN SEQUENCE WITH __BreakBlock()
+           
+            REPLACE NOME WITH NIL
+            ? "Valor do campo : " , hb_ValToExp( FIELD->NOME )
+            ? "Campo tipo : " , VALTYPE( FIELD->NOME ) 
+              
+        RECOVER USING oOBj
+         
+            ? hb_Valtoexp( oObj )
+
+        END
     NEXT    
 
 RETURN

@@ -10,7 +10,7 @@ PROCEDURE Main
         APPEND BLANK
         REPLACE FIELD->NOME WITH "GERALDO"
         REPLACE FIELD->TELEFONE WITH "980768-9087"
-        ? "Usando o driver " + aDriver[x]
+        ? "Using driver " + aDriver[x]
         ? FIELD->NOME , LEN( FIELD->NOME )
         ? FIELD->TELEFONE, LEN( FIELD->TELEFONE)
     NEXT    

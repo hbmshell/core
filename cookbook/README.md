@@ -188,6 +188,15 @@
 1. [How to generate DBF in memory](./DBFInMem/main.prg)
 1. [How to create DBF with autoincrement field](./dbcreateAutoNum/main.prg)
 
+### SQLMix
+
+1. [How to create a pseudo DBF file (array mode) - 1](./sqlmix01/main.prg)
+1. [How to spaces are treated inside DBF file and SQLMIX file](./sqlmix02/main.prg)
+1. [How SQLMix handles values ​​that exceed the field size](./sqlmix03/main.prg)
+1. [Whats difference between field created by SQLMix and field created by DBF NTX](./sqlmix04/main.prg)
+1. [.to be continhe..](./sqlmix05/main.prg)
+1. [...](./sqlmix06/main.prg)
+1. [...](./sqlmix07/main.prg)
 
 ### MySQL
 

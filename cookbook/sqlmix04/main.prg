@@ -3,14 +3,23 @@ PROCEDURE Main
 
     LOCAL aDriver := { "SQLMIX" , "DBFNTX" }, x
     LOCAL aStruct := { { "NOME", "C", 10, 0 } }
+    LOCAL oObj
 
-    ? "NÃO IREI GRAVAR, APENAS CRIAR O REGISTRO"
+    ? "I WILL NOT RECORD, JUST CREATE THE RECORD"
     FOR x := 1 TO LEN( aDriver )                       
         dbCreate( "agenda", aStruct , aDriver[x], .T.)
         APPEND BLANK
-        ? "Usando o driver " + aDriver[x]
-        ? "Campo tipo : " , VALTYPE( FIELD->NOME ) ,;
-          " Tamanho : " , LEN( FIELD->NOME )
+        ? "Using driver " + aDriver[x]
+        BEGIN SEQUENCE WITH __BreakBlock()
+           
+            ? "Field type : " , VALTYPE( FIELD->NOME ) ,;
+              "Field lenght : " , LEN( FIELD->NOME )
+              
+        RECOVER USING oOBj
+         
+          ? hb_Valtoexp( oObj )
+
+        END
     NEXT    
 
 RETURN
