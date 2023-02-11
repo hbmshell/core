@@ -131,6 +131,8 @@
 
 1. [Achoice basic](./achoice01/main.prg)
 1. [Achoice UDF](./achoice02/main.prg)
+1. [Achoice capture event inside UDF](./achoice03/main.prg)
+1. [Achoice : complex menu example](./achoice04/main.prg)
 
 ### Menus
 
