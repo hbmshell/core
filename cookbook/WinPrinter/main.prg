@@ -29,6 +29,6 @@ SET DEVICE TO SCREEN
 SET PRINTER TO
 PRINTFILERAW(cDevOut,cIMPX)
 
-ShellExecute( 'NOTA.TXT', 'Print' )
+wapi_ShellExecute( 'NOTA.TXT', 'Print' )
 
 RETURN NIL

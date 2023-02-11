@@ -1,1 +1,1 @@
-hbmscript main.prg
+hbmdialog main.prg
