@@ -1,0 +1,6 @@
+FUNCTION MAIN()
+
+    ? Procname()
+
+RETURN
+    
