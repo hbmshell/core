@@ -283,7 +283,7 @@
 
 ## 🪟 Windows
 
-### API
+### API (Windows only)
 
 1. [How to open document from file type](./WinOpenURL/main.prg)
 1. [How to list devices in Windows](./WinListDevices/main.prg)
@@ -291,14 +291,15 @@
 1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
 
-### WIN Printers
+### WIN Printers  (Windows only)
 
 1. [How to list printers](./WinListPrinters/main.prg)
+1. [How to send text using raw protocol](./WinPrinter/main.prg)
+1. [How to print using win32 functions](./WinPrn32/main.prg)
 
+### OLE 
 
-### OLE
-
-#### MS Excel
+#### MS Excel (Windows only)
 
 1. [Does computer support excel ?](./WinExcel1/main.prg)
 1. [Hello world in Excel](./WinExcel2/main.prg)
@@ -311,7 +312,7 @@
 
 ### HMG
 
-#### HMG - Without a IDE
+#### HMG - Without a IDE  (Windows only)
 
 1. [How to create a Hello World with HMG](./HMGTut01/main.prg)
 1. [How to change a control propertie](./HMGTut02/main.prg)
@@ -354,7 +355,8 @@
 1. [How to load all windows in memory II](./HMGNOAutoRelease02/main.prg)
 1. [How to create a help system](./HmgHelp/main.prg)
 
-#### HMG - With IDE
+
+#### HMG - With IDE  (Windows only)
 
 1. [How to create a simple program in HMG](./HMGHelloIDE/)
 1. [How to create a login screen](./HMGLogin/)
@@ -368,21 +370,15 @@
 1. [How to load all windows in memory IV](./HMGNOAutoRelease04/main.prg)
 
 
-### Database
+### Database  (Windows only)
 
 1. [How to open connection in MariaDb using ADO](./WinMariaDbADO/main.prg)
 1. [How to execute a SQL statement in MSAccess using ADO](./WinMSAccessADO/main.prg)
 
-### WVG
+### WVG  (Windows only)
 
 1. [How to create menu](./MenuWVG/main.prg)
 
-
-### HMG
-
-If you want, open project with HMG Ide to change forms. Don't compile, just call main.bat to execute program.
-
-1. [How to create login form](./HMGLogin/Main.Prg)
 
 ## 🔒 Security
 
