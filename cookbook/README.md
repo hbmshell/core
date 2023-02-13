@@ -136,7 +136,8 @@
 
 ### Basic 
 
-1. [Accept command](./accept/main.prg)
+1. [Accept command (to string variable)](./accept/main.prg)
+1. [Input command (to numeric variable)](./input/main.prg)
 1. [How to draw a rectangle with @ BOX command](./arrobaBox/main.prg)
 
 ### Achoice
@@ -182,6 +183,10 @@
 1. [How to configure MENU TO colors](./cor03/main.prg)
 1. [How to store old color to recover](./cor04/main.prg)
 
+### Browse
+
+1. [How create a simple browse](./browse01/main.prg)
+1. [How create a simple browse with coordinates](./browse02/main.prg)
 
 ### TBrowseNew
 
