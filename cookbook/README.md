@@ -89,8 +89,7 @@
 1. [How to see content file text](./pragma/main.prg)
 1. [How to copy a binary file](./stream/main.prg)
 1. [How to create your own commands](./command/main.prg)
-
-
+1. [How can I get information about DEBUG status](./debug/main.prg)
 
 ### Random
 
