@@ -8,6 +8,13 @@
 1. [How to attrib value to variable (Dbase Legacy mode)](./attrib01/main.prg)
 1. [How to attrib value to variable (Harbour mode)](./attrib02/main.prg)
 1. [How to determine if a given name is a PUBLIC or PRIVATE memory variable](./var/main.prg)
+1. [How to determine if a PUBLIC or PRIVATE var exists](./var02/main.prg)
+1. [How to release value of a PUBLIC or PRIVATE var from memory (attrib NIL)](./var03/main.prg)
+1. [How to release ALL variables PUBLIC or PRIVATE from memory](./var04/main.prg)
+1. [How to determine a variable's scope (PUBLIC or PRIVATE)](./var05/main.prg)
+1. [How to CREATE a variable PUBLIC or PRIVATE](./var06/main.prg)
+1. [How to PUT a value in a variable PUBLIC or PRIVATE](./var07/main.prg)
+1. [Whats happens when a variable LOCAL/STATIC has the same name a variable PRIVATE/PUBLIC](./var08/main.prg)
 1. [Pass variables by reference (many procedures)](./byref/main.prg)
 
 ### Data types
