@@ -103,6 +103,7 @@
 ### Run time system
 
 1. [How to execute a code inside variable](./compileFromBuff01/main.prg)
+1. [How to execute a code inside external file](./compileBuff01/main.prg)
 
 ### OOP
 
