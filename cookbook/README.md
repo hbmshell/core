@@ -423,7 +423,7 @@
 ### Integration
 
 1. [How to send string from SSH Server to Putty client](./putty/main.prg)
-1. [How to copy to worksheet format (see sh file too)](./CopyToSheetFormat/)
+1. [How to copy to worksheet format (see .sh or .bat file too)](./CopyToSheetFormat/)
 
 
 ### Brazilian documents
