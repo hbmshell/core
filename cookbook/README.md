@@ -67,7 +67,13 @@
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
 1. [How to create a codeblock in runtime.](./bloco06/main.prg)
 
+### Conditional
 
+1. [How to create a simple IF](./if01/main.prg)
+1. [How to create a simple IF / ELSE](./if02/main.prg)
+1. [How to create nested IF](./if03/main.prg)
+1. [How to create many IFs in same level](./if04/main.prg)
+1. [How to create a CASE statement (many IFs)](./if05/main.prg)
 ### Loops
 
 #### For each
