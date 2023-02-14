@@ -74,6 +74,7 @@
 1. [How to create nested IF](./if03/main.prg)
 1. [How to create many IFs in same level](./if04/main.prg)
 1. [How to create a CASE statement (many IFs)](./if05/main.prg)
+
 ### Loops
 
 #### For each
@@ -377,6 +378,7 @@
 1. [How to load all windows in memory](./HMGNOAutoRelease01/main.prg)
 1. [How to load all windows in memory II](./HMGNOAutoRelease02/main.prg)
 1. [How to create a help system](./HmgHelp/main.prg)
+1. [How to create a simple menu](./HMGMenu_2/main.prg)
 
 
 #### HMG - With IDE  (Windows only)
