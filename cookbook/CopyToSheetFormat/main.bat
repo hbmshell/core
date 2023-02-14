@@ -1,1 +1,0 @@
-hbmdialog main.prg | clip
