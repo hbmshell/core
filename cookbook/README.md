@@ -213,6 +213,7 @@
 1. [How to create a DBF file](./dbcreate/main.prg)
 1. [How to generate DBF in memory](./DBFInMem/main.prg)
 1. [How to create DBF with autoincrement field](./dbcreateAutoNum/main.prg)
+1. [How to see a DBF file structure](./struct/main.prg) 
 
 ### SQLMix
 
