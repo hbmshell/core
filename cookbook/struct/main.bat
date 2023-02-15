@@ -1,2 +1,2 @@
 
-hbmdialog main.prg --dbf novo --pause-after
+hbmdialog main.prg --pause-after
