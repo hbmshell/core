@@ -301,6 +301,11 @@
 1. [How to import CSV File to array](./csv01/main.prg)
 1. [How to import CSV File to array and display fields one by one](./csv02/main.prg)
 
+
+### ZIP Files (and others compress format)
+
+1. [How to create a zip file](./zip/main.prg)
+
 ## 🌎 Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
