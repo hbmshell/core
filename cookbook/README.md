@@ -306,6 +306,9 @@
 
 1. [How to create PDF file (legacy mode)](./relpdf_legacy/)
 
+### ZIP Files (and others compress format)
+
+1. [How to create a zip file](./zip/main.prg)
 
 ## 🌎 Internet
 
