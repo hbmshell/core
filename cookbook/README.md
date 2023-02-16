@@ -301,6 +301,12 @@
 1. [How to import CSV File to array](./csv01/main.prg)
 1. [How to import CSV File to array and display fields one by one](./csv02/main.prg)
 
+
+### PDF Files
+
+1. [How to create PDF file (legacy mode)](./relpdf_legacy/)
+
+
 ## 🌎 Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
