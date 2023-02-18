@@ -320,6 +320,10 @@
 1. [How to create a zip file](./zip/main.prg)
 1. [How to see a zip file content](./zipSee/main.prg)
 1. [How to see a zip file content (with details informations)](./zipSee02/main.prg)
+1. [How to returns a number of files in a zip archive.](./zipCount/main.prg)
+1. [How to test a zip file](./zipTest/main.prg)
+1. [How to set a zip comment](./zip02/main.prg)
+1. [How to get a zip comment](./zip03/main.prg)
 
 ## 🌎 Internet
 
