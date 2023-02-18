@@ -1,6 +1,5 @@
 # Hbmshell cookbook
 
-
 ## 🚀 Basic
 
 ### Variables
@@ -54,6 +53,7 @@
 1. [How to iterate in array (an example with foreach) - Pay atention to extra loop properties](./array13/main.prg)
 1. [How to use change array size](./array14/main.prg)
 1. [How to convert string delimited in a array](./explode/main.prg)
+1. [How to delete array element](./adel/main.prg)
 
 ### Hashs
 
@@ -139,6 +139,11 @@
 
 1. [How to get routine name](./Procname/main.prg)
 
+### Bit manipulation
+
+1. [How to create a logical AND between decimals values](./bitAnd/main.prg)
+1. [How to create a logical OR between decimals values](./bitOr/main.prg)
+1. [How to create a logical XOR between decimals values](./bitXOR/main.prg)
 
 ## 📟 TUI
 
@@ -313,6 +318,8 @@
 ### ZIP Files (and others compress format)
 
 1. [How to create a zip file](./zip/main.prg)
+1. [How to see a zip file content](./zipSee/main.prg)
+1. [How to see a zip file content (with details informations)](./zipSee02/main.prg)
 
 ## 🌎 Internet
 
