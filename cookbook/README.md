@@ -31,6 +31,7 @@
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to get caracter 'N' in string delimited by 'K'](./tokenget/main.prg)
 1. [How to search and replace word inside a string](./rtf/main.prg)
+1. [How to search and replace all caracters at right of string](./replright/main.prg)
 
 ### Comments
 
@@ -239,6 +240,8 @@
 ### Info
 
 1. [How to get a O.S. name](./OSInfo/main.prg)
+1. [How to get a environment variable value](./getenv/main.prg)
+1. [How to set a environment variable value](./setenv/main.prg)
 
 ### Hardware
 
