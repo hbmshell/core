@@ -270,6 +270,7 @@
 1. [How to create  low level file (Hidden)](./lowlevel03/main.prg)
 1. [How to generate log](./log/main.prg)
 1. [How to iterate in text file](./FUse/main.prg)
+1. [How to copy file to another using FCopy](./fcopy/main.prg) -- Has bug (3 bytes difference)
 
 ### Directory functions
 
