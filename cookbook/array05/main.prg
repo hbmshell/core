@@ -20,7 +20,7 @@ LOCAL a3 := {}
    ? "a1 and a2 has same reference. a1 = a2"
    ? "a1 == a2  :  ", a1 == a2 
 
-   ? "a1 and a3 doestn't has the same reference. It is independents. a1 <> a2"
+   ? "a1 and a3 doestn't has the same reference. It is independents. a1 <> a3"
    ? "a1 == a3  :  ", a1 == a3 
        
    
