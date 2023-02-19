@@ -1,5 +1,5 @@
-#!/workspace/hbmshell/hbmshell --dialog tui
-//-q0
+
+
 
 FUNCTION hb_Main()
    
