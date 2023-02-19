@@ -114,10 +114,16 @@
 1. [How to change my error controller](./errorControl01/main.prg)
 1. [How to create error control standard](./errorControl02/main.prg)
 
+### Macro
+
+1. [How to expand code with macro](./macro/main.prg)
+
+
 ### Run time system
 
 1. [How to execute a code inside variable](./compileFromBuff01/main.prg)
 1. [How to execute a code inside external file](./compileBuff01/main.prg)
+1. [How to load and execute a code inside hrb file](./hrb/)
 
 ### OOP
 
@@ -256,6 +262,7 @@
 1. [How to get a environment variable value](./getenv/main.prg)
 1. [How to set a environment variable value](./setenv/main.prg)
 
+
 ### Hardware
 
 1. [How to detect Discs (HD,SSD,USB)](./USBIdentify/main.prg)
@@ -282,8 +289,11 @@
 1. [How to create  low level file (Reead only)](./lowlevel02/main.prg)
 1. [How to create  low level file (Hidden)](./lowlevel03/main.prg)
 1. [How to generate log](./log/main.prg)
-1. [How to iterate in text file](./FUse/main.prg)
 1. [How to copy file to another using FCopy](./fcopy/main.prg) -- Has bug (3 bytes difference)
+
+### FUSE functions
+
+1. [How to iterate in text file](./FUse/main.prg)
 
 ### Directory functions
 
@@ -296,7 +306,7 @@
 1. [How to extract informations about Path, Name and Extension from a string contain full filename](./file/main.prg)
 1. [How to extract informations about Path, Name and Extension from a string contain full filename (II)](./file2/main.prg)
 1. [How to merge strings to create a full filename](./file3/main.prg)
-1. [How to save a file after changeit](./rtf/main.prg)
+1. [How to iterate in text file (Method II)](./readfile/main.prg)
 
 ### Erasing files
 
@@ -323,6 +333,10 @@
 
 1. [How to create PDF file (legacy mode)](./relpdf_legacy/)
 
+### RTF Files
+
+1. [How to create a RTF file from template (search and replace simple mode](./rtf/main.prg)
+1. [How to create a RTF file from text file (using class)](./rtf02/main.prg)
 
 ### XML Files
 
@@ -352,6 +366,11 @@
 1. [How to download web content](./WinDownload/main.prg)
 1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
+
+### DLL
+
+1. [How to call a DLL](./DLL01/main.prg)
+1. [How to call a DLL (II)](./DLL02/main.prg)
 
 ### WIN Printers  (Windows only)
 
