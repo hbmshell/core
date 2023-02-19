@@ -144,6 +144,8 @@
 1. [How to create a logical AND between decimals values](./bitAnd/main.prg)
 1. [How to create a logical OR between decimals values](./bitOr/main.prg)
 1. [How to create a logical XOR between decimals values](./bitXOR/main.prg)
+1. [How to get a bitwise NOT with variable decimals](./bitNot/main.prg)
+1. [Returns the logical value indicating whether bit nBit is at 1.](./bitTest/main.prg)
 
 ## 📟 TUI
 
