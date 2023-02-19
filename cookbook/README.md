@@ -32,6 +32,10 @@
 1. [How to search and replace word inside a string](./rtf/main.prg)
 1. [How to search and replace all caracters at right of string](./replright/main.prg)
 
+### Time
+
+1. [How to calculete difference between two moments in time](./elaptime/main.prg)
+
 ### Comments
 
 1. [How to comment your code](./comment/main.prg)
@@ -445,6 +449,7 @@
 
 1. [How to generate credit card payment installments](./parcelas/main.prg)
 1. [How to generate plots without float point](./plots/main.prg)
+1. [how to convert a value into cash (bill and coins)](./troco/main.prg)
 
 
 ### Integration
