@@ -1,0 +1,6 @@
+
+PROCEDURE MAIN
+
+    ? Time()
+    
+RETURN

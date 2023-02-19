@@ -32,9 +32,11 @@
 1. [How to search and replace word inside a string](./rtf/main.prg)
 1. [How to search and replace all caracters at right of string](./replright/main.prg)
 
-### Time
+### Date and Time
 
 1. [How to calculete difference between two moments in time](./elaptime/main.prg)
+1. [How to get actual hour, minutes and seconds](./time/main.prg)
+1. [How to calculate an age in years, months and days](./age/main.prg)
 
 ### Comments
 
@@ -320,6 +322,11 @@
 ### PDF Files
 
 1. [How to create PDF file (legacy mode)](./relpdf_legacy/)
+
+
+### XML Files
+
+1. [How to convert XML file to equivalent in Hash](./xml/main.prg)
 
 ### ZIP Files (and others compress format)
 
