@@ -41,6 +41,7 @@
 ### Comments
 
 1. [How to comment your code](./comment/main.prg)
+1. [How to comment your code (Dbase legady)](./comment02/main.prg)
 
 ### Arrays
 
@@ -225,8 +226,8 @@
 1. [Dbedit 6 - Exit dbedit in user defined function](./dbedit06/main.prg)
 1. [Dbedit 7 - CASE structure inside user defined function](./dbedit07/main.prg)
 1. [Dbedit 8 - Empty file exception in user defined function](./dbedit08/main.prg)
-1. [Dbedit 9 - Update and Delete file implemented inside UDF](./dbedit09/main.prg)
-1. [Dbedit 10 - Insert (Append) register implemented inside UDF](./dbedit10/main.prg)
+1. [Dbedit 9 - Update and Delete file - implemented inside UDF](./dbedit09/main.prg)
+1. [Dbedit 10 - Insert (Append) new register - implemented inside UDF](./dbedit10/main.prg)
 
 
 ### TBrowseNew
