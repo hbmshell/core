@@ -217,16 +217,16 @@
 
 ### DBEdit (Step by step)
 
-1. [Dbedit 1](./dbedit01/main.prg)
-1. [Dbedit 2](./dbedit02/main.prg)
-1. [Dbedit 3](./dbedit03/main.prg)
-1. [Dbedit 4](./dbedit04/main.prg)
-1. [Dbedit 5](./dbedit05/main.prg)
-1. [Dbedit 6](./dbedit06/main.prg)
-1. [Dbedit 7](./dbedit07/main.prg)
-1. [Dbedit 8](./dbedit08/main.prg)
-1. [Dbedit 9](./dbedit09/main.prg)
-1. [Dbedit 10](./dbedit10/main.prg)
+1. [Dbedit 1 - Basic](./dbedit01/main.prg)
+1. [Dbedit 2 - Coordinates](./dbedit02/main.prg)
+1. [Dbedit 3 - Two fields only](./dbedit03/main.prg)
+1. [Dbedit 4 - Pictures](./dbedit04/main.prg)
+1. [Dbedit 5 - Basic user defined function](./dbedit05/main.prg)
+1. [Dbedit 6 - Exit dbedit in user defined function](./dbedit06/main.prg)
+1. [Dbedit 7 - CASE structure inside user defined function](./dbedit07/main.prg)
+1. [Dbedit 8 - Empty file exception in user defined function](./dbedit08/main.prg)
+1. [Dbedit 9 - Update and Delete file implemented inside UDF](./dbedit09/main.prg)
+1. [Dbedit 10 - Insert (Append) register implemented inside UDF](./dbedit10/main.prg)
 
 
 ### TBrowseNew

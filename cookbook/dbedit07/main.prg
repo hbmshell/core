@@ -12,8 +12,8 @@ PROCEDURE Main
     
 RETURN
 /*********************/
-#include "inkey.ch"
-#include "dbedit.ch"
+//#include "inkey.ch"
+//#include "dbedit.ch"
 FUNCTION MinhaFuncaoModo( nModo )
 
     LOCAL nRetorno := DE_CONT
