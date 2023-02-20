@@ -215,6 +215,20 @@
 1. [How create a simple browse](./browse01/main.prg)
 1. [How create a simple browse with coordinates](./browse02/main.prg)
 
+### DBEdit (Step by step)
+
+1. [Dbedit 1](./dbedit01/main.prg)
+1. [Dbedit 2](./dbedit02/main.prg)
+1. [Dbedit 3](./dbedit03/main.prg)
+1. [Dbedit 4](./dbedit04/main.prg)
+1. [Dbedit 5](./dbedit05/main.prg)
+1. [Dbedit 6](./dbedit06/main.prg)
+1. [Dbedit 7](./dbedit07/main.prg)
+1. [Dbedit 8](./dbedit08/main.prg)
+1. [Dbedit 9](./dbedit09/main.prg)
+1. [Dbedit 10](./dbedit10/main.prg)
+
+
 ### TBrowseNew
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
