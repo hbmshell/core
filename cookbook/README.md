@@ -142,6 +142,7 @@
 1. [How to negate specific word in regex](./regexp_DENYLIST/main.prg)
 1. [How to find one or more characters regardless of the previous character](./regexp_Optional/main.prg)
 1. [How to find one or more characters that can appear in any quantity](./regexp_AnyQuant/main.prg)
+1. [How to get content inner tags](./innertags/main.prg)
 
 ### Codepage
 
