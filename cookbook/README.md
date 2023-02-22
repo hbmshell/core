@@ -241,6 +241,7 @@
 ### Code bars
 
 1. [How to create QRCode](./QRCode/main.prg)
+1. [How to create many Barcodes (QRCode, EAN13, etc.) and print to PDF](./BARCode/main.prg)
 
 ## 📖 Database
 
@@ -391,7 +392,6 @@
 ### WIN Printers  (Windows only)
 
 1. [How to list printers](./WinListPrinters/main.prg)
-1. [How to send text using raw protocol](./WinPrinter/main.prg)
 1. [How to print using win32 functions](./WinPrn32/main.prg)
 
 ### OLE 
