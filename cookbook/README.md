@@ -436,6 +436,7 @@
 1. [How to create a getfile window](./HMGGetFile/main.prg)
 1. [How to create a webview (IE Explorer Control)](./HMGWebView/main.prg)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX02/main.prg)
+    ![](./HMG_ActiveX02/main.gif)
 1. [How to create a grid with pictures in buttons](./HMG_GridButtons/main.prg)
 1. [How to insert a resource in program](./HMG_Resource/Main.Prg) ---- Bug
 1. [How to create a Hyperlink](./HMG_HyperLink/main.prg) ----- Bug
