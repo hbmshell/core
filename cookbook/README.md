@@ -499,7 +499,7 @@
 ### Integration
 
 1. [How to send string from SSH Server to Putty client](./putty/main.prg)
-1. [How to copy to worksheet format (see .sh or .bat file too)](./CopyFromClipBoardToSheetFormat/)
+1. [How to copy to clipboard (example with google worksheet format) (see .sh or .bat file too)](./CopyFromClipBoardToSheetFormat/)
 
 
 ### Brazilian documents
