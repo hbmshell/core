@@ -1,4 +1,3 @@
-/* #include "hbclass.ch" */
 /*
 WITH OBJECT
 -----------
@@ -32,6 +31,7 @@ for example:
        is not a value of type object.
 
 */
+#include "hbclass.ch" 
 PROCEDURE MAIN
 
 	

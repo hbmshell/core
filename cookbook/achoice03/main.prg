@@ -1,7 +1,7 @@
 // Released to Public Domain.
 
-//#include "achoice.ch"
-//#include "inkey.ch"
+#include "achoice.ch"
+#include "inkey.ch"
 
 PROCEDURE Main()
 

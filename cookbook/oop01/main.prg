@@ -1,4 +1,5 @@
-/* #include "hbclass.ch" */
+
+#include 'hbclass.ch' 
 
 PROCEDURE MAIN
 

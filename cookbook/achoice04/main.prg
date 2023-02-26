@@ -9,8 +9,8 @@
  * Menu Navigation - <Right> and <Left> arrow keys, <Esc> to exit
  * After some <Right> or <Left> arrow preses
  */
-//#include "inkey.ch"
-//#include "achoice.ch"
+#include "inkey.ch"
+#include "achoice.ch"
 
 MEMVAR p_lHiLiTest
 

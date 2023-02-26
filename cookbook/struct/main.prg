@@ -1,4 +1,4 @@
-
+#include "dbstruct.ch"
 PROCEDURE Hbm_Gen( ... )
 
     LOCAL field

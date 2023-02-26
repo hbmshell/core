@@ -6,12 +6,6 @@
 * JANIS PETERS GRANTS                                                        *
 ******************************************************************************
 
-*
-* # include "SET.CH"
-* # include "INKEY.CH"
-* # include "FILEIO.CH"
-*
-
 FUNCTION Main()
    *
    SETCANCEL(.F.)          && CANCELA  - PROTECAO DE ARQUIVOS
@@ -130,12 +124,11 @@ STATIC PROCEDURE Tela()
 * Criado por JANIS PETERS GRANTS em June 28, 2004
 *
 SETCOLOR(cCor1)
-@ 09,28 SAY "ษอออออออออออออออออออออป"
-@ 10,28 SAY "บ ฺฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฟ บ"
-@ 11,28 SAY "บ ณLogin ณ1234567890ณ บ"
-@ 12,28 SAY "บ ภฤฤฤฤฤฤมฤฤฤฤฤฤฤฤฤฤู บ"
-@ 13,28 SAY "บ  Senha |1234567890| บ"
-@ 14,28 SAY "ศอออออออออออออออออออออผ"
+@ 09,28 TO 14,50 
+@ 10,29 SAY "                     "
+@ 11,29 SAY "  Login :            "
+@ 12,29 SAY "                     "
+@ 13,29 SAY "  Senha :            "
 SETCOLOR(cCor0)
 RETURN
 ***
