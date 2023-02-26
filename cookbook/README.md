@@ -468,7 +468,8 @@
     ![](./HMG_Grid01/main.gif)
 1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/)\
     ![](./HMG_Grid02/main.gif)
-1. [How to create a simple form](./HMG_Form/)
+1. [How to create a simple form](./HMG_Form/)\
+    ![](./HMG_Form/main.png)
 1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/)
 1. [How to create a Internet Explorer instance from ActiveX Control](./HMG_ActiveX01/)
 1. [How to load all windows in memory III](./HMGNOAutoRelease03/main.prg)
