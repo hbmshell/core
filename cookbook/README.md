@@ -464,9 +464,9 @@
   ![](./HMGLogin/main.png)
 1. [How to create a simple menu](./HMGMenu/)\
     ![](./HMGMenu/main.gif)
-1. [How to create a Grid and Button](./HMG_Grid01/)
+1. [How to create a Grid and Button](./HMG_Grid01/)\
     ![](./HMG_Grid01/main.gif)
-1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/)
+1. [How to associate an action a Button and send result to Grid](./HMG_Grid02/)\
     ![](./HMG_Grid02/main.gif)
 1. [How to create a simple form](./HMG_Form/)
 1. [How to open form from grid after double click in cell](./HMG_GridOpenForm/)
