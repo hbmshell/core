@@ -459,6 +459,7 @@
 #### HMG - With IDE  (Windows only)
 
 1. [How to create a simple program in HMG](./HMGHelloIDE/)
+  ![](./HMGHelloIDE/main.png)
 1. [How to create a login screen](./HMGLogin/)
 1. [How to create a simple menu](./HMGMenu/)
 1. [How to create a Grid and Button](./HMG_Grid01/)
