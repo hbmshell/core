@@ -21,5 +21,10 @@ Objectives :
 1. Add interpreter's folder in O.S. path.
 1. Test cookbook examples : [click here](./cookbook/README.md)
 
+## Thanks
 
+1. [PC Toledo](www.pctoledo.com.br/forum) 
+1. [Harbour Users](https://groups.google.com/g/harbour-users)
+1. [HMG Forum](http://hmgforum.com)
+1. [Alexander Kresin software](https://www.kresin.ru/en/hrbfaq.html)
 
