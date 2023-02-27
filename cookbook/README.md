@@ -136,6 +136,7 @@
 
 1. [How to create a simple class](./oop01/main.prg)
 1. [How to use WITH OBJECT statement in a object](./oop02/main.prg)
+1. [How to use WITH OBJECT statement in a TBrowse object](./with/main.prg)
 
 ### Pointer
 
@@ -157,6 +158,7 @@
 
 ### Routines (Procedures or Functions)
 
+1. [How to call a procedure (Dbase legacy)](./do/main.prg)
 1. [How to get routine name](./Procname/main.prg)
 
 ### Bit manipulation
