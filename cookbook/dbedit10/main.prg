@@ -1,3 +1,6 @@
+#include "inkey.ch"
+#include "dbedit.ch"
+#include "setcurs.ch"
 STATIC aCab, aPict, aField
 STATIC nCol, nRow
 PROCEDURE Main

@@ -1,3 +1,6 @@
+
+#include "inkey.ch"
+#include "dbedit.ch"
 PROCEDURE Main
 
     LOCAL aCab := { "NOME" , "PESO"  }
