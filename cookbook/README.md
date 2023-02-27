@@ -168,6 +168,7 @@
 1. [Accept command (to string variable)](./accept/main.prg)
 1. [Input command (to numeric variable)](./input/main.prg)
 1. [How to draw a rectangle with @ BOX command](./arrobaBox/main.prg)
+1. [Simple main screen](./command/main.prg)
 
 ### Achoice
 
