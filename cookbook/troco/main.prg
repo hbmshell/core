@@ -7,7 +7,7 @@ PROCEDURE Main
    INPUT "Insert value : " TO nValor
 
    FOR EACH nItem IN Troco( nValor )
-      ? Str( nItem[ 1 ], 2 ) + " " + iif( nItem[ 1 ] < 2, "coin(s)", "bill(s)" ) + " of " + Str( nItem[ 2 ] )
+      ? Str( nItem[ 1 ], 2 ) + " " + iif( nItem[ 2 ] < 2, "coin(s)", "bill(s)" ) + " of " + Str( nItem[ 2 ] )
    NEXT
    Inkey(0)
 
