@@ -39,6 +39,8 @@
 1. [How to calculete difference between two moments in time](./elaptime/main.prg)
 1. [How to get actual hour, minutes and seconds](./time/main.prg)
 1. [How to calculate an age in years, months and days](./age/main.prg)
+1. [How to get a seconds after midnight](./seconds/main.prg)
+1. [How to get a miliseconds after midnight](./miliseconds/main.prg)
 
 ### Comments
 
