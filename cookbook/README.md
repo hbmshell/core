@@ -161,6 +161,12 @@
 1. [How to get a bitwise NOT with variable decimals](./bitNot/main.prg)
 1. [Returns the logical value indicating whether bit nBit is at 1.](./bitTest/main.prg)
 
+### Others
+
+1. [How to get compile information](./compInfo/main.prg)
+1. [How to call a function every "n" seconds](./timer/main.prg)
+1. [How to call a function at a certain time](./alarm/main.prg)
+
 ## 📟 TUI
 
 ### Basic 
@@ -237,6 +243,12 @@
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
 1. [How to browse an array using TBrowse](./arrayTBrw/main.prg)
+
+
+### Others
+
+1. [How to display a real time clock in screen](./realTime/main.prg)
+
 
 ## 🎨 Images
 
@@ -346,6 +358,7 @@
 
 1. [How to import CSV File to array](./csv01/main.prg)
 1. [How to import CSV File to array and display fields one by one](./csv02/main.prg)
+1. [How to import CSV File to DBF](./appendFrom/main.prg)
 
 
 ### PDF Files
@@ -385,6 +398,7 @@
 1. [How to download web content](./WinDownload/main.prg)
 1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
+1. [How to play sound](./WinPlaySound/main.prg)
 
 ### DLL
 

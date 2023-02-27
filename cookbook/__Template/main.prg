@@ -4,24 +4,10 @@ Description
 -----------
 
 
+To build
+--------
 
-Platform
----------
-
-[ ] Windows
-[ ] Linux
-
-Build
------
-
-[ ] hbmscript
-[ ] hbmdialog
-[ ] hbmgui
-[ ] hbmhmg
-[ ] hbmhwgui
-
-hbmk2
------
+hbmk2 main.prg 
 
 */
 PROCEDURE Main

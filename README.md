@@ -30,6 +30,7 @@ Objectives :
 1. [Alexander Kresin software](https://www.kresin.ru/en/hrbfaq.html)
 1. [Bicahi Esgici - RIP](https://vivaclipper.wordpress.com/)
 1. [Giovanni Di Maria](http://www.elektrosoft.it/tutorials/harbour-how-to/harbour-how-to.asp)
+1. [Petewg and Rafał Jopek](https://github.com/Petewg/harbour-list)
 
 Over the years I have collected many examples and code. 
 Unfortunately, I don't have the names of all the people who helped me without knowing it.
