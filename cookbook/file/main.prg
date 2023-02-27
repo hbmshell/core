@@ -8,6 +8,7 @@ PROCEDURE Main
       ? "Path : " ,  HB_FNameDir( cFile )
       ? "Extension : " , HB_FNameExt( cFile )
       ? "Single name : " , HB_FNameName( cFile )
+      ? "Name + extension : " , HB_FNameNameExt( cFile )
 
  
 

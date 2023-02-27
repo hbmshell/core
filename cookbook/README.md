@@ -22,6 +22,8 @@
 1. [How to convert a number to string](./convert02/main.prg)
 1. [How to place leading zeros in a string with numerical values](./convert03/main.prg)
 1. [How to convert a date to string](./convert04/main.prg)
+1. [How to convert any value to string](./convert05/main.prg)
+1. [How to convert a number value to string (C Format like a printf)](./convert06/main.prg)
 
 ### Strings
 
@@ -173,6 +175,10 @@
 1. [How to create a logical XOR between decimals values](./bitXOR/main.prg)
 1. [How to get a bitwise NOT with variable decimals](./bitNot/main.prg)
 1. [Returns the logical value indicating whether bit nBit is at 1.](./bitTest/main.prg)
+
+### Codepage
+
+1. [How to check if string passed is utf8 string](./utf8_01/main.prg)
 
 ### Others
 
@@ -351,6 +357,8 @@
 1. [How to extract informations about Path, Name and Extension from a string contain full filename (II)](./file2/main.prg)
 1. [How to merge strings to create a full filename](./file3/main.prg)
 1. [How to iterate in text file (Method II)](./readfile/main.prg)
+1. [How to sets a new extension of a file](./setext/main.prg)
+1. [How to sets a new extension of a file in case if it is absent](./setextdef/main.prg)
 
 ### Erasing files
 

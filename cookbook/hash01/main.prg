@@ -1,4 +1,4 @@
-// Shebang line
+// https://www.kresin.ru/en/hrbfaq_3.html#Doc8
 /**
 Description
 -----------
