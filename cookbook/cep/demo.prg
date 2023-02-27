@@ -1,4 +1,4 @@
-
+#include "hbclass.ch"
 
 
 FUNCTION hb_Main()
