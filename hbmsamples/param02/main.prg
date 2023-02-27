@@ -18,8 +18,8 @@ PROCEDURE Hbm_main( ... )
     LOCAL hParams , aData, cPrintParams, cListErrors 
     LOCAL aPipe, x 
 
-    SHELL ADD PARAM "--first" TITLE "First" REQUIRE VALUE 
-    SHELL ADD PARAM "--second" TITLE "Second" REQUIRE VALUE 
+    SHELL ADD PARAM "--first" TITLE "First" MANDATORY REQUIRE VALUE 
+    SHELL ADD PARAM "--second" TITLE "Second" MANDATORY REQUIRE VALUE 
     IF hb_PValue(1) == "--help"
         Hbm_Help( cPrintParams , cListErrors )
     ENDIF
