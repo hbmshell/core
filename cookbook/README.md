@@ -62,14 +62,16 @@
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to delete array element](./adel/main.prg)
 
-### Hashs
+### Hashs (associative arrays)
 
+1. [How to create a hash](./hash01/main.prg)
+1. [How to create a hash (method 2: by function)](./hash02/main.prg)
 1. [How to search content in hash (like a Ascan)](./hscan/main.prg)
 
 ### Codeblock
 
 1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime.](./bloco01/main.prg)
-1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime (Part II).](./bloco02/main.prg)
+1. [Did you know that an element inside a codeblock is created in compiled time, but is avaliated only in runtime (II).](./bloco02/main.prg)
 1. [How to create a extended codeblock.](./bloco03/main.prg)
 1. [Whats difference between standard codeblock and extended codeblock.](./bloco04/main.prg)
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
