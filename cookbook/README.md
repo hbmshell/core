@@ -77,11 +77,17 @@
 
 ### Conditional
 
+#### IF
+
 1. [How to create a simple IF](./if01/main.prg)
 1. [How to create a simple IF / ELSE](./if02/main.prg)
 1. [How to create nested IF](./if03/main.prg)
 1. [How to create many IFs in same level](./if04/main.prg)
 1. [How to create a CASE statement (many IFs)](./if05/main.prg)
+
+#### Switch
+
+1. [How to create a simple SWITCH](./switch01/main.prg)
 
 ### Loops
 
