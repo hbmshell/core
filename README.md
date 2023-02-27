@@ -23,8 +23,27 @@ Objectives :
 
 ## Thanks
 
-1. [PC Toledo](www.pctoledo.com.br/forum) 
+1. [Harbour team](https://github.com/harbour/core)
+1. [PC Toledo](http://www.pctoledo.com.br/forum) 
 1. [Harbour Users](https://groups.google.com/g/harbour-users)
 1. [HMG Forum](http://hmgforum.com)
 1. [Alexander Kresin software](https://www.kresin.ru/en/hrbfaq.html)
+1. [Bicahi Esgici - RIP](https://vivaclipper.wordpress.com/)
+1. [Giovanni Di Maria](http://www.elektrosoft.it/tutorials/harbour-how-to/harbour-how-to.asp)
 
+Over the years I have collected many examples and code. 
+Unfortunately, I don't have the names of all the people who helped me without knowing it.
+
+However, some names I know by heart:
+
+* Paulo Cesar Toledo
+* Antonio Linares
+* Viktor Szakáts
+* Przemyslaw Czerpak
+* Alexander Kresin
+* Bicahi Esgici
+* Giovanni Di Maria
+* Roberto Lopez
+* Dr. Claudio Soto
+
+And hundreds of others over those 30 years.
