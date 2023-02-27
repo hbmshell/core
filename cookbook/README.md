@@ -158,8 +158,11 @@
 
 ### Routines (Procedures or Functions)
 
-1. [How to call a procedure (Dbase legacy)](./do/main.prg)
 1. [How to get routine name](./Procname/main.prg)
+
+#### Procedure
+
+1. [How to call a procedure](./do/main.prg)
 
 ### Bit manipulation
 
