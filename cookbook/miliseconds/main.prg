@@ -1,4 +1,4 @@
-// Shebang line
+// http://www.pctoledo.com.br/forum/viewtopic.php?f=1&t=5769
 /**
 Description
 -----------
