@@ -39,13 +39,13 @@
 1. [How to calculete difference between two moments in time](./elaptime/main.prg)
 1. [How to get actual hour, minutes and seconds](./time/main.prg)
 1. [How to calculate an age in years, months and days](./age/main.prg)
-1. [How to get a seconds after midnight](./seconds/main.prg)
-1. [How to get a miliseconds after midnight](./miliseconds/main.prg)
+1. [How to get a seconds elapsed between two instants](./seconds/main.prg)
+1. [How to get a miliseconds elapsed between two instants](./miliseconds/main.prg)
 
 ### Comments
 
 1. [How to comment your code](./comment/main.prg)
-1. [How to comment your code (Dbase legady)](./comment02/main.prg)
+1. [How to comment your code (Dbase legacy)](./comment02/main.prg)
 
 ### Arrays
 
@@ -445,6 +445,12 @@
 1. [DBF to Excel (How to autofit)](./WinExcel6/main.prg)
 1. [DBF to Excel (How to autofit) + Bold](./WinExcel7/main.prg)
 1. [How to use a Template to my sheets](./WinExcel8/main.prg)
+
+### GTWVG
+
+1. [First window](./wvg01/main.prg)
+1. [Hello Word](./wvg02/main.prg)
+1. [Form with clipper get](./wvg03/main.prg)
 
 ### HMG
 
