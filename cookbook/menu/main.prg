@@ -1,4 +1,5 @@
-
+#include "button.ch"
+#include "inkey.ch"
 PROCEDURE  hb_Main(...)
 
     LOCAL oMainMenu  
