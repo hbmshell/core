@@ -22,7 +22,7 @@ PROCEDURE Main
     DBCREATE("videolib", aDbf)
     use videolib 
     Append From movies.txt delimited
-    
+    go top
     Browse(10,5,50,70)
 
 RETURN

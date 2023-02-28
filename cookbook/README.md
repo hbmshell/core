@@ -65,6 +65,7 @@
 1. [How to use change array size](./array14/main.prg)
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to delete array element](./adel/main.prg)
+1. [How to insert array element](./ains/main.prg)
 
 ### Hashs (associative arrays)
 
@@ -165,6 +166,7 @@
 ### Routines (Procedures or Functions)
 
 1. [How to get routine name](./Procname/main.prg)
+1. [How to get parameters passed in command line](./acmdline/main.prg)
 
 #### Procedure
 
@@ -196,6 +198,7 @@
 1. [Input command (to numeric variable)](./input/main.prg)
 1. [How to draw a rectangle with @ BOX command](./arrobaBox/main.prg)
 1. [Simple main screen](./command/main.prg)
+1. [Simple message box](./alert/main.prg)
 
 ### Achoice
 
