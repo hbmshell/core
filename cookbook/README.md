@@ -167,6 +167,7 @@
 
 1. [How to get routine name](./Procname/main.prg)
 1. [How to get parameters passed in command line](./acmdline/main.prg)
+1. [How to pass unlimited parameters to routine](./params/main.prg)
 
 #### Procedure
 
