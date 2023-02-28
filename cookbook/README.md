@@ -168,6 +168,9 @@
 1. [How to get routine name](./Procname/main.prg)
 1. [How to get parameters passed in command line](./acmdline/main.prg)
 1. [How to pass unlimited parameters to routine](./params/main.prg)
+1. [How to attrib default value to parameter (hb_Default)](./default/main.prg)
+1. [How to attrib default value to parameter II (hb_DefaultValue)](./default2/main.prg)
+1. [How to attrib default value to parameter III (Clipper Legacy)](./default3/main.prg)
 
 #### Procedure
 
