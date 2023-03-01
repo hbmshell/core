@@ -89,6 +89,7 @@
 1. [How to convert string delimited in a array](./explode/main.prg)
 1. [How to delete array element](./adel/main.prg)
 1. [How to insert array element](./ains/main.prg)
+1. [How to save/restore arrays to/from disk](./arraymem/main.prg)
 
 ### Hashs (associative arrays)
 
@@ -180,6 +181,7 @@
 1. [How to find one or more characters regardless of the previous character](./regexp_Optional/main.prg)
 1. [How to find one or more characters that can appear in any quantity](./regexp_AnyQuant/main.prg)
 1. [How to get content inner tags](./innertags/main.prg)
+1. [How to valid e-mail address](./regex_Email/main.prg)
 
 ### Codepage
 

@@ -1,2 +1,2 @@
 
-hbmdialog main.prg --pause-after 
+hbmdialog main.prg --pause-after --codepage PT850
