@@ -3,6 +3,8 @@
     Based on Fernando sample at http://www.pctoledo.com.br/forum/viewtopic.php?p=90975#p90975
 	By: Pablo César Arrascaeta - Semptember 27th, 2014
 */
+// Generate :
+// hbmk2 main -Ic:\harbour\contrib\hbhpdf hbhpdf.hbc 
 #include <harupdf.ch>
 
 #xcommand TRY              => bError := errorBlock( {|oErr| break( oErr ) } ) ;;
