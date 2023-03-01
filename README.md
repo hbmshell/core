@@ -54,4 +54,10 @@ And hundreds of others over those 30 years.
 * [TDN](https://tdn.totvs.com/display/public/framework/SDK+Microsiga+Protheus)
 * [Linguagem Clipper](https://linguagemclipper.com.br/)
 * [Harbour reference](https://harbour.github.io/doc/harbour.html)
+* [HBCT Lib](https://harbour.github.io/doc/hbct.html)
+* [HBNF Lib](https://harbour.github.io/doc/hbnf.html)
+* [HMG Lights](https://www.youtube.com/user/hmglights)
+* [Fivewin Brasil](http://fivewin.com.br/)
+* [Grupo facebook Brasil](https://www.facebook.com/groups/459684654564715/)
+* [Wikipedia Clipper - Lingua portuguesa](https://pt.wikipedia.org/wiki/Clipper_(linguagem_de_programa%C3%A7%C3%A3o))
 
