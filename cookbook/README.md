@@ -416,7 +416,8 @@
 
 ### PDF Files
 
-1. [How to create PDF file (legacy mode)](./relpdf_legacy/)
+1. [How to create PDF file from txt report (legacy mode)](./relpdf_legacy/)
+1. [How to create PDF file from txt report (harupdf)](./relpdf_haru/)
 
 ### RTF Files
 
@@ -481,6 +482,10 @@
 1. [First window](./wvg01/main.prg)
 1. [Hello Word](./wvg02/main.prg)
 1. [Form with clipper get](./wvg03/main.prg)
+
+### GTWVT
+
+1. [How to change windows to full screen mode (or widescreen)](./wvtscreen/main.prg)
 
 ### HMG
 
