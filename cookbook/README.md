@@ -560,10 +560,11 @@
 1. [How to copy to clipboard (example with google worksheet format) (see .sh or .bat file too)](./CopyFromClipBoardToSheetFormat/)
 
 
-### Brazilian documents
+### Brazilian documents and routines
 
 1. [Como validar um titulo de eleitor](./TituloEleitor/main.prg)
 1. [Como consultar o CEP on-line](./cep/demo.prg)
+1. [Como obter o valor extenso de um número](./extenso/main.prg)
 
 
 ## Examples
