@@ -24,6 +24,7 @@
 1. [How to convert a date to string](./convert04/main.prg)
 1. [How to convert any value to string](./convert05/main.prg)
 1. [How to convert a number value to string (C Format like a printf)](./convert06/main.prg)
+1. [How to convert a number value to string (Without spaces around number)](./hb_ntos/main.prg)
 
 ### Strings
 
@@ -41,6 +42,7 @@
 1. [How to calculate an age in years, months and days](./age/main.prg)
 1. [How to get a seconds elapsed between two instants](./seconds/main.prg)
 1. [How to get a miliseconds elapsed between two instants](./miliseconds/main.prg)
+1. [How to get a week number of year](./hb_week/main.prg)
 
 ### Comments
 
