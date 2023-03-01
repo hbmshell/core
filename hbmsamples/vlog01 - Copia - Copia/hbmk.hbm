@@ -1,0 +1,9 @@
+
+-I${SISTEMAS_PATH_TO_INCLUDE}
+-L${SISTEMAS_PATH_TO_LIB}
+
+-lvbase
+-lfcore
+
+
+
