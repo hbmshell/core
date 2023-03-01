@@ -4,9 +4,8 @@
  *
  */
 
-//#require "hbzebra"
-//#require "hbhpdf"
 
+#include "harupdf.ch"
 PROCEDURE Main()
 
    LOCAL pdf
