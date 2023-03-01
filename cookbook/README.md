@@ -20,11 +20,16 @@
 
 1. [How to convert a string to number](./convert01/main.prg)
 1. [How to convert a number to string](./convert02/main.prg)
-1. [How to place leading zeros in a string with numerical values](./convert03/main.prg)
+1. [How to convert a number to string and place leading zeros](./convert03/main.prg)
 1. [How to convert a date to string](./convert04/main.prg)
 1. [How to convert any value to string](./convert05/main.prg)
 1. [How to convert a number value to string (C Format like a printf)](./convert06/main.prg)
 1. [How to convert a number value to string (Without spaces around number)](./hb_ntos/main.prg)
+
+### Numeric
+
+1. [How to rounds up a number to the next integer](./ceiling/main.prg)
+1. [How to rounds down a number to the next integer](./floor/main.prg)
 
 ### Strings
 
@@ -43,6 +48,22 @@
 1. [How to get a seconds elapsed between two instants](./seconds/main.prg)
 1. [How to get a miliseconds elapsed between two instants](./miliseconds/main.prg)
 1. [How to get a week number of year](./hb_week/main.prg)
+1. [How to add days a date](./addDays/main.prg)
+1. [How to add months a date](./addMonths/main.prg)
+1. [How to get begin of month](./bom/main.prg)
+1. [How to get end of month](./eom/main.prg)
+1. [How to get begin of quater](./boq/main.prg)
+1. [How to get end of quater](./eoq/main.prg)
+1. [How to get begin of year](./boy/main.prg)
+1. [How to get end of year](./eoy/main.prg)
+1. [Returns the date as a string in DD Month YY format](./dmy/main.prg)
+1. [Determines the day of the year for a specific date](./doy/main.prg)
+1. [How to determines of year of date is a leap year](./leap/main.prg)
+1. [How to determines the number of days in the month.](./lastdayom/main.prg)
+1. [Returns the date as a string in Month DD, YY or Month DD, YYYY](./mdy/main.prg)
+1. [Returns a number equal to the quarter in which a date falls](./quarter/main.prg)
+1. [Determines whether a specified time is valid](./timevalid/main.prg)
+1. [How to iterate during N/100 seconds (after this exit loop)](./waitperiod/main.prg)
 
 ### Comments
 
