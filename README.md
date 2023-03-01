@@ -53,4 +53,5 @@ And hundreds of others over those 30 years.
 * [xHarbour group](https://groups.google.com/g/comp.lang.xharbour)
 * [TDN](https://tdn.totvs.com/display/public/framework/SDK+Microsiga+Protheus)
 * [Linguagem Clipper](https://linguagemclipper.com.br/)
+* [Harbour reference](https://harbour.github.io/doc/harbour.html)
 
