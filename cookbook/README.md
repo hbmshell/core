@@ -603,10 +603,27 @@
 
 ## Math
 
+### Temperature
+
 1. [Temperature conversion Fahrenheit to Celsius](./celsius/main.prg)
 1. [Temperature conversion Celsius to Fahrenheit](./fahrenheit/main.prg)
+
+### Others 
+
 1. [Returns the largest floating point number available in the system](./infinity/main.prg)
+1. [Numerical value of a character at a certain position](./valpos/main.prg)
+1. [Largest digit of a character in a string](./valpos/main.prg)
+
+### Finance
+
 1. [You get a loan of 5172.56 at a interest rate of 0.5% per month (6% per year). For 5 years, you have to pay back every month](./payment/main.prg)
+1. [You get a loan of 5172.56 at a interest rate of 0.5% per month (6% per year). You can afford to pay 100 back every month, so you need ??? months to cancel the loan.](./periods/main.prg)
+1. [Payment of 1000 per year for 10 years at a interest rate of 5 per cent per year](./fv/main.prg)
+1. [You can afford to pay back 100 Dollars per month for 5 years at a interest rate of 0.5% per month (6% per year), so instead of 6000 Dollars (the amount you will pay back) the bank will pay you](./pv/main.prg)
+1. [You get a loan of 5172.56, pay 100 back every month for 5 years (60 months). The effective interest rate per period (=month) is](./rate/main.prg)
+
+
+
 
 ## Examples
 
