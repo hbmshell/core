@@ -601,6 +601,12 @@
 1. [Como consultar o CEP on-line](./cep/demo.prg)
 1. [Como obter o valor extenso de um número](./extenso/main.prg)
 
+## Math
+
+1. [Temperature conversion Fahrenheit to Celsius](./celsius/main.prg)
+1. [Temperature conversion Celsius to Fahrenheit](./fahrenheit/main.prg)
+1. [Returns the largest floating point number available in the system](./infinity/main.prg)
+1. [You get a loan of 5172.56 at a interest rate of 0.5% per month (6% per year). For 5 years, you have to pay back every month](./payment/main.prg)
 
 ## Examples
 
