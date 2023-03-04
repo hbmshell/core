@@ -3,7 +3,7 @@ FUNCTION Main()
 Local buf, cBuf := "", oErr
  
    cBuf += "Function Olar" + hb_eol()
-   cBuf += "Return 2+2" + hb_eol()
+   cBuf += "Return 2+'as'" + hb_eol()
 
    
    buf := hb_compileFrombuf( cBuf , "/n" )

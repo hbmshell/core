@@ -1,11 +1,14 @@
 
+
 FUNCTION Main()
 Local buf, cBuf := "", oErr
- 
-   cBuf += "Function Olar" + hb_eol()
-   cBuf += "Return 2+2" + hb_eol()
 
-   
+   hb_CdpSelect("UTF8")
+
+   cBuf += "Function Olar" + hb_eol()
+   cBuf += "Return 2+'a'" + hb_eol()
+
+   ? "Before:"
    buf := hb_compileFrombuf( cBuf , "/n" )
  
    ? "Executing:",  hb_HrbRun( buf )   

@@ -213,6 +213,10 @@
 
 1. [How to check if string passed is utf8 string](./utf8_01/main.prg)
 
+### Set
+
+1. [How to see all sets](./sets/main.prg)
+
 ### Others
 
 1. [How to get compile information](./compInfo/main.prg)
@@ -465,6 +469,7 @@
 
 1. [How to list printers](./WinListPrinters/main.prg)
 1. [How to print using win32 functions](./WinPrn32/main.prg)
+1. [How to send report in raw protocol](./printraw/main.prg)
 
 ### OLE 
 
