@@ -5,9 +5,8 @@ Local buf, cBuf := "", oErr
 
    hb_CdpSelect("UTF8")
 
-   cBuf += "Function Olar" + hb_eol()
-   cBuf += "Return 2+'a'" + hb_eol()
-
+   cBuf := hb_Memoread("main2.prg") 
+   ? ProcName()
    ? "Before:"
    buf := hb_compileFrombuf( cBuf , "/n" )
  
@@ -15,11 +14,7 @@ Local buf, cBuf := "", oErr
   
    ?
    ? "------------------------------------------------------------"
-   ? "Function Olar is in memory ? " , Type( "Olar()" )=="UI" // This function doesn't stay in memory
-   ? "Function EuExisto is in memory ? : " , Type( "EuExisto()" )=="UI"
+   ? "Function Main2 is in memory ? " , Type( "Main2()" )=="UI" // This function doesn't stay in memory
    
 Return Nil
 
-function EuExisto
-
-return nil

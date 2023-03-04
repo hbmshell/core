@@ -612,7 +612,7 @@
 
 1. [Returns the largest floating point number available in the system](./infinity/main.prg)
 1. [Numerical value of a character at a certain position](./valpos/main.prg)
-1. [Largest digit of a character in a string](./valpos/main.prg)
+1. [Largest digit inside a string](./valpos/main.prg)   
 
 ### Finance
 
