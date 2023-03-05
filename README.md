@@ -65,4 +65,4 @@ And hundreds of others over those 30 years.
 * [Harbour wiki](https://harbour.wiki/)
 * [x-hacker](http://x-hacker.org/ng/)
 * [Advanced search](https://harbour.wiki/index.asp)
-
+* https://en.wikibooks.org/wiki/Application_Development_with_Harbour/Paradigms
