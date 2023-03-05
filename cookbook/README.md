@@ -40,7 +40,7 @@
 1. [How to search and replace all caracters at right of string](./replright/main.prg)
 1. [How to format a string using %1 ... %9 parameters](./strformat/main.prg) 
 1. [How to format a string like a printf C function](./convert06/main.prg)
-1. Transform
+1. [How to format a string according PICTURE function](./transform/main.prg) -- Tip: See Get/Say commands
 
 ### Date and Time
 
