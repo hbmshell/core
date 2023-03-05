@@ -388,6 +388,8 @@
 ### Directory functions
 
 1. [How to get full PATH where the executable is located](./directory/main.prg)
+1. [How to get current PATH](./hb_cwd/main.prg)
+1. [How to change to other directory](./hb_cwd1/main.prg)
 1. [How to verify if directory exists](./directory2/main.prg)
 1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
 
