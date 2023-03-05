@@ -61,4 +61,7 @@ And hundreds of others over those 30 years.
 * [Grupo facebook Brasil](https://www.facebook.com/groups/459684654564715/)
 * [Wikipedia Clipper - Lingua portuguesa](https://pt.wikipedia.org/wiki/Clipper_(linguagem_de_programa%C3%A7%C3%A3o))
 * [Programando xBase](https://programandoxbase.wordpress.com/)
+* [blog.faq400.com](https://blog.faq400.com/en/03-open-source-en/harbor-first-steps-in-development/)
+* [Harbour wiki](https://harbour.wiki/)
+* [x-hacker](http://x-hacker.org/ng/)
 
