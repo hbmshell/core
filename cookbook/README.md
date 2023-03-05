@@ -23,7 +23,6 @@
 1. [How to convert a number to string and place leading zeros](./convert03/main.prg)
 1. [How to convert a date to string](./convert04/main.prg)
 1. [How to convert any value to string](./convert05/main.prg)
-1. [How to convert a number value to string (C Format like a printf)](./convert06/main.prg)
 1. [How to convert a number value to string (Without spaces around number)](./hb_ntos/main.prg)
 
 ### Numeric
@@ -39,6 +38,9 @@
 1. [How to get caracter 'N' in string delimited by 'K'](./tokenget/main.prg)
 1. [How to search and replace word inside a string](./rtf/main.prg)
 1. [How to search and replace all caracters at right of string](./replright/main.prg)
+1. [How to format a string using %1 ... %9 parameters](./strformat/main.prg) 
+1. [How to format a string like a printf C function](./convert06/main.prg)
+1. Transform
 
 ### Date and Time
 

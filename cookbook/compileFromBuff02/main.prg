@@ -1,12 +1,12 @@
-
-
+//-p
+#include "hbmediator.ch"
 FUNCTION Main()
 Local buf, cBuf := "", oErr
 
    hb_CdpSelect("UTF8")
 
    cBuf := hb_Memoread("main2.prg") 
-   ? ProcName()
+   ? "Teste:------------------> ", 'A'+5
    ? "Before:"
    buf := hb_compileFrombuf( cBuf , "/n" )
  

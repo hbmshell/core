@@ -1,0 +1,6 @@
+
+FUNCTION MAIN
+
+    ? HB_VALTOSTR( 'A' )
+
+RETURN

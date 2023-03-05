@@ -1,0 +1,14 @@
+
+MAIN
+Before:Harbour 3.2.0dev (r2211251714)
+Copyright (c) 1999-2021, https://harbour.github.io/
+Lines 26, Functions/Procedures 2
+
+Harbour 3.2.0dev (r2211251714)
+Copyright (c) 1999-2021, https://harbour.github.io/
+Lines 2, Functions/Procedures 1
+Executing: NIL
+
+------------------------------------------------------------
+Function Main2 is in memory ?  .F.
+VLJ_Download : Not in hbmlite

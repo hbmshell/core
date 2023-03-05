@@ -1,14 +1,18 @@
 
-FUNCTION Main()
-Local buf, cBuf := "", oErr
- 
-   cBuf += "Function Olar" + hb_eol()
-   cBuf += "Return 2+'as'" + hb_eol()
 
+FUNCTION Main2()
+Local buf, cBuf := "", oErr
+
+   hb_CdpSelect("UTF8")
    
+   cBuf += "Function Olar" + hb_eol()
+   cBuf += "Return 2+'A'" + hb_eol()
+   VLJ_OutStd( "Return 2+'a'" )
+   ? Procname()
+   ? "Before:"
    buf := hb_compileFrombuf( cBuf , "/n" )
  
-   ? "Executing:",  hb_HrbRun( buf )   
+   VLJ_OutStd( "Executing:",  hb_HrbRun( buf )  )
   
    ?
    ? "------------------------------------------------------------"
