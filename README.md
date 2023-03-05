@@ -63,5 +63,5 @@ And hundreds of others over those 30 years.
 * [Programando xBase](https://programandoxbase.wordpress.com/)
 * [blog.faq400.com](https://blog.faq400.com/en/03-open-source-en/harbor-first-steps-in-development/)
 * [Harbour wiki](https://harbour.wiki/)
-* 
+* [x-hacker](http://x-hacker.org/ng/)
 
