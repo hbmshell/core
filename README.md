@@ -68,6 +68,7 @@ And hundreds of others over those 30 years.
 * [Clipper solutions](http://www.clippersolutions.com/)
 * [xHarbour](http://www.xharbour.org/)
 * [Harbour Language](http://harbourlanguage.blogspot.com/)
+* [harbour.vouch](https://harbour.vouch.info/)
 
 Portuguese
 
@@ -78,6 +79,12 @@ Portuguese
 * [Grupo facebook Brasil](https://www.facebook.com/groups/459684654564715/)
 * [Wikipedia Clipper - Lingua portuguesa](https://pt.wikipedia.org/wiki/Clipper_(linguagem_de_programa%C3%A7%C3%A3o))
 * [Programando xBase](https://programandoxbase.wordpress.com/)
+
+Spanish
+
+* [Codigo Base](http://codigo-base.blogspot.com/)
+* [Bielsys](http://bielsys.blogspot.com/)
+
 
 Italian
 
