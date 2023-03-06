@@ -67,6 +67,7 @@ And hundreds of others over those 30 years.
 * [Harbour Magazine](https://medium.com/harbour-magazine)
 * [Clipper solutions](http://www.clippersolutions.com/)
 * [xHarbour](http://www.xharbour.org/)
+* [Harbour Language](http://harbourlanguage.blogspot.com/)
 
 Portuguese
 
