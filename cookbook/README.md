@@ -324,6 +324,7 @@
 1. [How to generate DBF in memory](./DBFInMem/main.prg)
 1. [How to create DBF with autoincrement field](./dbcreateAutoNum/main.prg)
 1. [How to see a DBF file structure](./struct/main.prg) 
+1. [How to evaluate an codeblock in all workareas openned (using hb_eval)](./hb_weval/main.prg)
 
 ### SQLMix
 
