@@ -1,26 +1,12 @@
 
 
 FUNCTION Main2()
-Local buf, cBuf := "", oErr
+Local buf, cBuf := ""
 
-   hb_CdpSelect("UTF8")
-   
-   cBuf += "Function Olar" + hb_eol()
-   cBuf += "Return 2+'A'" + hb_eol()
-   ? "Return 2+'a'"
-   ? Procname()
-   ? "Before:"
-   buf := hb_compileFrombuf( cBuf , "/n" )
- 
-   ? "Executing:",  hb_HrbRun( buf )   
   
-   ?
-   ? "------------------------------------------------------------"
-   ? "Function Olar is in memory ? " , Type( "Olar()" )=="UI" // This function doesn't stay in memory
-   ? "Function EuExisto is in memory ? : " , Type( "EuExisto()" )=="UI"
+   cBuf += "Function Olar" + hb_eol()
+   cBuf += "Return 2+'A'" + hb_eol() // <-- Error in 2 + 'A'
+   buf := hb_compileFrombuf( cBuf , "/n" )
+   ? "Executing inside main2:",  hb_HrbRun( buf )   
    
 Return Nil
-
-function EuExisto
-
-return nil

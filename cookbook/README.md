@@ -489,6 +489,10 @@
 1. [DBF to Excel (How to autofit) + Bold](./WinExcel7/main.prg)
 1. [How to use a Template to my sheets](./WinExcel8/main.prg)
 
+#### MS Word (Windows only)
+
+1. [How to create a table with automatic fields](./WinWord1/main.prg)
+
 ### GTWVG
 
 1. [First window](./wvg01/main.prg)
