@@ -29,7 +29,7 @@ Test.prg
 -lhbwin
 
 */
-
+#include "inkey.ch"
 procedure main
 
     local oLocator

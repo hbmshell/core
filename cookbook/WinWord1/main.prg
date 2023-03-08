@@ -1,5 +1,6 @@
 // https://support.microsoft.com/en-us/office/update-fields-7339a049-cb0d-4d5a-8679-97c20c643d4e#:~:text=Press%20Ctrl%20%2B%20A.,update%20fields%20automatically%20before%20printing.
 //https://groups.google.com/g/harbour-users/c/Qv6GU-YXGR8
+// Word need manual recalculation: Ctrl-A to select all fields in table, then F9.
 PROCEDURE Main
 
    LOCAL oWord, oText

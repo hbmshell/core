@@ -491,7 +491,7 @@
 
 #### MS Word (Windows only)
 
-1. [How to create a table with automatic fields](./WinWord1/main.prg)
+1. [How to create a table with calculated fields](./WinWord1/main.prg)
 
 ### GTWVG
 

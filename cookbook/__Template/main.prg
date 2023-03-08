@@ -1,9 +1,6 @@
-// Shebang line
+// Shebang line - Optional
+// Compile option (e.g: //-p) - Optional
 /**
-Description
------------
-
-
 To build
 --------
 

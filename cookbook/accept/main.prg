@@ -1,10 +1,17 @@
+// Shebang line - Optional
+// Compile option (e.g: //-p) - Optional
+// Compile option (e.g. //-w0) - Optional
+// ...
+// Compile option N 
+/**
+To build
+--------
 
-/*
-Uso do comando ACCEPT
+hbmk2 main.prg 
+
 */
 PROCEDURE Main
    
-   /* Pede e exibe o nome do usuário */   
    ACCEPT "Whats your name : " TO cNome
    ? "Your name : ", cNome
      
