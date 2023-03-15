@@ -1,4 +1,4 @@
-
+#include "fileio.ch"
 FUNCTION hb_Main()
 
      LOCAL cMessage := "Save in log " , x
