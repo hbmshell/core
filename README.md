@@ -69,6 +69,7 @@ And hundreds of others over those 30 years.
 * [xHarbour](http://www.xharbour.org/)
 * [Harbour Language](http://harbourlanguage.blogspot.com/)
 * [harbour.vouch](https://harbour.vouch.info/)
+* [hmgdoc](http://www.hmgforum.com/hmgdoc/data/index.htm)
 
 Portuguese
 
