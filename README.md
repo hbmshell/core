@@ -10,10 +10,12 @@ Objectives :
 
 ## Interpreters types
 
-1. hbmscript : run harbour as a script. Only gtnul graphic driver available. 
+1. hbmlite : run harbour as a script. Only gtnull graphic driver available.
+1. hbmscript : run harbour as a script. Only gtnul graphic driver available (all libs included). 
 1. hbmdialog : run harbour as a clipper program. Commands GET, SAY and others TUI commands as availables.
-1. hbmgui : run harbour as a clipper program but in new window. 
-1. hbmhmg : run HMG program.
+1. hbmgui : run harbour as a clipper program but in new window.  
+1. hbmwvg : run harbour wvg program. Only Windows platform.
+1. hbmhmg : run HMG program. Only Windows platform.
 
 ## Steps
 
