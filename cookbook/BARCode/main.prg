@@ -4,8 +4,10 @@
  *
  */
 
-#include "harupdf.ch"
-#include "hbzebra.ch"
+// Compile with : hbmk2 main  hbhpdf.hbc hbzebra.hbc
+
+#include "harupdf.ch" // c:\harbour\contrib\hbhpdf
+#include "hbzebra.ch" // c:\harbour\contrib\hbzebra
 PROCEDURE Main()
 
    LOCAL pdf
@@ -43,8 +45,15 @@ PROCEDURE Main()
    DrawBarcode( page, 540,   1, "DATAMATRIX", "Hello, World of Harbour!!! It's 2D barcode DataMatrix :)" )
    DrawBarcode( page, 580,   1, "QRCODE",     "http://harbour.github.io/" )
 
+    
    FErase( hb_FNameExtSet( cFile, ".pdf" ) )
-   ? HPDF_SaveToFile( pdf, hb_FNameExtSet( cFile, ".pdf" ) )
+   
+   
+   ? "Begin test"
+   ? "Creating " , hb_FNameExtSet( cFile, ".pdf" ) , " : "
+   nResult := HPDF_SaveToFile( pdf, hb_FNameExtSet( cFile, ".pdf" ) )
+   ?? IIF( nResult == 0 , "Sucess" , "Error" )
+   ? "End test"
 
    RETURN
 

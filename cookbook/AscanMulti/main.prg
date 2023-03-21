@@ -13,7 +13,6 @@ FUNCTION MAIN()
     {100000000,5761455,0.8} }
     
        
-    
     aSEARCH := {}
     AADD(aSEARCH, 10000)    // FOUND
     AADD(aSEARCH, 664579)   // FOUND

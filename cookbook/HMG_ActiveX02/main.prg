@@ -9,6 +9,7 @@
  * Activex Sample: Inspired by Freewin Activex inplementation by 
  * Oscar Joel Lira Lira (http://sourceforge.net/projects/freewin).
 */
+#include <hmg.ch>
 FUNCTION hb_Main()
 
 	DEFINE WINDOW Win1 ;

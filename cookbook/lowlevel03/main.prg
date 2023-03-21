@@ -1,4 +1,4 @@
-
+#include "fileio.ch"
 PROCEDURE Main
 
     LOCAL hHandle

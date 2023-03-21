@@ -5,11 +5,9 @@
  * Copyright 2002-2008 Roberto Lopez <mail.box.hmg@gmail.com>
  * http://www.hmgforum.com//
 */
-
+#include <hmg.ch>
 Function hb_Main()
 
-set century on
-set date ital
 
    DEFINE WINDOW Form_1 ;
       AT 0,0 ;

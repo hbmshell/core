@@ -1,3 +1,4 @@
+//-b
 /**
 
 #include "box.ch"
@@ -11,6 +12,8 @@ LOCAL nLinTop, nColEsq, nLinBase, nColDir // Coordenadas
    nColDir := 20
    nLinTop := 1
    nLinBase := nLinTop + 5
+
+   altd()
    
      
    @ nLinTop, nColEsq, nLinBase, nColDir BOX B_SINGLE

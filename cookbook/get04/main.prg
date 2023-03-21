@@ -10,5 +10,4 @@ PROCEDURE HBM_15valid
 
     READ  
 
-   
 RETURN

@@ -4,4 +4,6 @@ del *.cdx /s
 del *.log /s
 del *.txt /s
 del *.err /s
+del *.ppo /s
 del ErrorLog.htm /s
+del {SOURCE}.* /s

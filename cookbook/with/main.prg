@@ -7,13 +7,14 @@ Description
 To build
 --------
 
-hbmk2 main.prg 
+hbmk2 main.prg  rddsql.hbc
 
 */
 // The example builds a simple database browser using a TBrowse object.
 // The columns added to the object and the cursor navigation logic is
 // programmed using the WITH OBJECT control structure.
 #include "inkey.ch"
+REQUEST SQLMIX
 PROCEDURE Main
   LOCAL oTBrowse, aFields, cField, nKey
   LOCAL aStruct := { { "NOME", "C", 20, 0 },;
@@ -68,5 +69,5 @@ PROCEDURE Main
         END
       END
   ENDDO
-  CLOSE Customer
+  USE // Close current alias
 RETURN

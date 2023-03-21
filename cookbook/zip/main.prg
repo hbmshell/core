@@ -1,4 +1,13 @@
+// Shebang line - Optional
+// Compile option (e.g: //-p) - Optional
+/**
 
+To build
+--------
+
+hbmk2 main hbziparc.hbc
+
+*/
 PROCEDURE MAIN
 
     LOCAL lCompress // Result
@@ -11,12 +20,22 @@ PROCEDURE MAIN
     LOCAL lWithPath := .f. // store path or not (.f. is default)
     LOCAL lWithDrive := .f. // store drive letter or not (.f. is default)
     
-
+    IF FILE( cFile )
+        ? "Erasing test file : "
+        IF FErase(cFile) == 0 
+            ?? "Ok"
+        ELSE
+            ?? "Fails when erasing test.zip"
+        ENDIF
+    ENDIF
+    ? "Begin test"
+    ? "Creating test : "
     lCompress := hb_ZipFile( cFile, cFileToCompress , nLevel, bBlock, lOverWrite, cPassword, lWithPath, lWithDrive )
     IF lCompress
-        ? "Success"
+        ?? "Success"
     ELSE
-        ? "Fail"
+        ?? "Fail"
     ENDIF    
+    ? "End"
 
 RETURN
