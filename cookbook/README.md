@@ -491,6 +491,7 @@
 #### MS Word (Windows only)
 
 1. [How to create a table with calculated fields](./WinWord1/main.prg)
+1. [How to copy a image from a doc word to another doc word](./WinWord2/main.prg)
 
 ### GTWVG
 
