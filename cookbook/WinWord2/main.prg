@@ -1,5 +1,7 @@
 /*
-https://groups.google.com/g/harbour-users/c/A2n_pxZ5jiI
+Thanks! https://groups.google.com/g/harbour-users/c/A2n_pxZ5jiI
+
+hbmk2 main.prg hbwin.hbc
 */
 
 #define Word_File  hb_cwd() + "MyFileTxt.docx"
