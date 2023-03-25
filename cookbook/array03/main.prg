@@ -15,7 +15,7 @@ LOCAL x
     NEXT    
 
     FOR x := 1 TO LEN( aQuadrado )
-        ? "Quadrado de ", x , " é " , aQuadrado[ x ]
+        ?  hb_ntos(x)+"^2 is " , aQuadrado[ x ]
     NEXT    
             
 RETURN

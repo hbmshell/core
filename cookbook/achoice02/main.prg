@@ -6,7 +6,7 @@ procedure main
 	local cScreen, nChoice
 	setmode (25,80)
 	//SETINKEYAFTERBLOCK({|nKey|nafterinkey(nKey)}) ->xHarbour
-	hb_gtInfo(HB_GTI_INKEYFILTER, {|nKey|nafterinkey(nKey)})
+	//hb_gtInfo(HB_GTI_INKEYFILTER, {|nKey|nafterinkey(nKey)})
 	
 	private lDoubleClick:=.f., aOptions
    Clear Screen
@@ -22,14 +22,6 @@ procedure main
 			endif
    enddo
 return nil
-
-function nAfterinkey(nKey)
-	@ 10,60 say "nAfterInkey: "+padl(alltrim(str(nKey)),4) COLOR 'W/R'
-	if nKey==K_LDBLCLK
-		@ 11,60 say "double click!"
-		lDoubleClick=.t.
-	Endif	
-return nKey
 
 function myFn(nMode,nItem,nRowpos)
 	local nRetval:=AC_CONT

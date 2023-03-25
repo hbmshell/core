@@ -19,7 +19,7 @@ PROCEDURE Main
     SetMode(50,100)
 #endif
     //hb_Alert([cMessage|aMessage], <aOptions>, [<cColorNorm>] [, <nDelay>]) 
-    hb_Alert("This message;disapears in five seconds.;;Wait please",/*Options*/,/*Color*/, 5) 
+    hb_Alert("This message;disapears in five seconds.;;Please wait",/*Options*/,/*Color*/, 5) 
     hb_Alert({"This message","in other color","Type any key"},,"g/n")
     nOpc := hb_Alert("Many options.",{"Option 1","Option 2","Option 3"}) 
     hb_Alert("Option : " + hb_ValToStr(nOpc) )
