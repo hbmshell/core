@@ -1,4 +1,3 @@
-//-b
 
 PROCEDURE Main
 
