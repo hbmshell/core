@@ -21,8 +21,5 @@ PROCEDURE HBM_20picture
     @ 18,10 SAY "Today                     : " GET dDay  PICTURE "@E" MESSAGE "@E : Display format day/month/year independent of SET DATE format"
 
     READ MSG AT nRow, nCol, nWidth MSG COLOR "N/W" // <------------------------------------------ MESSAGE Coordinate and width 
-    SET DATE TO BRITISH
-
-    WAIT
     
 RETURN

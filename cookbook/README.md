@@ -254,7 +254,8 @@
 1. [How to use WHEN clause in get command](./get05/main.prg)
 1. [How to use WHEN clause in get command (Edit control)](./get06/main.prg)
 1. [How to use WHEN and VALID clauses in get command (Edit control)](./get07/main.prg)
-1. [Picture examples](./get08/main.prg)
+1. [Picture examples](./get08/main.prg)\
+    ![](./get08/main.gif)
 1. [Picture examples (With message)](./get09/main.prg)
 1. [Checkbox example](./get10/main.prg)
 1. [Listbox example](./get11/main.prg)

@@ -1,5 +1,5 @@
 
-//-q0
+#include <hmg.ch>
 Function hb_Main
 
   DEFINE WINDOW Win_1 ;

@@ -10,27 +10,9 @@ Description
 
 Radio group test
 
-Platform
----------
-
-[X] Windows
-[ ] Linux
-
-Build
------
-
-[ ] hbmscript
-[ ] hbmdialog
-[ ] hbmgui
-[X] hbmhmg
-[ ] hbmhwgui
-
-hbmk2
------
-
-#include <hmg.ch>
 
 */
+#include <hmg.ch>
 PROCEDURE Main
 
     DEFINE WINDOW Win_1 ;

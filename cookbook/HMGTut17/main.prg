@@ -1,7 +1,6 @@
 
 
-
-//-q0
+#include <hmg.ch>
 Function hb_Main
 
 
