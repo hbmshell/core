@@ -266,7 +266,8 @@
 1. [Clear gets example](./get16/main.prg)
 1. [Set intensity example](./get17/main.prg)
 1. [Listbox example](./get18/main.prg)
-1. [Checkbox example](./get19/main.prg)
+1. [Checkbox example](./get19/main.prg)\
+   ![](./get19/main.gif)
 1. [Listbox example](./get20/main.prg)
 1. [Validation tip](./getvalid/demo.prg)
 1. [Examplo with cargo() attribute](./cargo/main.prg)

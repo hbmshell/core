@@ -12,8 +12,7 @@ PROCEDURE HBM_35setdelimiters
     SET DELIMITERS OFF
     @ 12, 10 SAY "Department : " GET cField2
     READ
-   
-    WAIT 
+
     SET DELIMITERS ON
     SET DELIMITERS TO "[]"
     
