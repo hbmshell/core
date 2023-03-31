@@ -1,8 +1,3 @@
-// Shebang line - Optional
-// Compile option (e.g: //-p) - Optional
-// Compile option (e.g. //-w0) - Optional
-// ...
-// Compile option N 
 /**
 To build
 --------

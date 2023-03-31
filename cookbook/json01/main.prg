@@ -1,5 +1,6 @@
 /**
 
+To build : hbmk2 main.prg 
 
 
 */

@@ -395,6 +395,7 @@
 1. [How to change to other directory](./hb_cwd1/main.prg)
 1. [How to verify if directory exists](./directory2/main.prg)
 1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
+1. [How to create and delete directory](./dirRemove/main.prg)
 
 ### File functions
 

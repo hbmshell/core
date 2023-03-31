@@ -1,4 +1,26 @@
 #include "vbase.ch"
+PROCEDURE MAIN
+
+    LOCAL oCfg := ConfigSingleton()
+    LOCAL cContent
+    LOCAL oTest := myClass():New()
+
+    CLS
+    CONFIG LOG LEVEL INFO
+    
+    oTest:MyProc()
+
+    ? "LastMessage in oTest : " , oTest:getLastMessage()
+    ?
+    ?
+   
+    ? "Erasing file now"
+    Ferase( oCfg:GetLogName() )
+
+
+    RETURN
+
+
 #include "hbclass.ch"
 /*
 Esse exemplo mostra como usar a cláusula UPDATE LAST MESSAGE do comando LOG.
@@ -26,32 +48,6 @@ METHOD MyProc CLASS myClass
 
 RETURN 
 
-PROCEDURE MAIN
 
-    LOCAL oCfg := ConfigSingleton()
-    LOCAL cContent
-    LOCAL oTest := myClass():New()
-
-    CLS
-    CONFIG LOG LEVEL INFO
-    
-    oTest:MyProc()
-
-    ? "LastMessage in oTest : " , oTest:getLastMessage()
-    ?
-    ?
-    ? "Type any key to continue."
-    Inkey(0)
-    cContent := MemoRead( oCfg:GetLogName() )
-    ? "-------------------------------------"
-    ? "- Content (Log file generated : " + oCfg:GetLogName() + ")"
-    ? "-------------------------------------"
-    ? cContent
-    ?
-    ? "Erasing file now"
-    Ferase( oCfg:GetLogName() )
-
-
-    RETURN
 
 

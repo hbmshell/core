@@ -21,7 +21,7 @@ PROCEDURE MAIN
     ?
     ? "Erasing file now"
     Ferase( "mylog.log" )
-    Ferase( oCfg:GetLogName() )
+    //Ferase( oCfg:GetLogName() )
 
 
     RETURN

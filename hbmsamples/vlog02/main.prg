@@ -6,13 +6,9 @@ PROCEDURE MAIN
     LOCAL cContent
     LOCAL cMessage
 
-    CLS
     CONFIG LOG LEVEL INFO
-    LOG "Hello World" INFO TO cMessage
-    ? "cMessage = " , cMessage
-    ?
-    ?
-    ? "Type any key to continue."
+    LOG "Hello World" INFO 
+    ? "Type any key to see log content."
     Inkey(0)
     cContent := MemoRead( oCfg:GetLogName() )
     ? "-------------------------------------"
