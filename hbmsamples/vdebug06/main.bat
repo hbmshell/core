@@ -1,0 +1,1 @@
+hbmdialogdbg main.prg --pause-after --virtual-include
