@@ -27,7 +27,7 @@ cPass := "yourpassword"
    FOR EACH i IN oServer:ListTables()
       ? i
    NEXT
-altd()
+
    IF oServer:TableExists( "test" )
       ? oQuery := oServer:Execute( "DROP TABLE test" )
 

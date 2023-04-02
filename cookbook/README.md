@@ -342,6 +342,10 @@
 
 1. [How to connect MySQL Server (with classes)](./MySQLConnect/main.prg)
 
+### PostgreSQL
+
+1. [How to connect PostgreSQL Server (with classes)](./postgres/main.prg)
+
 ### SQLite
 
 1. [How to create a SQLite database](./sqlite01/main.prg)
