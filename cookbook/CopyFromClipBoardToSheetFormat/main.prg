@@ -1,17 +1,22 @@
+#include "inkey.ch"
+PROCEDURE Hbm_gsheet()
+    local cFormula
 
-PROCEDURE Hbm_gsheet( ... )
+    cFormula := "=INDIRECT(ADDRESS(ROW();COLUMN()-1))*INDIRECT(ADDRESS(ROW();COLUMN()-2))"
+    // cFormula := '=INDIRECT("R[0]C[-1]";FALSE)*INDIRECT("R[0]C[-2]";FALSE)'
+    
    
-    y=0
-    WriteLN "Samples" + Chr(K_TAB) + ;
+    OutStd( "Samples" + Chr(K_TAB) + ;
                 "Val1 " + Chr(K_TAB) + ;
                 "Val 2" + Chr(K_TAB) + ;
-                'Product'
+                'Product' , hb_Eol() )
 
     FOR x := 4 TO 550 STEP 2
-        WriteLN "Sample " + hb_ntos( x ) + Chr(K_TAB) + ;
+        
+        OutStd( "Sample " + hb_ntos( x ) + Chr(K_TAB) + ;
                             hb_ntos( hb_RandomInt(1,2000) ) + Chr(K_TAB) + ;
                             hb_ntos( hb_RandomInt(1,2000) ) + Chr(K_TAB) + ;
-                            '=INDIRECT("R[0]C[-1]",FALSE)*INDIRECT("R[0]C[-2]",FALSE)'
+                            cFormula, hb_eol() )
 
     NEXT
 

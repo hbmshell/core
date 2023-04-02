@@ -8,6 +8,11 @@ LOCAL nNota
 
    ? nNota + Val( cNota )
    ? "It worked, but the next one will generate a runtime error..."
-   ? nNota + cNota
+   Begin Sequence with __BreakBlock()
+        ? nNota + cNota
+   Recover using oError
+        ? oError:Description
+   End 
+   
 
 RETURN

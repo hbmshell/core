@@ -8,7 +8,7 @@ LOCAL nValor
 
 
     DO WHILE .T.
-       INPUT "Informe o elemento (999 FINALIZA) " TO nValor
+       INPUT "Type a number (999 Exit) " TO nValor
        IF nValor == 999
           EXIT
        ENDIF   
@@ -16,7 +16,7 @@ LOCAL nValor
     ENDDO   
     
     FOR x := 1 TO LEN( aQuadrado )
-        ? "O quadrado de " , aQuadrado[x] , " é " , ( aQuadrado[x] ^ 2 )
+        ? aQuadrado[x] , "^" + hb_ntos(x) , ( aQuadrado[x] ^ 2 )
     NEXT    
             
 RETURN

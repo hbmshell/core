@@ -1,4 +1,4 @@
-
+#include <hmg.ch>
 //-q0
 /*
  * HMG - Harbour Win32 GUI library Demo

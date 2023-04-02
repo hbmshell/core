@@ -1,0 +1,194 @@
+{
+    "brw":{
+        "brw_tarefa":{
+            "--orderby":"dat_ini",
+            "--where":"tarefa.de ILIKE '%' || '%s' || '%'",
+            "project":{"field":{"name":"p__status",
+                                "initial-value":"em_espera"},
+                       "workflow":[
+                            {"em_espera":{
+                                "form":"frm_tarefa",
+                                "next":{ "iniciado":"Iniciar" }
+                            }},
+                            {"iniciado":{
+                                    "form":"frm_tarefa_iniciar",
+                                    "next":{ "em_espera":"Em espera","finalizado":"Finalizar" }
+                                }},
+                            {"finalizado":{
+                                    "form":"frm_tarefa_finalizar",
+                                    "next":{ "iniciado":"Reativar" }
+                            }}   
+                        ]}
+        },
+        "brw_setor":{
+            "--orderby":"de",
+            "--where":"setor.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_ip":{
+            "--orderby":"endereco_ip",
+            "--where":"ip.de ILIKE '%' || '%s' || '%'   or ip.endereco_ip ILIKE '%' || '%s' || '%'"
+        },
+        "brw_local":{
+            "--orderby":"local.de",
+            "--where":"local.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_patr_gr":{
+            "--orderby":"de",
+            "--where":"patr_gr.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_patr":{
+            "--orderby":"de",
+            "--where":"patr.de ILIKE '%' || '%s' || '%' or patr.plaqueta_ufc ILIKE '%' || '%s' || '%' or patr.plaqueta_dc ILIKE '%' || '%s' || '%' or patr.plaqueta_fundacao ILIKE '%' || '%s' || '%' or patr.plaqueta_great ILIKE '%' || '%s' || '%' or patr.obs ILIKE '%' || '%s' || '%'"
+        },
+        "brw_patr_emprestado":{
+            "--orderby":"patr.de",
+            "--where":"patr.de ILIKE '%' || '%s' || '%' or patr.plaqueta_ufc ILIKE '%' || '%s' || '%' or patr.plaqueta_dc ILIKE '%' || '%s' || '%' or patr.plaqueta_fundacao ILIKE '%' || '%s' || '%' or patr.plaqueta_great ILIKE '%' || '%s' || '%' or patr.obs ILIKE '%' || '%s' || '%'",
+            "--delete":"off"
+        },
+        "brw_patr_recolhido":{
+            "--orderby":"patr_recolhido.de",
+            "--where":"patr_recolhido.de ILIKE '%' || '%s' || '%' or patr_recolhido.plaqueta_ufc ILIKE '%' || '%s' || '%' or patr_recolhido.plaqueta_dc ILIKE '%' || '%s' || '%' or patr_recolhido.plaqueta_fundacao ILIKE '%' || '%s' || '%' or patr.plaqueta_great ILIKE '%' || '%s' || '%'  or patr_recolhido.obs ILIKE '%' || '%s' || '%'",
+            "--delete":"off"
+        },
+        "brw_projeto":{
+            "--orderby":"de",
+            "--where":"projeto.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_faixa":{
+            "--orderby":"prefixo",
+            "--where":"faixa.prefixo ILIKE '%' || '%s' || '%'"
+        },
+        "brw_digital":{
+            "--orderby":"nome",
+            "--where":"digital.nome ILIKE '%' || '%s' || '%'"
+        },
+        "brw_prof":{
+            "--orderby":"nome",
+            "--where":"prof.nome ILIKE '%' || '%s' || '%'"
+        },
+        "brw_almox":{
+            "--orderby":"de",
+            "--where":"almox.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_material":{
+            "--orderby":"material.de",
+            "--where":"material.de ILIKE '%' || '%s' || '%'  or material.obs ILIKE '%' || '%s' || '%'"
+        },
+        "brw_usuario":{
+            "--orderby":"login",
+            "--where":"usuario.login ILIKE '%' || '%s' || '%'"
+        }                        
+        ,
+        "brw_fornecedor":{
+            "--orderby":"fornecedor.de",
+            "--where":"fornecedor.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_patr_recolhe":{
+            "--orderby":"patr.de",
+            "--where":"patr.de ILIKE '%' || '%s' || '%'"
+        },
+        "brw_grupfor":{
+            "--orderby":"de",
+            "--where":"grupfor.de ILIKE '%' || '%s' || '%'"
+        }                                
+    },
+    "frm":{
+        "frm_tarefa":{
+            "getFromGet":"on",
+            "exclude-field":{
+                "inc":["dat_fim"],
+                "alt":[]
+            }
+        },
+        "frm_imp":{
+            "alt":"off" 
+        }
+    },
+    "fk":{
+        "local":{
+            "id_setor":"de"
+        },
+        "patr":{
+            "id_patr_gr":"de",
+            "id_projeto":"de",
+            "id_dono":"de",
+            "id_local":"de"
+        },
+        "patr_recolhe":{
+            "id_patr_gr":"de",
+            "id_projeto":"de",
+            "id_dono":"de",
+            "id_local":"de",
+            "id_patr":"de || ' - UFC : ' || coalesce(plaqueta_ufc,'Em Branco') || ' - Fundação : ' || coalesce(plaqueta_fundacao,'Em Branco') || ' - DC : ' || coalesce(plaqueta_dc,'Em Branco')"
+        },        
+        "patr_recolhido":{
+            "id_patr_gr":"de",
+            "id_projeto":"de",
+            "id_dono":"de",
+            "id_local":"de"
+        },        
+        "projeto":{
+            "id_prof":"nome"
+        },
+        "material":{
+            "id_almox":"de"
+        },
+        "fornecedor":{
+            "id_grupfor":"de"
+        },
+        "material_transfer":{
+            "id_local_destino":"de",
+            "id_prof":"nome",
+            "id_patr":"de || ' - UFC : ' || coalesce(plaqueta_ufc,'Em Branco') || ' - Fundação : ' || coalesce(plaqueta_fundacao,'Em Branco') || ' - DC : ' || coalesce(plaqueta_dc,'Em Branco')"
+        }
+    },     
+    "master-detail":[
+        {"master":"brw_material",
+         "detail":"brw_material_transfer"},
+        {"master":"brw_tarefa",
+         "detail":"brw_tarefa_item"}
+    ],
+    "rpt":{ 
+        "brw_patr":{
+            "--orderby":"local.de,patr_gr.de,patr.de",
+            "--orientation":"1",
+            "--groups":[ { "fieldname":"Local + '/' + Grupo" , "caption":"Local/Grupo" } ],
+            "columns":{
+                "de":{"width":50},
+                "plaqueta_ufc":{"width":15},
+                "plaqueta_dc":{"width":7,"caption":"Plq.DC"},
+                "plaqueta_fundacao":{"width":8,"caption":"Fundação"},
+                "plaqueta_great":{"width":10,"caption":"Plq.Great"}
+            },
+            "exclude-field":["local","grupo","projeto","obs"]
+        },
+        "brw_patr_emprestado":{
+            "--orderby":"local.de,patr_gr.de,patr.de",
+            "--orientation":"2",
+            "--groups":[ { "fieldname":"Local + '/' + Grupo" , "caption":"Local/Grupo" } ],
+            "exclude-field":["grupo","local","obs"],
+            "columns":{
+                "de":{"width":30},
+                "dono":{"width":25},
+                "plaqueta_ufc":{"width":12,"caption":"Plq.UFC"},
+                "plaqueta_dc":{"width":7,"caption":"Plq.DC"},
+                "plaqueta_fundacao":{"width":8,"caption":"Fundação"},
+                "plaqueta_great":{"width":8,"caption":"Pl.Great"}
+            }
+         },
+         "brw_material":{
+            "columns":{
+                "material":{"width":40},
+                "almoxarifado":{"width":40},
+                "saldo":{"width":10,"type":"N"}
+            },
+            "exclude-field":["obs"]
+         },
+         "brw_patr_recolhe":{
+            "--orderby":"patr_gr.de,local.de,patr.de",
+            "--orientation":"2"
+         }
+    },
+    "chkjson":"Apenas a chave deve existir"
+        
+}

@@ -1,4 +1,4 @@
-//#include "hmg.ch"
+#include "hmg.ch"
 
 Function main()
 

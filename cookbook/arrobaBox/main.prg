@@ -1,9 +1,4 @@
-//-b
-/**
 
-#include "box.ch"
-
-*/
 #include "box.ch"
 PROCEDURE Main
 LOCAL nLinTop, nColEsq, nLinBase, nColDir // Coordenadas
@@ -13,8 +8,7 @@ LOCAL nLinTop, nColEsq, nLinBase, nColDir // Coordenadas
    nLinTop := 1
    nLinBase := nLinTop + 5
 
-   altd()
-   
+  
      
    @ nLinTop, nColEsq, nLinBase, nColDir BOX B_SINGLE
 

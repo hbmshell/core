@@ -5,7 +5,7 @@
  */
  //https://github.com/harbour/core/blob/master/contrib/hbmisc/tests/calldll.prg
 
-//#require "hbmisc"
+// To build: hbmk2 main.prg hbmisc.hbc
 
 PROCEDURE Main()
 

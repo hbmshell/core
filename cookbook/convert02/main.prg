@@ -10,7 +10,10 @@ LOCAL nTotal
    ? "Total : " + Str( nTotal , 3 , 2)
    ? "Total : " + HB_ValToStr( nTotal )
    ? "It worked, but the next one will generate a runtime error..."
-   ? "Total : " + nTotal
-
+   Begin Sequence with __BreakBlock()
+        ? "Total : " + nTotal
+   Recover using oError
+        ? oError:Description
+   End
 RETURN
 

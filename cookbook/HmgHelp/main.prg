@@ -1,4 +1,4 @@
-
+#include <hmg.ch>
 //-q0
 
 // Modified version of help demo in MiniGui SAMPLES\BASIC\HELP\Demo.prg

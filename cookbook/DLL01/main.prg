@@ -1,5 +1,9 @@
+/*
+To Build: hbmk2 main.prg hbmisc.hbc
 
-// http://www.pctoledo.com.br/forum/viewtopic.php?f=55&t=16654&p=103620&hilit=calldll32#p103620
+Thanks!
+http://www.pctoledo.com.br/forum/viewtopic.php?f=55&t=16654&p=103620&hilit=calldll32#p103620
+*/
 PROCEDURE MAIN
 
    ? mywin_GetComputerName()

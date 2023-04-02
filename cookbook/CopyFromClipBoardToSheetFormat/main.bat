@@ -1,2 +1,3 @@
-hbmdialog main.prg | clip 
+hbmdialog main.prg --virtual-include | clip 
+
 pause

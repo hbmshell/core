@@ -4,7 +4,7 @@ CORES
 PROCEDURE Main
 LOCAL nOpc // Option selecte
 
-                /*Padrão (Standard) , Barras luminosas (light bars)*/
+                /*Padrï¿½o (Standard) , Barras luminosas (light bars)*/
    SET COLOR TO "B/W, W+/B+"
    
    CLS
@@ -12,7 +12,7 @@ LOCAL nOpc // Option selecte
    @ 8,8 TO 16,25 DOUBLE
    
    @ 10,10 PROMPT "   Cadastros   " 
-   @ 12,10 PROMPT "   Relatórios  " 
+   @ 12,10 PROMPT "   RelatÃ³rios  " 
    @ 14,10 PROMPT "      Sair     " 
    MENU TO nOpc
    
@@ -21,7 +21,7 @@ LOCAL nOpc // Option selecte
       ? "Cadastros"
       EXIT
    CASE 2
-      ? "Relatórios"
+      ? "RelatÃ³rios"
       EXIT
    CASE 0   
    CASE 3

@@ -40,16 +40,16 @@ PROCEDURE BRW_MATRIZ( aBrw )
        ntot ) ), NIL ) ), _1 ) } )
 
 
-    oBrw:addcolumn( TBColumnNew( "Arquivo", {|| TRANS( aBrw[ n, 1 ], "@!" ) } ) )
+    oBrw:addcolumn( TBColumnNew( "File", {|| TRANS( aBrw[ n, 1 ], "@!" ) } ) )
     oBrw:getcolumn( 1 ):width := 12
     oBrw:getcolumn( 1 ):cargo := { "@!" }
-    oBrw:addcolumn( TBColumnNew( "Tamanho", {|| TRANS( aBrw[ n, 2 ], "@E 99,999,999" ) } ) )
+    oBrw:addcolumn( TBColumnNew( "Size", {|| TRANS( aBrw[ n, 2 ], "@E 99,999,999" ) } ) )
     oBrw:getcolumn( 2 ):width := 10
     oBrw:getcolumn( 2 ):cargo := { "@E 99,999,999" }
-    oBrw:addcolumn( TBColumnNew( "Data", {|| TRANS( aBrw[ n, 3 ], "@D" ) } ) )
+    oBrw:addcolumn( TBColumnNew( "Date", {|| TRANS( aBrw[ n, 3 ], "@D" ) } ) )
     oBrw:getcolumn( 3 ):width := 10
     oBrw:getcolumn( 3 ):cargo := { "@!" }
-    oBrw:addcolumn( TBColumnNew( "Hora", {|| TRANS( aBrw[ n, 4 ], "@!" ) } ) )
+    oBrw:addcolumn( TBColumnNew( "Time", {|| TRANS( aBrw[ n, 4 ], "@!" ) } ) )
     oBrw:getcolumn( 4 ):width := 8
     oBrw:getcolumn( 4 ):cargo := { "@!" }
     lVoltaDb = .T.

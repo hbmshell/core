@@ -1,4 +1,4 @@
-
+#include <hmg.ch>
 Function Main
 
         Load Window Main

@@ -1,12 +1,9 @@
 #include "inkey.ch"
-#include "hbgtinfo.ch"
 #include "achoice.ch"
 procedure main
-	// testing LastKey after aChoice
+
 	local cScreen, nChoice
 	setmode (25,80)
-	//SETINKEYAFTERBLOCK({|nKey|nafterinkey(nKey)}) ->xHarbour
-	//hb_gtInfo(HB_GTI_INKEYFILTER, {|nKey|nafterinkey(nKey)})
 	
 	private lDoubleClick:=.f., aOptions
    Clear Screen
