@@ -1,45 +1,19 @@
-#!/usr/local/bin/hbmshell -diavenc XXX -qtddias 5 -parcelas 5 -diavenc 20
 
 PROCEDURE Hbm_parcelas( ... )
-    MODULE SHELL
-    //MODULE ERRORLEVEL
-    LOCAL hParams , aData, cPrintParams, cListErrors 
-    LOCAL aPipe, x
-    LOCAL dDtCompra, nDiaVenc, nQtdDias, nParcelas, aResult
-    **************************************Modelos***************************************
-    * SHELL ADD PARAM "-primeiro" TITLE "Primeiro" // Parametro que não requer valor
-    * SHELL ADD PARAM "-segundo" TITLE "Segundo" DEFAULT "Default Value" // Com valor default
-    * SHELL ADD PARAM "-terceiro" TITLE "Terceiro" MANDATORY REQUIRE VALUE // Obrigatório e deve informar um valor
-    * SHELL ADD PARAM "-quarto" TITLE "Quarto" REQUIRE VALUE // Opcional (mas for usar, deve informar um valor)
-    * SHELL PRINT HELP TO cPrintParams
-    * ERRORLEVEL 10 MESSAGE "Mensagem de erro com errorlevel 10 / teste agora : echo $? (ENTER)"
-    * ERRORLEVEL QUIT WITH 10
-    * ERRORLEVEL PRINT HELP TO cListErrors
-    ************************************************************************************
 
-    SET DATE FORMAT TO "yyyy-mm-dd"
-    SHELL ADD PARAM "-dtcompra" TITLE "Data da Compra" DEFAULT DTOC(Date())
-    SHELL ADD PARAM "-diavenc" TITLE "Dia do vencimento do seu cartão" MANDATORY REQUIRE VALUE
-    SHELL ADD PARAM "-qtddias" TITLE "Quantidade de dias a subtrair do vencimento para obter o melhor dia" MANDATORY REQUIRE VALUE
-    SHELL ADD PARAM "-parcelas" TITLE "Parcelas" MANDATORY REQUIRE VALUE
-    SHELL ADD PARAM "-debug" TITLE "Debug" 
-    SHELL PRINT HELP TO cPrintParams
-    IF hb_PValue(1) == "-help"
-        Hbm_Help( cPrintParams , cListErrors )
-    ENDIF
 
-    SHELL GET PARAMS TO hParams 
-
-    dDtCompra := CTOD(hParams["-dtcompra"])
-    nDiaVenc := VAL( hParams["-diavenc"])
-    nQtdDias := VAL( hParams["-qtddias"])
-    nParcelas := VAL( hParams["-parcelas"])
+    cls
+    
+    dDtCompra := date()
+    nDiaVenc := 10
+    nQtdDias := 3
+    nParcelas := 5
     ? "Date purchase : " , dDtCompra
     ? "Credit card due date : ", nDiaVenc
     ? "Number of days to subtract from due date to get the best day :" , nQtdDias
     ? "Number of installments :", nParcelas
     ? "Array : "
-    aResult := ArrayDtVenc( dDtCompra, nDiaVenc , nQtdDias , nParcelas , hParams["-debug"]) 
+    aResult := ArrayDtVenc( dDtCompra, nDiaVenc , nQtdDias , nParcelas , .f. )
     for X := 1 to len( aResult ) 
         ? aResult[x]
     next    

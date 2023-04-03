@@ -9,7 +9,7 @@ static aReport
 
 PROCEDURE MAIN
 
-    ? "Generating " , relpdf( "texto.txt" , 1 )
+    ? "Generating " , relpdf( "main.prg" , 1 )
 
 RETURN
 

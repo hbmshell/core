@@ -109,9 +109,31 @@ Procedure Save
 
 Return
 
-Procedure OpenTables 
-    USE TEST
-Return
+
+Procedure OpenTables()
+
+    LOCAL aFields := {}
+    
+    aadd( aFields , { "Code" , "N" , 3 , 0 } )
+    aadd( aFields , { "First" , "C" , 30 , 0 } )
+    aadd( aFields , { "Last" , "C" , 30 , 0 } )
+    aadd( aFields , { "Birth" , "D" , 8 , 0 } )
+    aadd( aFields , { "Married" , "L" , 1 , 0 } )
+    aadd( aFields , { "Bio" , "M" , 10 , 0 } )
+    
+    dbCreate( "Test.dbf" , aFields )
+    Use Test
+    For x := 1 TO 50
+        append blank
+        replace code with x
+        replace first with "Jonathan " + hb_ntos( x )
+        replace last with "Habito" 
+        replace birth with date()-hb_randomint( 10000, 50000 )
+        replace married with iif( mod(x,2)==0,.t.,.f.)
+        replace bio with "Biographi bla bla bla"
+    Next
+//    Win_1.Grid_1.RecNo := RecNo() 
+Return Nil
 
 Procedure CloseTables
     USE

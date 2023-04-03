@@ -10,7 +10,7 @@
 
 //#require "hbmisc"
 
-//#include "hbclass.ch"
+#include "hbclass.ch"
 
 PROCEDURE Main()
 

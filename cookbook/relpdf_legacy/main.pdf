@@ -1,0 +1,105 @@
+%PDF-1.3
+2 0 obj
+<<
+/Type /Page /Parent 1 0 R
+/Resources 3 0 R
+/MediaBox [ 0 0 612.00 792.00 ]
+/Contents 4 0 R
+>>
+endobj
+3 0 obj
+<<
+/ColorSpace << /DeviceRGB /DeviceGray >>
+/ProcSet [ /PDF /Text /ImageB /ImageC ]
+/Font
+<<
+/Fo1 6 0 R
+/Fo2 7 0 R
+>>
+>>
+endobj
+4 0 obj << /Length 5 0 R >>
+stream
+BT /Fo2 6.00 Tf 76.82 768.00 Td (#include "pdf.ch"                                                                                                                           ) Tj ET
+BT /Fo2 6.00 Tf 76.82 756.00 Td (#include "inkey.ch"                                                                                                                         ) Tj ET
+BT 76.82 744.00 Td (//////////////////////////////////////////////////////                                                                                      ) Tj ET
+BT 76.82 732.00 Td (// OBS                                                                                                                                      ) Tj ET
+BT 76.82 720.00 Td (// ESSE ARQUIVO USA FONTS.DAT \(NAO ESQUECA !!!\)                                                                                             ) Tj ET
+BT 76.82 708.00 Td (//////////////////////////////////////////////////////                                                                                      ) Tj ET
+BT 76.82 696.00 Td (//memvar aReport                                                                                                                            ) Tj ET
+BT 76.82 684.00 Td (static aReport                                                                                                                              ) Tj ET
+BT 76.82 660.00 Td (PROCEDURE MAIN                                                                                                                              ) Tj ET
+BT 76.82 636.00 Td (    ? "Generating " , relpdf\( "main.prg" , 1 \)                                                                                              ) Tj ET
+BT 76.82 612.00 Td (RETURN                                                                                                                                      ) Tj ET
+BT 76.82 588.00 Td (Function RetiraASCString\( lc_linha \)                                                                                                        ) Tj ET
+BT 76.82 576.00 Td (Local xASC                                                                                                                                  ) Tj ET
+BT 76.82 552.00 Td (      FOR xASC := 0 TO 31                                                                                                                   ) Tj ET
+BT 76.82 540.00 Td (          lc_linha := STRTRAN\( lc_linha , CHR\(xASC\) , "" \)                                                                                  ) Tj ET
+BT 76.82 528.00 Td (      NEXT                                                                                                                                  ) Tj ET
+BT 76.82 516.00 Td (      lc_linha := STRTRAN\( lc_linha , CHR\(127\) , "" \)                                                                                       ) Tj ET
+BT 76.82 492.00 Td (Return lc_linha                                                                                                                             ) Tj ET
+BT 76.82 468.00 Td (#include "relpdf.prg"                                                                                                                       ) Tj ET
+endstream
+endobj
+5 0 obj
+3251
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /Fo1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /Fo2
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages /Count 1
+/Kids [ 2 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Producer ()
+/Title ()
+/Author ()
+/Creator ()
+/Subject ()
+/Keywords ()
+/CreationDate (D:20230403005912)
+>>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 1 0 R /Outlines 10 0 R >>
+endobj
+10 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+
+xref
+0 11
+0000000000 65535 f
+0000003841 00000 n
+0000000010 00000 n
+0000000130 00000 n
+0000000277 00000 n
+0000003584 00000 n
+0000003607 00000 n
+0000003726 00000 n
+0000003906 00000 n
+0000004042 00000 n
+0000004111 00000 n
+trailer << /Size 11 /Root 9 0 R /Info 8 0 R >>
+startxref
+4163
+%%EOF

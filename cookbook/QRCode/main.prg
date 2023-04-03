@@ -6,6 +6,7 @@
 
 
 #include "harupdf.ch"
+#include "hbzebra.ch"
 PROCEDURE Main()
 
    LOCAL pdf

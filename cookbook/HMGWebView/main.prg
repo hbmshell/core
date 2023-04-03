@@ -1,6 +1,6 @@
 
 #define BM_URL_TO_RUN "http://bernard.mouille.free.fr/"
-
+#include <hmg.ch>
 function Main()
    DEFINE WINDOW Win1 ;
       AT     0,0 ;
