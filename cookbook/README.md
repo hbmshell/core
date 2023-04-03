@@ -461,6 +461,10 @@
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
 1. [How to send email (Gmail/Curl)](./email/main.prg)
 
+## HWGUI
+
+1. [How to create sample example in HWGUI](./hwgui01/main.prg)
+
 ## 🪟 Windows
 
 ### API (Windows only)
