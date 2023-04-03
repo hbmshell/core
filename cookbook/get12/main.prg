@@ -1,4 +1,4 @@
-
+#include <inkey.ch>
 PROCEDURE HBM_32button
 
     LOCAL cButton1   

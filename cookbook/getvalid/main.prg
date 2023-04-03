@@ -1,4 +1,4 @@
-
+#include <inkey.ch>
 PROCEDURE hb_MAIN
 
     LOCAL GetList := {}

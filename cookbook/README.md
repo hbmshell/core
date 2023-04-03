@@ -434,6 +434,7 @@
 
 ### PDF Files
 
+1. [How to create a simple PDF file (harupdf)](./harupdf01/main.prg)
 1. [How to create PDF file from txt report (legacy mode)](./relpdf_legacy/)
 1. [How to create PDF file from txt report (harupdf)](./relpdf_haru/)
 
