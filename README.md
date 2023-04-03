@@ -16,7 +16,7 @@ Objectives :
 1. hbmgui : run harbour as a clipper program but in new window.  
 1. hbmwvg : run harbour wvg program. Only Windows platform.
 1. hbmhmg : run HMG program. Only Windows platform.
-1. hbmdata : run hbmdialog + PostgreSQL access
+1. hbmdata : run hbmlite + PostgreSQL access
 1. hbmhwg : run HWGUI program. Only Windows platform.
 
 ## Steps
