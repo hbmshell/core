@@ -5,6 +5,7 @@ O 5o parâmetro de getfile() é o valor da variável de sistema 'diretório atual'.
 Se você quiser alterar o valor da variável do sistema para esse diretório específico após a seleção do usuário, use .t. 
 caso contrário, se for apenas para selecionar o arquivo e a variável do diretório atual estiver intacta, você deve usar .f.
 */
+#include <hmg.ch>
 function main
 
 define window sample at 0,0 width 500 height 200 main

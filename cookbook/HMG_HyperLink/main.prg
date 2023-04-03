@@ -6,7 +6,7 @@
  *
 */
 
-//#include "hmg.ch"
+#include "hmg.ch"
 
 Function Main
 

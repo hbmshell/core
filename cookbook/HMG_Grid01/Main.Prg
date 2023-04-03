@@ -1,6 +1,4 @@
-
-//-q0
-//-I.
+#include <hmg.ch>
 Function hb_Main
 
         Load Window Main

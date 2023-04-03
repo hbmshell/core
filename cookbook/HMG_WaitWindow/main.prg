@@ -3,7 +3,7 @@
 * (c) 2002-2004 Roberto Lopez <mail.box.hmg@gmail.com>
 */
 
-//#include "hmg.ch"
+#include "hmg.ch"
 
 Function Main
 

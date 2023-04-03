@@ -1,6 +1,5 @@
+#include "hmg.ch"
 
-//-q0
-//-I.
 Function hb_Main
 
         Load Window Main

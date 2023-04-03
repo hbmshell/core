@@ -1,5 +1,4 @@
-
-//-q0
+#include "hmg.ch"
 /*
  * HMG - Harbour Win32 GUI library
  * Copyright 2002-2008 Roberto Lopez <mail.box.hmg@gmail.com>

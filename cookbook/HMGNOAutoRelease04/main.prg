@@ -1,6 +1,5 @@
 
-//-q0
-//-I.
+#include <hmg.ch>
 /*
  * HMG - Harbour Win32 GUI library Demo
  *
