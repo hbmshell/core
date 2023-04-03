@@ -1,5 +1,5 @@
 
-//#include "Fileio.ch"
+#include "fileio.ch"
 #define BUFFER_SIZE  2^16    // 64 Kb
  
 PROCEDURE Main

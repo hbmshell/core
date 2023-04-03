@@ -10,7 +10,7 @@ PROCEDURE Main
    
    BEGIN SEQUENCE
            
-      a = a + "10" // <-- erro aqui / error here
+      ? a = a + "10" // <-- erro aqui / error here
            
    RECOVER USING objLocal
       
