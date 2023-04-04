@@ -66,6 +66,7 @@
 1. [Returns a number equal to the quarter in which a date falls](./quarter/main.prg)
 1. [Determines whether a specified time is valid](./timevalid/main.prg)
 1. [How to iterate during N/100 seconds (after this exit loop)](./waitperiod/main.prg)
+1. [How to build date in format MONTHNAME N YYYY HH:MM:SS (f.e: May 5 2016 10:04:52)](./buildDate/main.prg)
 
 ### Comments
 
@@ -149,6 +150,7 @@
 ### Random
 
 1. [How to generate random number without repetitions](./sorteio/main.prg)
+1. [How to generate random integer number](./randomInt/main.prg)
 
 ### Error control
 
@@ -562,6 +564,7 @@
 1. [How to load all windows in memory II](./HMGNOAutoRelease02/main.prg)
 1. [How to create a help system](./HmgHelp/main.prg)
 1. [How to create a simple menu](./HMGMenu_2/main.prg)
+1. [How to call a console window](./HMGConsole/main.prg)
 
 
 #### HMG - With IDE  (Windows only)
