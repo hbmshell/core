@@ -2,6 +2,8 @@
 PROCEDURE Hbm_Gen( ... )
 
     LOCAL field
+    
+    dbCreate( "novo.dbf" , { { "Name" , "C" , 30 , 0 }, { "SALARY" , "N" , 10 , 2 } } )
 
     USE ( "novo.dbf" ) SHARED
     ? PADR( "Name" , 20 ), "Type" , " Length" , "   Decimals"

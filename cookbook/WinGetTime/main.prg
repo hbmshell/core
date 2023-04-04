@@ -1,4 +1,7 @@
 // Thanks: http://www.pctoledo.com.br/forum/viewtopic.php?f=4&t=26740#p158283
+#xcommand TRY => BEGIN SEQUENCE WITH {| oErr | Break( oErr ) }
+#xcommand CATCH [<!oErr!>] => RECOVER [USING <oErr>] <-oErr->
+#xcommand ENDTRY => END
 PROCEDURE MAIN
 Local cUrl  := "https://www.timeanddate.com/worldclock/fullscreen.html?n=45"
 Try

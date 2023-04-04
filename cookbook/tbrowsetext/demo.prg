@@ -2,9 +2,11 @@
 // The example implements a simple text file viewer using a
 // TBrowse object and text file functions.
 
-
-PROCEDURE Main( cFile )
+#include <inkey.ch>
+#include "tbrowse.ch"
+PROCEDURE Main()
    LOCAL nFile, oTBrowse
+   LOCAL cFile := "demo.prg"
 
    SET CURSOR OFF
    nFile := FT_FUse( cFile )

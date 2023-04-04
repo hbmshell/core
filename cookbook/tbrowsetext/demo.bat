@@ -1,1 +1,1 @@
-hbmdialog demo.prg demo.prg 
+hbmdialog demo.prg --virtual-include

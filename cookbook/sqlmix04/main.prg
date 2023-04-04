@@ -6,8 +6,14 @@ PROCEDURE Main
     LOCAL oObj
 
     ? "I WILL NOT RECORD, JUST CREATE THE RECORD"
-    FOR x := 1 TO LEN( aDriver )                       
-        dbCreate( "agenda", aStruct , aDriver[x], .T.)
+    FOR x := 1 TO LEN( aDriver )   
+        BEGIN SEQUENCE WITH __BreakBlock()                    
+            dbCreate( "agenda", aStruct , aDriver[x], .T.)
+        RECOVER USING oOBj
+         
+          ? oObj:Description
+
+        END            
         APPEND BLANK
         ? "Using driver " + aDriver[x]
         BEGIN SEQUENCE WITH __BreakBlock()
