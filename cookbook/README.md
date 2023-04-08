@@ -135,6 +135,11 @@
 1. [Loop For each example with array and strings](./foreach05/main.prg)
 1. [Loop For each example with hash](./foreach06/main.prg)
 
+#### Others
+
+1. [How  to  implement a FOR…NEXT loop implementation in a single line](./hbfornext/main.prg)
+
+
 ### Pre-compiler
 
 1. [How to declare variable in compile time](./define/main.prg)
