@@ -474,6 +474,11 @@
 ## HWGUI
 
 1. [How to create sample example in HWGUI](./hwgui01/main.prg)
+1. [How to create sample example in HWGUI](./hwgui02/main.prg)
+1. [How to create sample example in HWGUI](./hwgui03/main.prg)
+1. [How to create sample example in HWGUI](./hwgui04/main.prg)
+1. [How to create sample example in HWGUI](./hwgui05/main.prg)
+
 
 ## 🪟 Windows
 
