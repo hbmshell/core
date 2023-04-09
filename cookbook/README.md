@@ -22,6 +22,7 @@
 1. [How to convert a number to string](./convert02/main.prg)
 1. [How to convert a number to string and place leading zeros](./convert03/main.prg)
 1. [How to convert a date to string](./convert04/main.prg)
+1. [How to convert a date to string with format personalized](./hbDTOC/main.prg)
 1. [How to convert any value to string](./convert05/main.prg)
 1. [How to convert a number value to string (Without spaces around number)](./hb_ntos/main.prg)
 
@@ -67,6 +68,7 @@
 1. [Determines whether a specified time is valid](./timevalid/main.prg)
 1. [How to iterate during N/100 seconds (after this exit loop)](./waitperiod/main.prg)
 1. [How to build date in format MONTHNAME N YYYY HH:MM:SS (f.e: May 5 2016 10:04:52)](./buildDate/main.prg)
+
 
 ### Comments
 
