@@ -17,6 +17,7 @@ Objectives :
 1. hbmwvg : run harbour wvg program. Only Windows platform.
 1. hbmhmg : run HMG program. Only Windows platform.
 1. hbmdata : run hbmlite + PostgreSQL access
+1. hbmcurl : run hbmlite + curl support (e-mail, download, etc )
 1. hbmhwg : run HWGUI program. Only Windows platform.
 
 ## Steps
