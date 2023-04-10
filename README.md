@@ -74,6 +74,23 @@ And hundreds of others over those 30 years.
 * [Harbour Language](http://harbourlanguage.blogspot.com/)
 * [harbour.vouch](https://harbour.vouch.info/)
 * [hmgdoc](http://www.hmgforum.com/hmgdoc/data/index.htm)
+* https://harbour.github.io/ng/blinker/menu.html
+https://harbour.github.io/ng/c52g01b/menu.html
+https://harbour.github.io/ng/c52g02b/menu.html
+https://harbour.github.io/ng/c52g03b/menu.html
+https://harbour.github.io/ng/c52g04b/menu.html
+https://harbour.github.io/ng/c52g05b/menu.html
+https://harbour.github.io/ng/c52g06b/menu.html
+https://harbour.github.io/ng/c52g07b/menu.html
+https://harbour.github.io/ng/c53g01c/menu.html
+https://harbour.github.io/ng/c53g02c/menu.html
+https://harbour.github.io/ng/c53g03c/menu.html
+https://harbour.github.io/ng/c53g04c/menu.html
+https://harbour.github.io/ng/classy/menu.html
+https://harbour.github.io/ng/comix3/menu.html
+https://harbour.github.io/ng/six3/menu.html
+https://harbour.github.io/ng/tools1-3/menu.html
+https://harbour.github.io/ng/tools4-a/menu.html
 
 Portuguese
 
