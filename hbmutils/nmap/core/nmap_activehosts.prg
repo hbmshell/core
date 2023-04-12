@@ -143,7 +143,7 @@ PROCEDURE Hbm_nmap_activehosts( ... )
     4. Retorno
     */
     IF EMPTY( cError )
-        SHELL MESSAGE "Sucess"
+        SHELL MESSAGE cResult
     ELSE
         SHELL ERROR cError
     ENDIF
