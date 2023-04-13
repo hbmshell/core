@@ -29,6 +29,7 @@ PROCEDURE Hbm_nmap_activehosts( ... )
     LOCAL cIp
     local cerror, cresult
     LOCAL aStrDBF, lResultDBF
+    LOCAL cIpTemp, cMacTemp, nPos, cDesc
 *@@init
 
 *@define_parameters
@@ -115,7 +116,8 @@ PROCEDURE Hbm_nmap_activehosts( ... )
         AADD( aStrDBF , { "TIME" , "C" , 8 , 0 } )
         AADD( aStrDBF , { "NET" , "C" , 50 , 0 } )
         AADD( aStrDBF , { "IP" , "C" , 20 , 0 } )
-        AADD( aStrDBF , { "MAC" , "C" , 100 , 0 } )
+        AADD( aStrDBF , { "MAC" , "C" , 20 , 0 } )
+        AADD( aStrDBF , { "DESC" , "C" , 50 , 0 } )
         USE nmap STRUCT aStrDBF TO lResultDBF
         dDate := Date()
         cTime := Time()
@@ -130,10 +132,22 @@ PROCEDURE Hbm_nmap_activehosts( ... )
                     REPLACE DATE WITH dDate
                     REPLACE TIME WITH cTime
                     REPLACE NET WITH cIp
-                    REPLACE IP WITH Substr( aResult[x] , RAT( " " , aResult[x] ) + 1 )
+                    cIpTemp := Substr( aResult[x] , RAT( " " , aResult[x] ) + 1 )
+                    cIpTemp := StrTran( cIpTemp, "(" , "" )
+                    cIpTemp := StrTran( cIpTemp, ")" , "" )
+                    REPLACE IP WITH cIpTemp
                 ENDIF
                 IF "MAC Address" $ aResult[x]
-                    REPLACE MAC WITH Substr( aResult[x] , Len("MAC Address:")+1 )
+                    cMacTemp := Substr( aResult[x] , Len("MAC Address:")+1 )
+                    nPos := AT( "(" , cMacTemp )
+                    IF nPos <> 0
+                        cDesc := Substr( cMacTemp , nPos+1 )
+                        cDesc := StrTran( cDesc , ")" , "" )
+                        cMacTemp := Substr( cMacTemp, 1 , nPos - 1 )
+                        
+                        REPLACE DESC WITH cDesc
+                    ENDIF
+                    REPLACE MAC WITH cMacTemp
                 ENDIF
             NEXT
         ENDIF
