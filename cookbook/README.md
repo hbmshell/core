@@ -409,6 +409,8 @@
 1. [How to verify if directory exists](./directory2/main.prg)
 1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
 1. [How to create and delete directory](./dirRemove/main.prg)
+1. [How to get dir temp name](./dirtemp/main.prg)
+1. [How to Normalizes the path designation by converting relative path to absolute](./pathnormalize/main.prg)
 
 ### File functions
 
@@ -418,6 +420,7 @@
 1. [How to iterate in text file (Method II)](./readfile/main.prg)
 1. [How to sets a new extension of a file](./setext/main.prg)
 1. [How to sets a new extension of a file in case if it is absent](./setextdef/main.prg)
+1. [How to scan a directory tree and build a files and folders list](./hbscan/main.prg)
 
 ### Erasing files
 
