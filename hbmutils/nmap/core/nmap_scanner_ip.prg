@@ -3,8 +3,8 @@
 *@comment
 *Auto=Yes
 **********************************************
-* Name  : Hbm_nmap
-* Date  : 2023-04-09 - 13:15:59
+* Name  : Hbm_nmap_scanner_ip
+* Date  : 2023-04-16 - 02:46
 * Notes : 
 /*
    1. 
@@ -34,7 +34,7 @@ PROCEDURE Hbm_nmap_scanner( ... )
 *Auto=No
 
 
-    SHELL ADD PARAM "-dbf" TITLE "Network (E.g: 24)" STRING DEFAULT "nmap.dbf"
+    SHELL ADD PARAM "-network" TITLE "Network (E.g: 24)" STRING
     SHELL ADD PARAM "-json" TITLE "Result in json format" BOOLEAN
 *@@define_parameters
 
@@ -67,52 +67,13 @@ PROCEDURE Hbm_nmap_scanner( ... )
         SHELL JSON OFF
     ENDIF
 
-    **************************************Error Templates***************************************
-    * SHELL ERROR "Message error" // Quit with error message
-    * SHELL ERROR "Message error" ERRORCODE nError // Quit with error message and error level
-    ************************************************************************************
+   
     
     /*
-    1. Open DBF
+    Execute
     */
-    IF FILE( hParams["-dbf"] )
-        USE ( hParams["-dbf"] ) SHARED 
-    ELSE
-        SHELL ERROR hb_Strformat( "File %s not found. Use nmap_activehosts.prg.", hParams["-dbf"] )
-    ENDIF
-    
-    /*
-      Get IP
-    */
-    GO BOTTOM
-    DO WHILE .NOT. BOF()
-        AADD( aIp , alltrim( field->ip ) )
-        aadd( aInfo, alltrim( field->desc ) )
-        cDateTime := dtoc( field->date ) + " / " + time()
-        SKIP -1
-        
-        IF cDateTime <> dtoc( field->date ) + " / " + time()
-            exit
-        endif
-    enddo
-    ? cDateTime
-    
-    for x := 1 to len( aIp )
-        ? x, aIp[x], "---->", aInfo[x]
-    next
-    input "Type number to get information:" to x
-    if x > 0 .and. x < len(aIp)
-        cIp := aIp[x]
-    else
-        ?
-        SHELL ERROR "Invalid number" 
-    endif
-    
-    /*
-    2. Execute
-    */
-    ? "Scanning ", cIp, aInfo[x]
-    EXEC RUN "nmap" PARAMETERS "-sT", cIp ERROR cError TO cResult
+    ? "Scanning ", hParams["-network"]
+    EXEC RUN "nmap" PARAMETERS "-sT", hParams["-network"] ERROR cError TO cResult
     
     
     /*

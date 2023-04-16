@@ -67,6 +67,12 @@ PROCEDURE Hbm_nmap_activehosts( ... )
 *@core
 *Auto=Yes
 
+    IF hParams["-json"]
+        SHELL JSON ON
+    ELSE
+        SHELL JSON OFF
+    ENDIF
+
     **************************************Error Templates***************************************
     * SHELL ERROR "Message error" // Quit with error message
     * SHELL ERROR "Message error" ERRORCODE nError // Quit with error message and error level
@@ -157,7 +163,7 @@ PROCEDURE Hbm_nmap_activehosts( ... )
     4. Retorno
     */
     IF EMPTY( cError )
-        SHELL MESSAGE cResult
+        SHELL MESSAGE cResult AS ARRAY
     ELSE
         SHELL ERROR cError
     ENDIF

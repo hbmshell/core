@@ -3,8 +3,8 @@
 *@comment
 *Auto=Yes
 **********************************************
-* Name  : Hbm_nmap
-* Date  : 2023-04-09 - 13:15:59
+* Name  : Hbm_GetMyIP
+* Date  : 2023-04-16 - 02:21
 * Notes : 
 /*
    1. 
@@ -17,7 +17,7 @@
 *Auto=No
 #include 'hbmediator.ch' // Use --virtual-include command line parameter (to use embedded file header)
 #include "hbsocket.ch"
-PROCEDURE Hbm_nmap_scanner( ... )
+PROCEDURE Hbm_GetMyIP( ... )
 *@@procedure_head
 
 *@init
@@ -26,15 +26,18 @@ PROCEDURE Hbm_nmap_scanner( ... )
 
     LOCAL hParams , aData, cPrintParams
     LOCAL aIFace, aOpt := {} // Select option interface
-    LOCAL cIp, aIp := {}, aInfo := {}
     local cerror, cresult
+
 *@@init
 
 *@define_parameters
 *Auto=No
 
-
-    SHELL ADD PARAM "-dbf" TITLE "Network (E.g: 24)" STRING DEFAULT "nmap.dbf"
+    **************************************Templates***************************************
+    * SHELL ADD PARAM "-first" TITLE "First" BOOLEAN // Logical parameter
+    * SHELL ADD PARAM "-second" TITLE "Second" STRING DEFAULT "Default Value" // Default value
+    * SHELL ADD PARAM "-third" TITLE "Third" STRING MANDATORY // Must be value
+    ************************************************************************************
     SHELL ADD PARAM "-json" TITLE "Result in json format" BOOLEAN
 *@@define_parameters
 
@@ -60,7 +63,6 @@ PROCEDURE Hbm_nmap_scanner( ... )
 *@core
 *Auto=Yes
 
-
     IF hParams["-json"]
         SHELL JSON ON
     ELSE
@@ -73,53 +75,19 @@ PROCEDURE Hbm_nmap_scanner( ... )
     ************************************************************************************
     
     /*
-    1. Open DBF
+    Get IP
     */
-    IF FILE( hParams["-dbf"] )
-        USE ( hParams["-dbf"] ) SHARED 
-    ELSE
-        SHELL ERROR hb_Strformat( "File %s not found. Use nmap_activehosts.prg.", hParams["-dbf"] )
-    ENDIF
-    
-    /*
-      Get IP
-    */
-    GO BOTTOM
-    DO WHILE .NOT. BOF()
-        AADD( aIp , alltrim( field->ip ) )
-        aadd( aInfo, alltrim( field->desc ) )
-        cDateTime := dtoc( field->date ) + " / " + time()
-        SKIP -1
-        
-        IF cDateTime <> dtoc( field->date ) + " / " + time()
-            exit
-        endif
-    enddo
-    ? cDateTime
-    
-    for x := 1 to len( aIp )
-        ? x, aIp[x], "---->", aInfo[x]
-    next
-    input "Type number to get information:" to x
-    if x > 0 .and. x < len(aIp)
-        cIp := aIp[x]
-    else
-        ?
-        SHELL ERROR "Invalid number" 
-    endif
-    
-    /*
-    2. Execute
-    */
-    ? "Scanning ", cIp, aInfo[x]
-    EXEC RUN "nmap" PARAMETERS "-sT", cIp ERROR cError TO cResult
+    aIFace := hb_socketGetIFaces( , .t. )
+    FOR x := 1 TO Len(aIFace) 
+        AADD( aOpt, aIFace[x][ HB_SOCKET_IFINFO_ADDR ] )
+    NEXT
     
     
     /*
-    4. Retorno
+    Retorno
     */
     IF EMPTY( cError )
-        SHELL MESSAGE cResult AS ARRAY
+        SHELL MESSAGE aOpt 
     ELSE
         SHELL ERROR cError
     ENDIF
