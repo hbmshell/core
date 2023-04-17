@@ -48,7 +48,7 @@ Static Procedure ScanNow()
     AADD( aParams , "..\core\nmap_scanner_ip.prg" )
     AADD( aParams , "--virtual-include" )
     AADD( aParams , "-network" )
-    AADD( aParams , hb_ValToExp("127.0.0.0/24") )
+    AADD( aParams , "127.0.0.0/24" )
     cScript := "hbmdialog"
 
     EXEC RUN cScript PARAMETERS hb_ArrayToParams( aParams ) TO cResult
