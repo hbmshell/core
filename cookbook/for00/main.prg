@@ -11,15 +11,15 @@ hbmk2 main.prg
 
 */
 PROCEDURE Main
- local d
+ local dMyDate
      set date format to "dd/mm/yyyy"
-     for d := d"2011-10-05" to d"2011-10-20"
-        ? d
+     for dMyDate := d"2011-10-05" to d"2011-10-20"
+        ? dMyDate
      next
      ?
-     d := d"2011-10-05"
-     ? d, ++d, ++d
-     d+=25
-     ? d
+     dMyDate := d"2011-10-05"
+     ? dMyDate, ++dMyDate, ++dMyDate
+     dMyDate+=25
+     ? dMyDate
 
 RETURN
