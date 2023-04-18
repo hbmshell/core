@@ -213,6 +213,8 @@
 1. [How to attrib default value to parameter (hb_Default)](./default/main.prg)
 1. [How to attrib default value to parameter II (hb_DefaultValue)](./default2/main.prg)
 1. [How to attrib default value to parameter III (Clipper Legacy)](./default3/main.prg)
+1. [Where's the routine in my project ?](./procfile/main.prg)
+1. [How to get routine name where function is located](./procname/main.prg)
 
 #### Procedure
 
@@ -426,6 +428,7 @@
 1. [How to sets a new extension of a file](./setext/main.prg)
 1. [How to sets a new extension of a file in case if it is absent](./setextdef/main.prg)
 1. [How to scan a directory tree and build a files and folders list](./hbscan/main.prg)
+1. [How to get information about many file (like a attribs, date, etc.)](./filefindxxx/main.prg)
 
 ### Erasing files
 
