@@ -204,6 +204,7 @@
 
 1. [How to list all codepages availables](./cdpList/main.prg)
 1. [Warning: order change after switch current codepage to another](./cdpSelect/main.prg)
+1. [How to convert a string made in a codepage x to string made in a codepage y](./hb_Translate/main.prg)
 
 ### Routines (Procedures or Functions)
 

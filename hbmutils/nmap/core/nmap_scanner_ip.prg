@@ -17,7 +17,7 @@
 *Auto=No
 #include 'hbmediator.ch' // Use --virtual-include command line parameter (to use embedded file header)
 #include "hbsocket.ch"
-PROCEDURE Hbm_nmap_scanner( ... )
+PROCEDURE Hbm_nmap_scanner_ip( ... )
 *@@procedure_head
 
 *@init
@@ -73,6 +73,7 @@ PROCEDURE Hbm_nmap_scanner( ... )
     Execute
     */
     ? "Scanning ", hParams["-network"]
+    ? "nmap -sT ", hParams["-network"]
     EXEC RUN "nmap" PARAMETERS "-sT", hParams["-network"] ERROR cError TO cResult
     
     
