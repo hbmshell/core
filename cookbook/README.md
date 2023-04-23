@@ -537,6 +537,9 @@
 1. [First window](./wvg01/main.prg)
 1. [Hello Word](./wvg02/main.prg)
 1. [Form with clipper get](./wvg03/main.prg)
+1. [How to create menu](./wvgmenu/main.prg)
+1. [How to create tool bar](./wvgToolBar/main.prg)
+1. [How to create modal windows](./wvgmodal/main.prg)
 
 ### GTWVT
 
@@ -617,9 +620,6 @@
 1. [How to open connection in MariaDb using ADO](./WinMariaDbADO/main.prg)
 1. [How to execute a SQL statement in MSAccess using ADO](./WinMSAccessADO/main.prg)
 
-### WVG  (Windows only)
-
-1. [How to create menu](./MenuWVG/main.prg)
 
 
 ## 🔒 Security

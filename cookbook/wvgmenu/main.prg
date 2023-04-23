@@ -1,4 +1,5 @@
 //https://groups.google.com/g/harbour-users/c/6555F0uOAs0
+#include "inkey.ch"
 MEMVAR m_Prog, nMenuLevel, oMenuOptions
 
 PROCEDURE Main
@@ -12,13 +13,6 @@ PROCEDURE Main
 
    RETURN
 
-PROCEDURE HB_GTSYS
-
-   REQUEST HB_GT_WVG_DEFAULT
-
-   RETURN
-   // Pra rotina de erros do José
-
 FUNCTION AppVersaoExe(); RETURN ""
 
 STATIC FUNCTION MenuWvg( mMenuOpt )
@@ -30,11 +24,19 @@ STATIC FUNCTION MenuWvg( mMenuOpt )
    DO WHILE .T.
       nKey := Inkey(0)
       DO CASE
+      //CASE nKey == HB_K_GOTFOCUS
+      //CASE nKey == HB_K_LOSTFOCUS
+      CASE nKey == K_ESC
+         EXIT
+      ENDCASE
+      /*
+      DO CASE
       CASE nKey == HB_K_GOTFOCUS
       CASE nKey == HB_K_LOSTFOCUS
       CASE nKey == K_ESC
          EXIT
       ENDCASE
+      */
    ENDDO
    wvgSetAppWindow():oMenu := NIL
    wapi_SetMenu( wapi_GetActiveWindow(), NIL )
