@@ -485,12 +485,17 @@
 
 ## HWGUI
 
-1. [How to create sample example in HWGUI](./hwgui01/main.prg)
-1. [How to create sample example in HWGUI](./hwgui02/main.prg)
-1. [How to create sample example in HWGUI](./hwgui03/main.prg)
-1. [How to create sample example in HWGUI](./hwgui04/main.prg)
-1. [How to create sample example in HWGUI](./hwgui05/main.prg)
+1. [How to create Hello World example in HWGUI](./hwgui01/main.prg)
+1. [How to create sample example in HWGUI (Menu and basic controls)](./hwgui02/main.prg)
+1. [How to create sample example in HWGUI (Open and browse DBF files)](./hwgui03/main.prg)
+1. [How to create sample example in HWGUI (SAY / GET Clone)](./hwgui04/main.prg)
 
+
+## GT
+
+1. [How to return GT Version (Console/WVT)](./gtversion/main.prg)
+1. [How to return GT Version (HMG)](./gtversion/mainhmg.prg)
+1. [Same code with WVT/WVG](./wvgsample/main.prg)
 
 ## 🪟 Windows
 
@@ -544,6 +549,7 @@
 ### GTWVT
 
 1. [How to change windows to full screen mode (or widescreen)](./wvtscreen/main.prg)
+1. [How to change font width and size](./wvtfonts/main.prg)
 
 ### HMG
 
