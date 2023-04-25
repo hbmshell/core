@@ -550,6 +550,7 @@
 1. [Hello Word](./wvg02/main.prg)
 1. [Form with clipper get](./wvg03/main.prg)
 1. [How to create menu](./wvgmenu/main.prg)
+1. [How to create menu wvt/wvg](./wvgmenu02/main.prg)
 1. [How to create tool bar](./wvgToolBar/main.prg)
 1. [How to create modal windows](./wvgmodal/main.prg)
 
