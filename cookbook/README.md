@@ -478,6 +478,13 @@
 1. [How to set a zip comment](./zip02/main.prg)
 1. [How to get a zip comment](./zip03/main.prg)
 
+
+### HBD Files
+
+1. [How to save datatypes to disk ](./hbd01/main.prg)
+1. [How to restore datatypes from disk ](./hbd02/main.prg)
+
+
 ## 🌎 Internet
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
@@ -543,6 +550,7 @@
 1. [Hello Word](./wvg02/main.prg)
 1. [Form with clipper get](./wvg03/main.prg)
 1. [How to create menu](./wvgmenu/main.prg)
+1. [How to create menu wvt/wvg](./wvgmenu02/main.prg)
 1. [How to create tool bar](./wvgToolBar/main.prg)
 1. [How to create modal windows](./wvgmodal/main.prg)
 
