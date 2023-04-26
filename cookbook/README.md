@@ -110,6 +110,7 @@
 1. [Whats difference between standard codeblock and extended codeblock.](./bloco04/main.prg)
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
 1. [How to create a codeblock in runtime.](./bloco06/main.prg)
+1. [How to create a anonymous function with a codeblock](./bloco07/main.prg)
 
 ### Conditional
 
@@ -172,7 +173,9 @@
 ### Macro
 
 1. [How to expand code with macro](./macro/main.prg)
-
+1. [How to expand code with macro II](./macro02/main.prg)
+1. [How to create a codeblock from a macro in runtime](./macro03/main.prg)
+1. [How to create a codeblock from a macro in runtime (with error control)](./macro04/main.prg)
 
 ### Run time system
 
@@ -250,8 +253,10 @@
 1. [Accept command (to string variable)](./accept/main.prg)
 1. [Input command (to numeric variable)](./input/main.prg)
 1. [How to draw a rectangle with @ BOX command](./arrobaBox/main.prg)
+1. [How to draw a rectangle with @ TO](./rect/main.prg)
 1. [Simple main screen](./command/main.prg)
 1. [Simple message box](./alert/main.prg)
+
 
 ### Achoice
 
