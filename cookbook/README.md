@@ -331,6 +331,7 @@
 ### Others
 
 1. [How to display a real time clock in screen](./realTime/main.prg)
+1. [How to display a gauge (progress bar)](./gauge/main.prg)
 
 
 ## 🎨 Images
