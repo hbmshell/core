@@ -267,6 +267,7 @@
 ### Menus
 
 1. [How to generate menu](./menu/main.prg)
+1. [How to generate simple menu with 'menu to'](./menuto/main.prg)
 
 ### Get 
 
@@ -425,6 +426,7 @@
 1. [How to create and delete directory](./dirRemove/main.prg)
 1. [How to get dir temp name](./dirtemp/main.prg)
 1. [How to Normalizes the path designation by converting relative path to absolute](./pathnormalize/main.prg)
+1. [How to get current directory and current drive](./curdir/main.prg)
 
 ### File functions
 
@@ -669,6 +671,7 @@
 1. [Como validar um titulo de eleitor](./TituloEleitor/main.prg)
 1. [Como consultar o CEP on-line](./cep/demo.prg)
 1. [Como obter o valor extenso de um número](./extenso/main.prg)
+1. [Como gerar um contrato particular](./ContratoRTF/main.prg)
 
 ## Math
 
