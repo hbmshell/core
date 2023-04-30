@@ -102,6 +102,7 @@ Portuguese
 * [Grupo facebook Brasil](https://www.facebook.com/groups/459684654564715/)
 * [Wikipedia Clipper - Lingua portuguesa](https://pt.wikipedia.org/wiki/Clipper_(linguagem_de_programa%C3%A7%C3%A3o))
 * [Programando xBase](https://programandoxbase.wordpress.com/)
+* [SIGA - Protheus](https://siga0984.wordpress.com/)
 
 Spanish
 
