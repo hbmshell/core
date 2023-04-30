@@ -91,6 +91,7 @@ PROCEDURE  hb_Main(...)
                 EXIT
             ENDIF
             nOpc := 1
+	    LOOP
         ENDIF
         ? "Executando " , aRoutine[ nOpc ]
         
