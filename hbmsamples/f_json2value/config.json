@@ -1,0 +1,10 @@
+{
+    "menu":{
+        "id":"234",
+        "Opção 1":{
+            "Sub-opção 1.1":"Rotina11",
+            "Sub-opção 1.2":"Rotina12"
+        },
+        "Opção 2":"Sair"
+    }
+}

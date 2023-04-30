@@ -1,0 +1,27 @@
+{
+    "title":"Título do Sistema",
+    "setmode":{
+        "col":120
+    },
+    "menu":{
+        "Cadastros":[
+                {
+                    "routine":"Rotina11",
+                    "caption":"Produtos",
+                    "message":"Cadastros de Produtos"
+                },
+                {
+                    "routine":"Rotina12",
+                    "caption":"Grupos",
+                    "message":"Cadastros de grupos de produtos"
+                }
+            ],
+        "Relatórios":[
+            {
+                "routine":"Rel01",
+                "caption":"Listagem de produtos",
+                "message":"Lista os produtos por ordem de vendas no mês corrente"
+            }
+        ]
+    }
+}
