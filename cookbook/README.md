@@ -267,6 +267,7 @@
 ### Menus
 
 1. [How to generate menu](./menu/main.prg)
+1. [How to generate menu from json file](./menuFromJson/main.prg)
 1. [How to generate simple menu with 'menu to'](./menuto/main.prg)
 
 ### Get 
