@@ -182,6 +182,8 @@
 1. [How to execute a code inside variable](./compileFromBuff01/main.prg)
 1. [How to execute a code inside external file](./compileBuff01/main.prg)
 1. [How to load and execute a code inside hrb file](./hrb/)
+1. [How to load and execute a code inside hrb file II](./hrb02/)
+1. [How to load prg function at runtime](./libRunTime/main.prg)
 
 ### OOP
 

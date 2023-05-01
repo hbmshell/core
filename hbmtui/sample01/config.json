@@ -1,0 +1,21 @@
+{
+    "title":"System's name",
+    "setmode":{"col":120},
+    "menu":
+        {"Option Name":[
+                {"routine":"RoutineName",
+                 "caption":"Caption",
+                 "message":"Message",
+                 "call":"hbmexec"
+                }
+           ],
+           "Utilitários":[
+                {
+                    "routine":"CheckNMAP",
+                    "caption":"Verifica se o utilitário nmap está disponível",
+                    "message":"O nmap deve estar no PATH para poder ser acessado",
+                    "call":"hbmexec"
+                }
+            ]
+        }
+}

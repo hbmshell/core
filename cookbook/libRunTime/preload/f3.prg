@@ -1,0 +1,4 @@
+
+FUNCTION F3()
+	? "F3"
+RETURN NIL
