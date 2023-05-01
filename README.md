@@ -19,6 +19,7 @@ Objectives :
 1. hbmdata : run hbmlite + PostgreSQL access
 1. hbmcurl : run hbmlite + curl support (e-mail, download, etc )
 1. hbmhwg : run HWGUI program. Only Windows platform.
+1. hbmtui : generic application with menus (configurations load from file config.json)
 
 ## Steps
 
