@@ -220,11 +220,11 @@
 1. [How to attrib default value to parameter II (hb_DefaultValue)](./default2/main.prg)
 1. [How to attrib default value to parameter III (Clipper Legacy)](./default3/main.prg)
 1. [Where's the routine in my project ?](./procfile/main.prg)
-1. [How to get routine name where function is located](./procname/main.prg)
 
 #### Procedure
 
 1. [How to call a procedure](./do/main.prg)
+1. [How to call a procedure (Function mode)](./do2/main.prg)
 
 ### Bit manipulation
 
