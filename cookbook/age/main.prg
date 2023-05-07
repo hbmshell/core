@@ -1,4 +1,4 @@
-
+// Thanks J.M.Quintas
 PROCEDURE MAIN
 
     LOCAL dDataNasc := STOD("19990515")
