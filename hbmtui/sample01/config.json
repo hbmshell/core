@@ -1,12 +1,24 @@
 {
-    "title":"System's name",
+    "title":"Sistema para análise de redes",
     "setmode":{"col":120},
     "menu":
-        {"Option Name":[
+        {"Usos simples":[
                 {"routine":"RoutineName",
                  "caption":"Caption",
                  "message":"Message",
                  "call":"hbmexec"
+                },
+                {
+                    "routine":"SimpleScan",
+                    "caption":"Escaneamento simples",
+                    "message":"Esta opção escaneia todas as portas TCP reservadas na máquina destino",
+                    "call":"hbmexec"
+                },
+                {
+                    "routine":"ScanSOInfo",
+                    "caption":"Escaneamento com informações do SO",
+                    "message":"Esta opção escaneia e retorna os serviços e o sistema operacional",
+                    "call":"hbmexec"
                 }
            ],
            "Utilitários":[
