@@ -8,9 +8,9 @@ PROCEDURE MAIN
     cRet := VLJ_RUN( cExe , , @cErro )
     
     IF .NOT. EMPTY( cErro )
-        alert("O nmap não está visível. Verifique o PATH")
+        alert("nmap is not visible. check the PATH")
     ELSE
-        alert("O nmap está disponível")
+        alert("nmap is available.")
     ENDIF
 
 

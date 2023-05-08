@@ -5,9 +5,9 @@ PROCEDURE MAIN( cIp  )
     LOCAL cAddress := Space(30)
     
     IF Empty( cIp )
-        TelaInit("Get OS Information")
+        TelaInit("Find active hosts")
 
-        @ 15,5 say "Inform IP address" get cAddress
+        @ 15,5 say "Inform IP host" get cAddress
         READ
 
         IF Lastkey()==K_ESC
@@ -24,7 +24,8 @@ STATIC FUNCTION ExecNMap( cIp )
     
     LOCAL cErro, cRet
     
-    cRet := VLJ_RUN( "nmap -O" , {cIp} , @cErro )
+    
+    cRet := VLJ_RUN( "nmap -sP" , {cIp} , @cErro )
     IF .NOT. EMPTY( cErro )
         cRet := cErro
     ENDIF

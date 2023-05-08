@@ -1,33 +1,38 @@
 {
-    "title":"Sistema para análise de redes",
+    "title":"Network analysis system",
     "setmode":{"col":120},
+    "wvt":true,
     "menu":
-        {"Usos simples":[
-                {"routine":"RoutineName",
-                 "caption":"Caption",
-                 "message":"Message",
-                 "call":"hbmexec"
-                },
+        {"Scanning machines":[
                 {
                     "routine":"SimpleScan",
-                    "caption":"Escaneamento simples",
-                    "message":"Esta opção escaneia todas as portas TCP reservadas na máquina destino",
-                    "call":"hbmexec"
+                    "caption":"Simple scanner",
+                    "message":"This option scans all reserved TCP ports on the target machine"
                 },
                 {
                     "routine":"ScanSOInfo",
-                    "caption":"Escaneamento com informações do SO",
-                    "message":"Esta opção escaneia e retorna os serviços e o sistema operacional",
-                    "call":"hbmexec"
+                    "caption":"Get OS information",
+                    "message":"This option scans and returns services and operating system"
                 }
            ],
-           "Utilitários":[
+           "Scanning networks":[
+                {
+                    "routine":"FindActiveHosts",
+                    "caption":"Find active hosts in net",
+                    "message":"This option scans all hosts finding active services"
+                }
+           ],
+           "Utilities":[
                 {
                     "routine":"CheckNMAP",
-                    "caption":"Verifica se o utilitário nmap está disponível",
-                    "message":"O nmap deve estar no PATH para poder ser acessado",
-                    "call":"hbmexec"
-                }
+                    "caption":"Checks if the nmap utility is available",
+                    "message":"nmap must be in the PATH to be accessible"
+                },
+                {"routine":"TestScript",
+                "params":["Example parameter", 12 ],
+                "caption":"Script example/template",
+                "message":"Example calling a script, taking its return in json and converting it to hash"
+               }
             ]
         }
 }

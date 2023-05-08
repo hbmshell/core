@@ -5,9 +5,9 @@ PROCEDURE MAIN( cIp , cNhac )
     LOCAL cAddress := Space(30)
     
     IF Empty( cIp )
-        TelaInit("Escaneamento Simples")
+        TelaInit("Simple Scanner")
 
-        @ 15,5 say "Informe o endereço da rede" get cAddress
+        @ 15,5 say "Inform IP address" get cAddress
         READ
 
         IF Lastkey()==K_ESC

@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sun May  7 16:53:11 2023 as: nmap -sS -O -T3 -oA invent 192.168.15.7
+Host: 192.168.15.7 (host.docker.internal)	Status: Up
+Host: 192.168.15.7 (host.docker.internal)	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 5432/open/tcp//postgresql///, 7070/open/tcp//realserver///	Ignored State: closed (995)	OS: Microsoft Windows 10 1607	Seq Index: 250	IP ID Seq: Incremental
+# Nmap done at Sun May  7 16:53:13 2023 -- 1 IP address (1 host up) scanned in 2.00 seconds
