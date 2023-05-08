@@ -527,6 +527,8 @@
 1. [How to get time and date from web](./WinGetTime/main.prg)
 1. [How to get win version, architecture and build](./WinVersion/main.prg)
 1. [How to play sound](./WinPlaySound/main.prg)
+1. [How to get image dimension](./WinImagesDimension/main.prg)
+1. [How to send keys to application](./WinSendKeys/main.prg)
 
 ### DLL
 
