@@ -34,7 +34,7 @@ Objectives :
 1. [Harbour Users](https://groups.google.com/g/harbour-users)
 1. [HMG Forum](http://hmgforum.com)
 1. [Alexander Kresin software](https://www.kresin.ru/en/hrbfaq.html)
-1. [Bicahi Esgici - RIP](https://vivaclipper.wordpress.com/)
+1. [Bicahi Esgici](https://vivaclipper.wordpress.com/)
 1. [Giovanni Di Maria](http://www.elektrosoft.it/tutorials/harbour-how-to/harbour-how-to.asp)
 1. [Petewg](https://github.com/Petewg/harbour-list)
 
