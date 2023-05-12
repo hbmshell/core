@@ -1,2 +1,2 @@
 
-hbmdialog main.prg --pause-after --virtual-include
+hbmdialog main.prg myharu.pdf --pause-after --virtual-include

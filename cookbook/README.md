@@ -111,6 +111,7 @@
 1. [How to execute a routine inside extended codeblock.](./bloco05/main.prg)
 1. [How to create a codeblock in runtime.](./bloco06/main.prg)
 1. [How to create a anonymous function with a codeblock](./bloco07/main.prg)
+1. [How to create a function from a codeblock](./CreateFunctionFromCodeBlock/main.prg)
 
 ### Conditional
 
@@ -260,6 +261,7 @@
 1. [How to draw a rectangle with @ TO](./rect/main.prg)
 1. [Simple main screen](./command/main.prg)
 1. [Simple message box](./alert/main.prg)
+1. [Simple box with shadow (Lib Grump)](./GrumpShadowbox/main.prg)
 
 
 ### Achoice
@@ -429,6 +431,7 @@
 1. [How to verify if directory exists](./directory2/main.prg)
 1. [How to convert PATH separator to format according Operational System](./directory3/main.prg)
 1. [How to create and delete directory](./dirRemove/main.prg)
+1. [How to create and delete directory recursivelly](./dirRemoveRecursive/main.prg)
 1. [How to get dir temp name](./dirtemp/main.prg)
 1. [How to Normalizes the path designation by converting relative path to absolute](./pathnormalize/main.prg)
 1. [How to get current directory and current drive](./curdir/main.prg)
