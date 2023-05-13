@@ -55,6 +55,7 @@ However, some names I know by heart:
 
 And hundreds of others over those 30 years.
 
+* [Oasis](https://github.com/harbour/the-oasis)
 * [ITL](https://www.itlnet.net/programming/program/)
 * [xHarbour group](https://groups.google.com/g/comp.lang.xharbour)
 * [Harbour reference](https://harbour.github.io/doc/harbour.html)
