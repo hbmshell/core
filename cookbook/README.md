@@ -261,7 +261,8 @@
 1. [How to draw a rectangle with @ TO](./rect/main.prg)
 1. [Simple main screen](./command/main.prg)
 1. [Simple message box](./alert/main.prg)
-1. [Simple box with shadow (Lib Grump)](./GrumpShadowbox/main.prg)
+1. [Simple box with title (With Lib Grumpfish)](./GrumpShadowbox/main.prg)
+1. [How to see ASCII codes](./chr/main.prg)
 
 
 ### Achoice
@@ -303,6 +304,7 @@
 1. [Validation tip](./getvalid/demo.prg)
 1. [Examplo with cargo() attribute](./cargo/main.prg)
 1. [Login screen](./login/main.prg)
+1. [How to draws a box, displays a prompt, and GETs a variable (with lib Grumpfish)](./GrumpBoxGet/main.prg)
 
 ### Colors
 
@@ -334,6 +336,10 @@
 
 1. [How to see text file in TBrowse](./tbrowsetext/demo.prg) (With FT Functions)
 1. [How to browse an array using TBrowse](./arrayTBrw/main.prg)
+
+### TBrowseDB
+
+1. [TBrowse with option to select an item and leave it checked](./brwcor/main.prg)
 
 
 ### Others
@@ -713,8 +719,11 @@
 
 1. [The 15 Puzzle](./quinze/quinze.prg)
 
+### Others
 
-
+1. [Example that asks the user to type a sequence of characters, respecting certain rules](./verificaTextoComCifragem/main.prg)
+1. [Using a pocket calculator (Grumpfish library)](./GrumpCalc01/main.prg)
+1. [How to use a sheet/plan](./GrumpPlan01/main.prg)
 
 
 

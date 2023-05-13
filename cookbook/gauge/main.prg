@@ -1,7 +1,7 @@
 //
 PROCEDURE MAIN
 
-LOCAL  aGauge := GaugeNew( 20, 15, 22, 50, "W/B", "W+/B", chr(219) )
+LOCAL  aGauge := GaugeNew( 20, 15, 22, 50, "W/B", "W+/B", "█" )
 LOCAL  nTot := 575, nPos
 
     GaugeDisplay( aGauge )
