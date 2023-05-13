@@ -77,6 +77,7 @@ And hundreds of others over those 30 years.
 * [Harbour Language](http://harbourlanguage.blogspot.com/)
 * [harbour.vouch](https://harbour.vouch.info/)
 * [hmgdoc](http://www.hmgforum.com/hmgdoc/data/index.htm)
+* [Box references](https://harbour.github.io/doc/clc53.html#box-characters)
 * https://harbour.github.io/ng/blinker/menu.html
 https://harbour.github.io/ng/c52g01b/menu.html
 https://harbour.github.io/ng/c52g02b/menu.html
