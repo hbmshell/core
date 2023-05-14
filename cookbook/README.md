@@ -267,7 +267,8 @@
 1. [Simple message box](./alert/main.prg)
 1. [Simple box with title (With Lib Grumpfish)](./GrumpShadowbox/main.prg)
 1. [How to see ASCII codes](./chr/main.prg)
-
+1. [How to create shadow efect around rectangle](./shadow/main.prg)
+1. [How to scroll screen](./scroll01/main.prg)
 
 ### Achoice
 
@@ -421,6 +422,12 @@
 ### Network
 
 1. [How to get a IP address (and MAC)](./ip/main.prg)
+
+### Multitask
+
+1. [How to create a simple thread](./thread01/main.prg)
+
+
 
 
 ## 📂 File
