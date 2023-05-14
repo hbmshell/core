@@ -19,6 +19,8 @@
 ### Data types
 
 1. [How to convert a string to number](./convert01/main.prg)
+1. [How to convert a string to array](./StringToArray/main.prg)
+1. [How to convert a string to date](./stod/main.prg)
 1. [How to convert a number to string](./convert02/main.prg)
 1. [How to convert a number to string and place leading zeros](./convert03/main.prg)
 1. [How to convert a date to string](./convert04/main.prg)
@@ -42,6 +44,7 @@
 1. [How to format a string using %1 ... %9 parameters](./strformat/main.prg) 
 1. [How to format a string like a printf C function](./convert06/main.prg)
 1. [How to format a string according PICTURE function](./transform/main.prg) -- Tip: See Get/Say commands
+1. [Extended string format](./extendedString/main.prg)
 
 ### Date and Time
 
@@ -213,6 +216,7 @@
 1. [How to list all codepages availables](./cdpList/main.prg)
 1. [Warning: order change after switch current codepage to another](./cdpSelect/main.prg)
 1. [How to convert a string made in a codepage x to string made in a codepage y](./hb_Translate/main.prg)
+1. [How to check if a string is in utf8 format](./checkutf8/main.prg)
 
 ### Routines (Procedures or Functions)
 
@@ -276,6 +280,8 @@
 1. [How to generate menu](./menu/main.prg)
 1. [How to generate menu from json file](./menuFromJson/main.prg)
 1. [How to generate simple menu with 'menu to'](./menuto/main.prg)
+1. [How to generate simple menu with 'Grumpfish litemenu'](./GrumpLiteMenu/main.prg)
+1. [How to generate simple menu with 'Grumpfish litemenu2'](./GrumpLiteMenu2/main.prg)
 
 ### Get 
 
@@ -340,12 +346,14 @@
 ### TBrowseDB
 
 1. [TBrowse with option to select an item and leave it checked](./brwcor/main.prg)
+1. [Generic Tbrowse (GrumpBrow - Grumpfish library)](./GrumpBrow/main.prg)
 
 
 ### Others
 
 1. [How to display a real time clock in screen](./realTime/main.prg)
 1. [How to display a gauge (progress bar)](./gauge/main.prg)
+1. [How to display message when process is running - Grumpfish library](./GrumpWaitOnOff/main.prg)
 
 
 ## 🎨 Images
@@ -724,6 +732,9 @@
 1. [Example that asks the user to type a sequence of characters, respecting certain rules](./verificaTextoComCifragem/main.prg)
 1. [Using a pocket calculator (Grumpfish library)](./GrumpCalc01/main.prg)
 1. [How to use a sheet/plan](./GrumpPlan01/main.prg)
+1. [Using a calendar/schedulle (Grumpfish library)](./GrumpPopDate/main.prg)
+1. [Using a notepad (Grumpfish library)](./GrumpPopNote/main.prg)
+1. [Using a phone book (Grumpfish library)](./GrumpPopPhone/main.prg)
 
 
 

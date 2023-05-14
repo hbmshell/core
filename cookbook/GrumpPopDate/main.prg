@@ -15,6 +15,6 @@
 
 procedure main
     
-      popcalc()
+      popdate()
 
 return

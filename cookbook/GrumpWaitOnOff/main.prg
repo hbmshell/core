@@ -13,8 +13,15 @@
 
 */
 
-procedure main
-    
-      popcalc()
 
-return
+#include "grump.ch"
+function main()
+
+
+    cls
+     waiton("Begin process... Please wait")
+     Inkey(2)
+     waitoff()
+ 
+      
+      return
