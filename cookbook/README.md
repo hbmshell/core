@@ -269,6 +269,7 @@
 1. [How to see ASCII codes](./chr/main.prg)
 1. [How to create shadow efect around rectangle](./shadow/main.prg)
 1. [How to scroll screen](./scroll01/main.prg)
+1. [How to display banner with message (with Grumpfish lib)](./GrumpCenter/main.prg)
 
 ### Achoice
 
@@ -319,6 +320,7 @@
 1. [How to create a form with many colors](./cor02/main.prg)
 1. [How to configure MENU TO colors](./cor03/main.prg)
 1. [How to store old color to recover](./cor04/main.prg)
+1. [Convert color number to string (0-127) - with grumpfish library](./GrumpColorN2S/main.prg)
 
 ### Browse
 
@@ -426,8 +428,6 @@
 ### Multitask
 
 1. [How to create a simple thread](./thread01/main.prg)
-
-
 
 
 ## 📂 File
