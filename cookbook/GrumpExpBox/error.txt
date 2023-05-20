@@ -1,0 +1,147 @@
+
+Run-time error occurred on 2023-05-18 at 21:49:42
+Application name:        Your Clipper Application
+Current drive/directory: C:\Users\vlade\Documents\GitHub\core\cookbook\GrumpExpBox\   Available diskspace: 59635597312
+Last key pressed:        0
+Current workarea name:   <none>
+Current workarea number: 1
+
+Crucial environmental variables:
+PATH    = C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\WINDOWS\
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+CLIPPER = <none>
+
+Traceback: Procedure/Method Name (Line)
+---------------------------------------
+(b)ERRORSYS(74)
+HB_COMPILEFROMBUF(0)
+VEXECUTESCRIPT:EXECFROMSCRIPT(378)
+VHBMSCRIPT:RUNSCRIPT(350)
+___MAIN(124)
+
+Instance Var  Contents
+--------------------------------------------------
+args          <none>
+description   Syntax error "syntax error at '|'"
+filename      <none>
+genCode       41: Unknown or reserved
+operation     line:20
+osCode        (not an operating system error)
+severity      2
+subCode       30
+subSystem     COMPILER
+tries         0
+---------------------------------------------
+Free memory   (0)  461344
+Largest block (1)  461344
+Run area      (2)  461344
+VM available  (3)  137434643200
+EMS available (4)  0
+
+--------------------- application screen at time of error ---------------------
+                                                                                                                        
+C:\Users\vlade\Documents\GitHub\core\cookbook\GrumpExpBox>hbmdialog main.prg --pause-after --virtual-include            
+                                                                                                                        
+HBM Compile error...                                                                                                    
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                          TPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPW                                          
+                                          Q Writing error log... please wait Q                                          
+                                          ZPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]                                          
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+
+
+===============================================================================
+Run-time error occurred on 2023-05-18 at 21:50:23
+Application name:        Your Clipper Application
+Current drive/directory: C:\Users\vlade\Documents\GitHub\core\cookbook\GrumpExpBox\   Available diskspace: 59635355648
+Last key pressed:        0
+Current workarea name:   <none>
+Current workarea number: 1
+
+Crucial environmental variables:
+PATH    = C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\WINDOWS\
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+CLIPPER = <none>
+
+Traceback: Procedure/Method Name (Line)
+---------------------------------------
+(b)ERRORSYS(74)
+HB_COMPILEFROMBUF(0)
+VEXECUTESCRIPT:EXECFROMSCRIPT(378)
+VHBMSCRIPT:RUNSCRIPT(350)
+___MAIN(124)
+
+Instance Var  Contents
+--------------------------------------------------
+args          <none>
+description   Syntax error "syntax error at '|'"
+filename      <none>
+genCode       41: Unknown or reserved
+operation     line:20
+osCode        (not an operating system error)
+severity      2
+subCode       30
+subSystem     COMPILER
+tries         0
+---------------------------------------------
+Free memory   (0)  569484
+Largest block (1)  569484
+Run area      (2)  569484
+VM available  (3)  137434643200
+EMS available (4)  0
+
+--------------------- application screen at time of error ---------------------
+                                                                                                                        
+C:\Users\vlade\Documents\GitHub\core\cookbook\GrumpExpBox>hbmdialog main.prg --pause-after --virtual-include            
+{SOURCE}.prg(20) Error E0030  Syntax error "syntax error at '|'"                                                        
+HBM Compile error...or E0030  Syntax error "syntax error at '|'"                                                        
+2 errors                                                                                                                
+                                                                                                                        
+No code generated.                                                                                                      
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                          TPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPW                                          
+                                          Q Writing error log... please wait Q                                          
+                                          ZPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]                                          
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+
+
+===============================================================================

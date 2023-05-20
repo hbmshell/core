@@ -270,6 +270,7 @@
 1. [How to create shadow efect around rectangle](./shadow/main.prg)
 1. [How to scroll screen](./scroll01/main.prg)
 1. [How to display banner with message (with Grumpfish lib)](./GrumpCenter/main.prg)
+1. [Error message sample (with Grumpfish lib)](./GrumpErrMsg/main.prg)
 
 ### Achoice
 
