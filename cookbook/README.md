@@ -54,6 +54,8 @@
 1. [How to get a seconds elapsed between two instants](./seconds/main.prg)
 1. [How to get a miliseconds elapsed between two instants](./miliseconds/main.prg)
 1. [How to get a week number of year](./hb_week/main.prg)
+1. [How to get a week day name](./cdow/main.prg)
+1. [How to get a month name](./cmonth/main.prg)
 1. [How to add days a date](./addDays/main.prg)
 1. [How to add months a date](./addMonths/main.prg)
 1. [How to get begin of month](./bom/main.prg)
@@ -271,6 +273,7 @@
 1. [How to scroll screen](./scroll01/main.prg)
 1. [How to display banner with message (with Grumpfish lib)](./GrumpCenter/main.prg)
 1. [Error message sample (with Grumpfish lib)](./GrumpErrMsg/main.prg)
+1. [Show box with password field to autenticate (with Grumpfish lib)](./GrumpPassword/main.prg)
 
 ### Achoice
 
@@ -527,6 +530,7 @@
 
 1. [How to get info from webservice (TIP/http)](./cep/demo.prg)
 1. [How to get file from FTP Server](./ftp/main.prg)
+1. [How to send e-mail](./CurlEmail/main.prg)
 
 ## HWGUI
 
@@ -682,6 +686,11 @@
 
 1. [How to encrypt string with hb_crypt](./crypt01/main.prg)
 1. [How to encrypt string with hb_crypt (Part II)](./crypt02/main.prg)
+
+## Internationalization
+
+1. [How to get month name in another language](./langMonthName/main.prg)
+
 
 ## 📑 Corporative Information System
 
